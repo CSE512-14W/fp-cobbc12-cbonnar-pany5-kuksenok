@@ -1,0 +1,239 @@
+agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color,route_bikes_allowed,route_id
+EOS,98,,South Lake Union Streetcar,0,,,,0,100340
+KCM,1,,kinnear,3,,,,0,100001
+KCM,10,,capitol hill,3,,,,0,100002
+KCM,101,,Renton Transit Center to CBD,3,,,,0,100003
+KCM,105,,Renton Hub - Renton Highlands,3,,,,0,100004
+KCM,106,,Renton-Downtown Seattle,3,,,,0,100005
+KCM,107,,Rainier Beach/Renton Shuttle,3,,,,0,100006
+KCM,11,,Madison,3,,,,0,100009
+KCM,110,,Renton Shuttle,3,,,,0,100010
+KCM,111,,East Renton to C.B.D. Via I-405 & I-90,3,,,,0,100011
+KCM,113,,Shorewood  White Center  CBD via SR509,3,,,,0,100012
+KCM,114,,Renton Highlands to C.D.B. Via I-405 & I-90,3,,,,0,100013
+KCM,116,,Fauntleroy Ferry Dock ONLY,3,,,,0,100014
+KCM,118,,Vashon Is--Tahlequah/Burton,3,,,,0,100016
+KCM,119,,Dockton,3,,,,0,100017
+KCM,12,,interlaken park,3,,,,0,100018
+KCM,120,,Burien to Seattle via Ambaum & Delridge,3,,,,0,100019
+KCM,121,,Normandy Park express,3,,,,0,100020
+KCM,122,,Des moines express,3,,,,0,100021
+KCM,123,,Gregory Heights express,3,,,,0,100022
+KCM,124,,Tukwila - E Marginal - CBD,3,,,,0,100023
+KCM,125,,Shorewood to CBD via SSCC,3,,,,0,100024
+KCM,128,,West Seattle-White Center to SouthCenter,3,,,,0,100026
+KCM,129,,North Sea Tac/ Riverton Heights,3,,,,0,100027
+KCM,13,,seattle pacific university,3,,,,0,100028
+KCM,131,,Normandy Park,3,,,,0,100030
+KCM,132,,Des Moines,3,,,,0,100031
+KCM,133,,Burien/White Center/UW,3,,,,0,100032
+KCM,134,,Downtown to Burien viaPark Lake,3,,,,0,100033
+KCM,139,,Burien/Gregory Heights Shuttle,3,,,,0,100038
+KCM,14,,Route 14,3,,,,0,100039
+KCM,140,,Renton to Burien,3,,,,0,100040
+KCM,143,,Maple Valley & Renton to C.B.D. Via Sr 900 & I-5,3,,,,0,100041
+KCM,148,,Fairwood--S.Renton Hub Shuttle.,3,,,,0,100042
+KCM,15,,Blue Ridge/Downtown,3,,,,0,100044
+KCM,150,,Kent-Southcenter to C.B.D. & Tunnel,3,,,,0,100045
+KCM,152,,Enumclaw-Auburn-Star Lk. I-5 to C.B.D.,3,,,,0,100047
+KCM,153,,Kent/Renton Shuttle,3,,,,0,100048
+KCM,154,,Tukwila Station  - Federal Center S.,3,,,,0,100049
+KCM,155,,FAIRWOOD TO SOUTHCENTER,3,,,,0,100050
+KCM,158,,E. Kent--Lk. Meridian Via I-5 & Seneca St. -C.B.D.,3,,,,0,100051
+KCM,159,,Kent-Kangley-Timberlane--I-5-Seneca St.,3,,,,0,100052
+KCM,16,,Meridian,3,,,,0,100053
+KCM,162,,S.Hill Kent- I-5 - Seneca St.,3,,,,0,100055
+KCM,164,,GGreen River Coll-Kent P&R Via Lk. Meridian P&R,3,,,,0,100057
+KCM,166,,Highline C C to Kent P&R,3,,,,0,100058
+KCM,167,,Auburn-Kent-Renton-Univ Dist,3,,,,0,100059
+KCM,168,,Timberlane - Kent Rail Station,3,,,,0,100060
+KCM,169,,Renton to Kent Via Benson,3,,,,0,100061
+KCM,17,,Sunset Hill,3,,,,0,100062
+KCM,173,,Federal Way to E Marginal Wy & Boeing,3,,,,0,100064
+KCM,175,,Dash Pt. Federal wy Via I-5 to Tunnel,3,,,,0,100066
+KCM,177,,Federal Way P&R Via I-5 --Tunnel,3,,,,0,100068
+KCM,179,,Twin Lakes P&R - Downtown,3,,,,0,100070
+KCM,18,,North Beach/Downtown,3,,,,0,100071
+KCM,181,,Green River CC/Auburn/Federal Way,3,,,,0,100072
+KCM,182,,Federal Way-NE Tacoma,3,,,,0,100073
+KCM,183,,Kent/Federal Way Shuttle,3,,,,0,100074
+KCM,186,,Auburn/Enumclaw Shuttle,3,,,,0,100077
+KCM,187,,Federal Way/Twin Lakes,3,,,,0,100078
+KCM,19,,Magnolia,3,,,,0,100081
+KCM,190,,Star Lk. P&R Via SODO Wy,3,,,,0,100082
+KCM,192,,S. Military Rd. - K.D.M. - I-5 to Seneca St.,3,,,,0,100084
+KCM,196,,So Federal Way - Seattle,3,,,,0,100087
+KCM,197,,Twin Lakes P&R/Federal Way/Univ Dist,3,,,,0,100088
+KCM,2,,Route 2,3,,,,0,100089
+KCM,200,,Issaquah Shuttle,3,,,,0,100091
+KCM,201,,West Mercer Way Shuttle,3,,,,0,100092
+KCM,202,,Mercer Island,3,,,,0,100093
+KCM,203,,Shorewood Van Shuttle,3,,,,0,100094
+KCM,204,,Island Crest Wy/S Mercer Shuttle,3,,,,0,100095
+KCM,205,,Mercer Island/U district,3,,,,0,100096
+KCM,209,,Issaquah/North Bend Shuttle,3,,,,0,100100
+KCM,21,,35  Av SW/Arbor Heights,3,,,,0,100101
+KCM,210,,Issaquah,3,,,,0,100102
+KCM,211,,Issa Hlnds PR\Eastgate\First Hill 911,3,,,,0,100103
+KCM,212,,Eastgate P & R Express (Tunnel),3,,,,0,100104
+KCM,213,,Covenant Shores Van Shuttle,3,,,,0,100105
+KCM,214,,Seattle - Issaquah 908,3,,,,0,100106
+KCM,215,,N Bend  Seattle,3,,,,0,100107
+KCM,216,,Sammamish/CBD,3,,,,0,100108
+KCM,217,,Issaquah/CBD,3,,,,0,100109
+KCM,219,,Factoria/Newport Hills/Coal Creek Pkwy,3,,,,0,100110
+KCM,22,,West Seattle/White Center,3,,,,0,100111
+KCM,221,,Eastgate\Redmond,3,,,,0,100113
+KCM,23,,White Center to Downtown via Highland Pk,3,,,,0,100121
+KCM,232,,Bellevue/Redmond,3,,,,0,100124
+KCM,234,,Bellevue/Kirkland/Kenmore,3,,,,0,100126
+KCM,235,,BTC To Kingsgate Fall 2011,3,,,,0,100127
+KCM,236,,Woodinville/KTC shuttle,3,,,,0,100128
+KCM,237,,Bellevue/Woodinville,3,,,,0,100129
+KCM,238,,UWB Bothell CC/KTC shuttle,3,,,,0,100130
+KCM,24,,Magnolia via W Government Wy,3,,,,0,100132
+KCM,240,,Bellevue\Renton,3,,,,0,100133
+KCM,242,,North Seattle to Overlake,3,,,,0,100134
+KCM,243,,Jackson Park to Wilburton P&R,3,,,,0,100135
+KCM,245,,Factoria - Kirkland,3,,,,0,100136
+KCM,246,,Bellevue/Somerset/Factoria - old,3,,,,0,100137
+KCM,249,,Bellevue/Overlake/Redmond,3,,,,0,100139
+KCM,25,,Laurelhurst-Lakeview,3,,,,0,100140
+KCM,250,,Seattle/Overlake/Redmond,3,,,,0,100141
+KCM,252,,Seattle/Kingsgate Via SR-520/I-405,3,,,,0,100143
+KCM,255,,Seattle/Kirkland/Kingsgate (Tunnel),3,,,,0,100146
+KCM,257,,Seattle/Juanita/Kingsgate,3,,,,0,100148
+KCM,26,,Latona,3,,,,0,100151
+KCM,260,,Seattle/Juanita/Finn Hill,3,,,,0,100152
+KCM,265,,Redmond/Seattle Express,3,,,,0,100156
+KCM,268,,Seattle/Bear Creek,3,,,,0,100159
+KCM,269,,Issaquah Plateau,3,,,,0,100160
+KCM,27,,Yesler-Leschi Park,3,,,,0,100161
+KCM,271,,Issaquah to U Dist,3,,,,0,100162
+KCM,277,,Totem Lake/U Dist.,3,,,,0,100168
+KCM,28,,Broadview,3,,,,0,100169
+KCM,280,,Seattle/Bellevue/Renton OWL,3,,,,0,100170
+KCM,3,,Route 3,3,,,,0,100173
+KCM,30,,Sandpoint/U-Dist/Seattle Center,3,,,,0,100174
+KCM,301,,Aurora Village-Downtown Seattle,3,,,,0,100175
+KCM,303,,Shoreline - NTC - First Hill,3,,,,0,100177
+KCM,304,,Richmond Beach via Dayton,3,,,,0,100178
+KCM,306,,Kenmore tunnel route,3,,,,0,100180
+KCM,308,,Aurora Village Via Lake Forest Park,3,,,,0,100182
+KCM,309,,Kenmore - S Lk Union - First Hill,3,,,,0,100183
+KCM,31,,Magnolia to University,3,,,,0,100184
+KCM,311,,Seattle/Woodinville,3,,,,0,100186
+KCM,312,,Woodinville/Bothell Express route,3,,,,0,100187
+KCM,316,,Meridian Park express,3,,,,0,100190
+KCM,33,,Ft Lawton,3,,,,0,100194
+KCM,330,,Lake City - Shoreline CC,3,,,,0,100195
+KCM,331,,S03: Kenmore - SCC,3,,,,0,100196
+KCM,34,,Downtown Sea/Rainier Beach express,3,,,,0,100198
+KCM,342,,Renton/Shoreline via Bell.&Bothell. for 2002,3,,,,0,100201
+KCM,345,,NTC - SCC,3,,,,0,100202
+KCM,346,,Aurora Village - NTC,3,,,,0,100203
+KCM,347,,NTC - Mountlake Terrace,3,,,,0,100204
+KCM,348,,NTC - Richmond Beach,3,,,,0,100205
+KCM,35,,Harbor Island,3,,,,0,100206
+KCM,355,,Shoreline Comm Coll/Greenwood,3,,,,0,100207
+KCM,358,,Aurora Express,3,,,,0,100208
+KCM,36,,Jefferson Park/Rainier Beach,3,,,,0,100210
+KCM,37,,Alki,3,,,,0,100212
+KCM,372,,Woodinville/University,3,,,,0,100214
+KCM,373,,Aurora Village - University District,3,,,,0,100215
+KCM,38,,909 Beacon Hill/Mt Baker TC Shuttle,3,,,,0,100217
+KCM,39,,Seward Pk- Rainier Beach,3,,,,0,100218
+KCM,4,,Route 4,3,,,,0,100219
+KCM,41,,Lake City/Northgate/CBD,3,,,,0,100221
+KCM,42,,Martin Luther King WY,3,,,,0,100222
+KCM,43,,cbd/u-district,3,,,,0,100223
+KCM,44,,ballard/montlake,3,,,,0,100224
+KCM,45,,U Dist Shuttle,3,,,,0,100225
+KCM,46,,University - Ballard,3,,,,0,100226
+KCM,48,,Ballard - Mt. Baker,3,,,,0,100228
+KCM,5,,Greenwood/SCC/Northgate,3,,,,0,100229
+KCM,51,,West Seattle/Admiral Shuttle,3,,,,0,100231
+KCM,53,,W Seattle/Alki Shuttle,3,,,,0,100233
+KCM,54,,Fauntleroy/White Center,3,,,,0,100234
+KCM,55,,W. Sea. Admiral Dist,3,,,,0,100238
+KCM,56,,Admiral Way/Alki,3,,,,0,100242
+KCM,57,,Admiral Way/Genesee Hill,3,,,,0,100246
+KCM,60,,Beacon Hill/Broadway dist Shuttle,3,,,,0,100249
+KCM,600,,Group Health Coop - CBD,3,,,,0,100250
+KCM,64,,Lake City - CBD - First Hill,3,,,,0,100253
+KCM,65,,NTC to UW,3,,,,0,100254
+KCM,66,,S Mass to NTC,3,,,,0,100256
+KCM,661,,tripper storage shuttle,3,,,,0,100258
+KCM,67,,Northgate to UW Campus thru Roosevelt,3,,,,0,100259
+KCM,68,,Northgate to UW Campus via 25 NE,3,,,,0,100261
+KCM,688,,Center Park,3,,,,0,100262
+KCM,7,,Route 7,3,,,,0,100263
+KCM,70,,University District,3,,,,0,100264
+KCM,71,,View Ridge,3,,,,0,100265
+KCM,72,,Lake City,3,,,,0,100266
+KCM,73,,Jackson Park,3,,,,0,100267
+KCM,74,,Sandpoint/U-Dist/CPS,3,,,,0,100268
+KCM,75,,UW - NTC - Ballard,3,,,,0,100269
+KCM,76,,Wedgwood Express,3,,,,0,100270
+KCM,77,,Jackson Park Express,3,,,,0,100271
+KCM,79,,Lake City Express,3,,,,0,100274
+KCM,8,,Cap.Hill/Denny Wy,3,,,,0,100275
+KCM,81,,Ballard All-Nighter,3,,,,0,100276
+KCM,82,,Queen Anne/Greenwood Owl trips,3,,,,0,100277
+KCM,83,,Univ Dist/Ravenna Night Owl,3,,,,0,100278
+KCM,84,,E Cherry/E Madison All Nighter,3,,,,0,100279
+KCM,85,,West Seattle Admiral/White Center,3,,,,0,100280
+KCM,885,,Bellevue HS/International School,3,,,,0,100282
+KCM,886,,Bellevue High School,3,,,,0,100283
+KCM,888,,Interlake High School,3,,,,0,100284
+KCM,889,,Sammamish HS/International School,3,,,,0,100285
+KCM,890,,Sammamish HS/Eastgate/Bellevue,3,,,,0,100286
+KCM,891,,Mercer Island HS South Island,3,,,,0,100287
+KCM,892,,Mercer Island HS North Island,3,,,,0,100288
+KCM,9,,broadway  /  rainier,3,,,,0,100289
+KCM,912,,Enumclaw/Lake Sawyers/Covington,3,,,,0,100295
+KCM,952,,Auburn P&R to Boeing Everett,3,,,,0,100324
+KCM,982,,Lakeside\UPrep Bear Creek PR,3,,,,0,100341
+KCM,983,,Issaquah Lakeside,3,,,,0,100342
+KCM,984,,Lakeside School to Central Area,3,,,,0,100343
+KCM,986,,Lakeside School,3,,,,0,100344
+KCM,987,,Lakeside School-Rainier Beach,3,,,,0,100345
+KCM,988,,Lakeside School Custom Bus,3,,,,0,100346
+KCM,989,,Eastgate Lakeside,3,,,,0,100347
+KCM,99,,Waterfront,3,,,,0,100348
+KCM,994,,Downtown/Magnolia/Ballard/Lakeside,3,,,,0,100350
+KCM,995,,Laurelhurst-Lakeside-Evergreen Schools,3,,,,0,100351
+KCM,821,,Newport Hills/NewportHS/IntlHS 821,3,,,,0,100438
+KCM,49,,CBD-Cap Hill-U Dist,3,,,,0,100447
+KCM,248,,Redmond-Kirkland,3,,,,0,100448
+KCM,218,,Issaquah Highlands CBD,3,,,,0,100459
+KCM,180,,Auburn  Kent  SeaTac  Burien,3,,,,0,100469
+KCM,161,,Lk Meridian - Seattle,3,,,,0,100471
+KCM,981,,Lakeside Activity Bus East,3,,,,0,100473
+KCM,157,,Lake Meridian PR - Seattle,3,,,,0,100475
+KCM,244,,Kenmore Kingsgate Overlake,3,,,,0,100476
+KCM,102,,Fairwood - Seattle,3,,,,0,100487
+KCM,156,,SeaTac - Southcenter,3,,,,0,100489
+KCM,224,,Fall City Redmond Shuttle,3,,,,0,100493
+KCM,193,,Star Lk. to First Hill,3,,,,0,100495
+KCM,822,,Somerset/NewportHS/IntlHS 822,3,,,,0,100507
+KCM,823,,Cougar Mt/NewportHS/IntlHS 823,3,,,,0,100508
+KCM,824,,Newcastle/Factoria/International School 824,3,,,,0,100509
+KCM,A Line,,A-Line Rapid Ride,3,,,,0,100512
+KCM,B Line,,B-Line Rapid Ride,3,,,,0,102548
+KCM,980,,Lakeside,3,,,,0,102549
+KCM,226,,BTC Crossroads Eastgate Fall 11,3,,,,0,102552
+KCM,241,,Eastgate Factoria BTC Fall 11,3,,,,0,102554
+KCM,893,,911 For Lake Washington High School,3,,,,0,102555
+KMD,973,,West Seattle Water Taxi - Boat Schedule,4,,,,0,100336
+KMD,975,,Vashon Passenger-Only Ferry,4,,,,0,100337
+ST,522,,ST 522 Woodinville-Seattle CBD,3,,,,0,100232
+ST,540,,Kirkland U District,3,,,,0,100235
+ST,545,,Redmond to CBD Express for Sound Transit,3,,,,0,100236
+ST,550,,Bellevue,3,,,,0,100239
+ST,554,,ST Issaquah - CBD,3,,,,0,100240
+ST,555,,Issaquah/NTC,3,,,,0,100241
+ST,560,,Bellevue - West Seattle,3,,,,0,100243
+ST,556,,Issaquah/UW/NTC,3,,,,0,100451
+ST,LINK,,LINK to Sea-Tac,0,,,,0,100479
+ST,542,,Redmond U District,3,,,,0,100511

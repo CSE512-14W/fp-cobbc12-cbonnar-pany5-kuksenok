@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PublicTimeTable>
+  <CurrentDate>2011-01-18</CurrentDate>
+  <VehicleSchedule>
+    <BookingIdentifier>11FEB</BookingIdentifier>
+    <Name>1-201</Name>
+    <Type>Weekday</Type>
+    <Scenario>1</Scenario>
+    <Description>CT Weekday Primary; eff. 03-20-11</Description>
+    <DateStamp>2011-01-14</DateStamp>
+    <TimeStamp>2000-01-01T14:37:53.000</TimeStamp>
+  </VehicleSchedule>
+  <Route>
+    <Identifier>121</Identifier>
+    <Description>Canyon Park - Bothell</Description>
+    <PublicIdentifier>121</PublicIdentifier>
+    <FirstDirectionName>UW Bothell</FirstDirectionName>
+    <SecondDirectionName>Canyon Park P &amp; R</SecondDirectionName>
+  </Route>
+  <PttPlaceInfo>
+    <Identifier>121n</Identifier>
+    <Description>121 nb</Description>
+    <ScheduleType>Weekday</ScheduleType>
+    <DirectionName>Canyon Park P &amp; R</DirectionName>
+    <Trip>
+      <RouteIdentifier> 121</RouteIdentifier>
+      <NoteCode></NoteCode>
+      <SequenceNo>0</SequenceNo>
+      <trp_route_public> 121</trp_route_public>
+      <TimingPoint>
+        <PositionInPattern>0</PositionInPattern>
+        <PassingTime>2000-01-01T08:19:00.000</PassingTime>
+        <NoteCode></NoteCode>
+      </TimingPoint>
+      <TimingPoint>
+        <PositionInPattern>1</PositionInPattern>
+        <PassingTime>2000-01-01T08:23:00.000</PassingTime>
+        <NoteCode></NoteCode>
+      </TimingPoint>
+      <TimingPoint>
+        <PositionInPattern>2</PositionInPattern>
+        <PassingTime>2000-01-01T08:30:00.000</PassingTime>
+        <NoteCode></NoteCode>
+      </TimingPoint>
+      <TimingPoint>
+        <PositionInPattern>3</PositionInPattern>
+        <PassingTime>2000-01-01T08:34:00.000</PassingTime>
+        <NoteCode></NoteCode>
+      </TimingPoint>
+    </Trip>
+    <Trip>
+      <RouteIdentifier> 121</RouteIdentifier>
+      <NoteCode></NoteCode>
+      <SequenceNo>1</SequenceNo>
+      <trp_route_public> 121</trp_route_public>
+      <TimingPoint>
+        <PositionInPattern>0</PositionInPattern>
+        <PassingTime>2000-01-01T08:54:00.000</PassingTime>
+        <NoteCode></NoteCode>
+      </TimingPoint>
+      <TimingPoint>
+        <PositionInPattern>1</PositionInPattern>
+        <PassingTime>2000-01-01T08:58:00.000</PassingTime>
+        <NoteCode></NoteCode>
+      </TimingPoint>
+      <TimingPoint>
+        <PositionInPattern>2</PositionInPattern>
+        <PassingTime>2000-01-01T09:05:00.000</PassingTime>
+        <NoteCode></NoteCode>
+      </TimingPoint>
+      <TimingPoint>
+        <PositionInPattern>3</PositionInPattern>
+        <PassingTime>2000-01-01T09:09:00.000</PassingTime>
+        <NoteCode></NoteCode>
+      </TimingPoint>
+    </Trip>
+    <PttPlaceInfoPlace>
+      <PlaceIdentifier>uw2</PlaceIdentifier>
+      <PositionInPattern>0</PositionInPattern>
+    </PttPlaceInfoPlace>
+    <PttPlaceInfoPlace>
+      <PlaceIdentifier>bd104</PlaceIdentifier>
+      <PositionInPattern>1</PositionInPattern>
+    </PttPlaceInfoPlace>
+    <PttPlaceInfoPlace>
+      <PlaceIdentifier>22815</PlaceIdentifier>
+      <PositionInPattern>2</PositionInPattern>
+    </PttPlaceInfoPlace>
+    <PttPlaceInfoPlace>
+      <PlaceIdentifier>cpkpr</PlaceIdentifier>
+      <PositionInPattern>3</PositionInPattern>
+    </PttPlaceInfoPlace>
+  </PttPlaceInfo>
+  <PttPlaceInfo>
+    <Identifier>121s</Identifier>
+    <Description>121 sb</Description>
+    <ScheduleType>Weekday</ScheduleType>
+    <DirectionName>UW Bothell</DirectionName>
+    <Trip>
+      <RouteIdentifier> 121</RouteIdentifier>
+      <NoteCode></NoteCode>
+      <SequenceNo>0</SequenceNo>
+      <trp_route_public> 121</trp_route_public>
+      <TimingPoint>
+        <PositionInPattern>0</PositionInPattern>
+        <PassingTime>2000-01-01T15:49:00.000</PassingTime>
+        <NoteCode></NoteCode>
+      </TimingPoint>
+      <TimingPoint>
+        <PositionInPattern>1</PositionInPattern>
+        <PassingTime>2000-01-01T15:53:00.000</PassingTime>
+        <NoteCode></NoteCode>
+      </TimingPoint>
+      <TimingPoint>
+        <PositionInPattern>2</PositionInPattern>
+        <PassingTime>2000-01-01T16:00:00.000</PassingTime>
+        <NoteCode></NoteCode>
+      </TimingPoint>
+      <TimingPoint>
+        <PositionInPattern>3</PositionInPattern>
+        <PassingTime>2000-01-01T16:04:00.000</PassingTime>
+        <NoteCode></NoteCode>
+      </TimingPoint>
+    </Trip>
+    <Trip>
+      <RouteIdentifier> 121</RouteIdentifier>
+      <NoteCode></NoteCode>
+      <SequenceNo>1</SequenceNo>
+      <trp_route_public> 121</trp_route_public>
+      <TimingPoint>
+        <PositionInPattern>0</PositionInPattern>
+        <PassingTime>2000-01-01T16:51:00.000</PassingTime>
+        <NoteCode></NoteCode>
+      </TimingPoint>
+      <TimingPoint>
+        <PositionInPattern>1</PositionInPattern>
+        <PassingTime>2000-01-01T16:55:00.000</PassingTime>
+        <NoteCode></NoteCode>
+      </TimingPoint>
+      <TimingPoint>
+        <PositionInPattern>2</PositionInPattern>
+        <PassingTime>2000-01-01T17:02:00.000</PassingTime>
+        <NoteCode></NoteCode>
+      </TimingPoint>
+      <TimingPoint>
+        <PositionInPattern>3</PositionInPattern>
+        <PassingTime>2000-01-01T17:06:00.000</PassingTime>
+        <NoteCode></NoteCode>
+      </TimingPoint>
+    </Trip>
+    <PttPlaceInfoPlace>
+      <PlaceIdentifier>cpkpr</PlaceIdentifier>
+      <PositionInPattern>0</PositionInPattern>
+    </PttPlaceInfoPlace>
+    <PttPlaceInfoPlace>
+      <PlaceIdentifier>22815</PlaceIdentifier>
+      <PositionInPattern>1</PositionInPattern>
+    </PttPlaceInfoPlace>
+    <PttPlaceInfoPlace>
+      <PlaceIdentifier>bd104</PlaceIdentifier>
+      <PositionInPattern>2</PositionInPattern>
+    </PttPlaceInfoPlace>
+    <PttPlaceInfoPlace>
+      <PlaceIdentifier>uw2</PlaceIdentifier>
+      <PositionInPattern>3</PositionInPattern>
+    </PttPlaceInfoPlace>
+  </PttPlaceInfo>
+  <Place>
+    <Identifier>uw2</Identifier>
+    <Description>UW Bothell Library</Description>
+  </Place>
+  <Place>
+    <Identifier>bd104</Identifier>
+    <Description>Beardslee Blvd &amp; 104th NE</Description>
+  </Place>
+  <Place>
+    <Identifier>22815</Identifier>
+    <Description>228th SE &amp; 15th SE</Description>
+  </Place>
+  <Place>
+    <Identifier>cpkpr</Identifier>
+    <Description>Canyon Park Park &amp; Ride</Description>
+  </Place>
+</PublicTimeTable>

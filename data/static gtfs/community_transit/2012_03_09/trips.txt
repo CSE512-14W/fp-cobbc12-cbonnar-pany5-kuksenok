@@ -1,0 +1,2215 @@
+route_id,service_id,trip_short_name,trip_headsign,route_short_name,direction_id,block_id,shape_id,wheelchair_accessible,trip_id
+810,11FEB-Weekday,,McCollum Park Park & Ride,,0,,810-nb-Weekday,0,11FEB-Weekday-810n-0
+810,11FEB-Weekday,,McCollum Park Park & Ride,,0,,810-nb-Weekday,0,11FEB-Weekday-810n-1
+810,11FEB-Weekday,,University District,,0,,810-sb-Weekday,0,11FEB-Weekday-810s-0
+810,11FEB-Weekday,,University District,,0,,810-sb-Weekday,0,11FEB-Weekday-810s-1
+821,11FEB-Weekday,,Marysville,,0,,821-nb-Weekday,0,11FEB-Weekday-821n-0
+821,11FEB-Weekday,,Marysville,,0,,821-nb-Weekday,0,11FEB-Weekday-821n-1
+821,11FEB-Weekday,,Marysville,,0,,821-nb-Weekday,0,11FEB-Weekday-821n-2
+821,11FEB-Weekday,,University District,,0,,821-sb-Weekday,0,11FEB-Weekday-821s-0
+821,11FEB-Weekday,,University District,,0,,821-sb-Weekday,0,11FEB-Weekday-821s-1
+821,11FEB-Weekday,,University District,,0,,821-sb-Weekday,0,11FEB-Weekday-821s-2
+821,11FEB-Weekday,,University District,,0,,821-sb-Weekday,0,11FEB-Weekday-821s-3
+855,11FEB-Weekday,,Lynnwood,,0,,855-nb-Weekday,0,11FEB-Weekday-855-8n-0
+855,11FEB-Weekday,,Lynnwood,,0,,855-nb-Weekday,0,11FEB-Weekday-855-8n-1
+855,11FEB-Weekday,,Lynnwood,,0,,855-nb-Weekday,0,11FEB-Weekday-855-8n-2
+885,11FEB-Weekday,,Lynnwood,,0,,885-nb-Weekday,0,11FEB-Weekday-855-8n-3
+855,11FEB-Weekday,,Lynnwood,,0,,855-nb-Weekday,0,11FEB-Weekday-855-8n-4
+855,11FEB-Weekday,,Lynnwood,,0,,855-nb-Weekday,0,11FEB-Weekday-855-8n-5
+855,11FEB-Weekday,,Lynnwood,,0,,855-nb-Weekday,0,11FEB-Weekday-855-8n-6
+885,11FEB-Weekday,,Lynnwood,,0,,885-nb-Weekday,0,11FEB-Weekday-855-8n-7
+855,11FEB-Weekday,,Lynnwood,,0,,855-nb-Weekday,0,11FEB-Weekday-855-8n-8
+885,11FEB-Weekday,,University District,,0,,885-sb-Weekday,0,11FEB-Weekday-855-8s-0
+855,11FEB-Weekday,,University District,,0,,855-sb-Weekday,0,11FEB-Weekday-855-8s-1
+855,11FEB-Weekday,,University District,,0,,855-sb-Weekday,0,11FEB-Weekday-855-8s-2
+855,11FEB-Weekday,,University District,,0,,855-sb-Weekday,0,11FEB-Weekday-855-8s-3
+855,11FEB-Weekday,,University District,,0,,855-sb-Weekday,0,11FEB-Weekday-855-8s-4
+855,11FEB-Weekday,,University District,,0,,855-sb-Weekday,0,11FEB-Weekday-855-8s-5
+855,11FEB-Weekday,,University District,,0,,855-sb-Weekday,0,11FEB-Weekday-855-8s-6
+855,11FEB-Weekday,,University District,,0,,855-sb-Weekday,0,11FEB-Weekday-855-8s-7
+860,11FEB-Weekday,,McCollum Park Park & Ride,,0,,860-nb-Weekday,0,11FEB-Weekday-860n-0
+860,11FEB-Weekday,,McCollum Park Park & Ride,,0,,860-nb-Weekday,0,11FEB-Weekday-860n-1
+860,11FEB-Weekday,,McCollum Park Park & Ride,,0,,860-nb-Weekday,0,11FEB-Weekday-860n-2
+860,11FEB-Weekday,,McCollum Park Park & Ride,,0,,860-nb-Weekday,0,11FEB-Weekday-860n-3
+860,11FEB-Weekday,,McCollum Park Park & Ride,,0,,860-nb-Weekday,0,11FEB-Weekday-860n-4
+860,11FEB-Weekday,,McCollum Park Park & Ride,,0,,860-nb-Weekday,0,11FEB-Weekday-860n-5
+860,11FEB-Weekday,,McCollum Park Park & Ride,,0,,860-nb-Weekday,0,11FEB-Weekday-860n-6
+860,11FEB-Weekday,,McCollum Park Park & Ride,,0,,860-nb-Weekday,0,11FEB-Weekday-860n-7
+860,11FEB-Weekday,,McCollum Park Park & Ride,,0,,860-nb-Weekday,0,11FEB-Weekday-860n-8
+860,11FEB-Weekday,,University District,,0,,860-sb-Weekday,0,11FEB-Weekday-860s-0
+860,11FEB-Weekday,,University District,,0,,860-sb-Weekday,0,11FEB-Weekday-860s-1
+860,11FEB-Weekday,,University District,,0,,860-sb-Weekday,0,11FEB-Weekday-860s-2
+860,11FEB-Weekday,,University District,,0,,860-sb-Weekday,0,11FEB-Weekday-860s-3
+860,11FEB-Weekday,,University District,,0,,860-sb-Weekday,0,11FEB-Weekday-860s-4
+860,11FEB-Weekday,,University District,,0,,860-sb-Weekday,0,11FEB-Weekday-860s-5
+860,11FEB-Weekday,,University District,,0,,860-sb-Weekday,0,11FEB-Weekday-860s-6
+871,11FEB-Weekday,,Edmonds Park and Ride,,0,,871-nb-Weekday,0,11FEB-Weekday-871n-0
+871,11FEB-Weekday,,Edmonds Park and Ride,,0,,871-nb-Weekday,0,11FEB-Weekday-871n-1
+871,11FEB-Weekday,,Edmonds Park and Ride,,0,,871-nb-Weekday,0,11FEB-Weekday-871n-2
+871,11FEB-Weekday,,Edmonds Park and Ride,,0,,871-nb-Weekday,0,11FEB-Weekday-871n-3
+871,11FEB-Weekday,,Edmonds Park and Ride,,0,,871-nb-Weekday,0,11FEB-Weekday-871n-4
+871,11FEB-Weekday,,Edmonds Park and Ride,,0,,871-nb-Weekday,0,11FEB-Weekday-871n-5
+871,11FEB-Weekday,,Edmonds Park and Ride,,0,,871-nb-Weekday,0,11FEB-Weekday-871n-6
+871,11FEB-Weekday,,Edmonds Park and Ride,,0,,871-nb-Weekday,0,11FEB-Weekday-871n-7
+871,11FEB-Weekday,,Edmonds Park and Ride,,0,,871-nb-Weekday,0,11FEB-Weekday-871n-8
+871,11FEB-Weekday,,Edmonds Park and Ride,,0,,871-nb-Weekday,0,11FEB-Weekday-871n-9
+871,11FEB-Weekday,,University District,,0,,871-sb-Weekday,0,11FEB-Weekday-871s-0
+871,11FEB-Weekday,,University District,,0,,871-sb-Weekday,0,11FEB-Weekday-871s-1
+871,11FEB-Weekday,,University District,,0,,871-sb-Weekday,0,11FEB-Weekday-871s-2
+871,11FEB-Weekday,,University District,,0,,871-sb-Weekday,0,11FEB-Weekday-871s-3
+871,11FEB-Weekday,,University District,,0,,871-sb-Weekday,0,11FEB-Weekday-871s-4
+871,11FEB-Weekday,,University District,,0,,871-sb-Weekday,0,11FEB-Weekday-871s-5
+871,11FEB-Weekday,,University District,,0,,871-sb-Weekday,0,11FEB-Weekday-871s-6
+871,11FEB-Weekday,,University District,,0,,871-sb-Weekday,0,11FEB-Weekday-871s-7
+871,11FEB-Weekday,,University District,,0,,871-sb-Weekday,0,11FEB-Weekday-871s-8
+101,12FEB-Saturday,,Mariner Park & Ride,,0,,101-nb-Saturday,0,12FEB-Saturday-101n-0
+101,12FEB-Saturday,,Mariner Park & Ride,,0,,101-nb-Saturday,0,12FEB-Saturday-101n-1
+101,12FEB-Saturday,,Mariner Park & Ride,,0,,101-nb-Saturday,0,12FEB-Saturday-101n-10
+101,12FEB-Saturday,,Mariner Park & Ride,,0,,101-nb-Saturday,0,12FEB-Saturday-101n-11
+101,12FEB-Saturday,,Mariner Park & Ride,,0,,101-nb-Saturday,0,12FEB-Saturday-101n-12
+101,12FEB-Saturday,,Mariner Park & Ride,,0,,101-nb-Saturday,0,12FEB-Saturday-101n-13
+101,12FEB-Saturday,,Mariner Park & Ride,,0,,101-nb-Saturday,0,12FEB-Saturday-101n-14
+101,12FEB-Saturday,,Mariner Park & Ride,,0,,101-nb-Saturday,0,12FEB-Saturday-101n-15
+101,12FEB-Saturday,,Mariner Park & Ride,,0,,101-nb-Saturday,0,12FEB-Saturday-101n-2
+101,12FEB-Saturday,,Mariner Park & Ride,,0,,101-nb-Saturday,0,12FEB-Saturday-101n-3
+101,12FEB-Saturday,,Mariner Park & Ride,,0,,101-nb-Saturday,0,12FEB-Saturday-101n-4
+101,12FEB-Saturday,,Mariner Park & Ride,,0,,101-nb-Saturday,0,12FEB-Saturday-101n-5
+101,12FEB-Saturday,,Mariner Park & Ride,,0,,101-nb-Saturday,0,12FEB-Saturday-101n-6
+101,12FEB-Saturday,,Mariner Park & Ride,,0,,101-nb-Saturday,0,12FEB-Saturday-101n-7
+101,12FEB-Saturday,,Mariner Park & Ride,,0,,101-nb-Saturday,0,12FEB-Saturday-101n-8
+101,12FEB-Saturday,,Mariner Park & Ride,,0,,101-nb-Saturday,0,12FEB-Saturday-101n-9
+101,12FEB-Saturday,,Aurora Village Transit Center,,0,,101-sb-Saturday,0,12FEB-Saturday-101s-0
+101,12FEB-Saturday,,Aurora Village Transit Center,,0,,101-sb-Saturday,0,12FEB-Saturday-101s-1
+101,12FEB-Saturday,,Aurora Village Transit Center,,0,,101-sb-Saturday,0,12FEB-Saturday-101s-10
+101,12FEB-Saturday,,Aurora Village Transit Center,,0,,101-sb-Saturday,0,12FEB-Saturday-101s-11
+101,12FEB-Saturday,,Aurora Village Transit Center,,0,,101-sb-Saturday,0,12FEB-Saturday-101s-12
+101,12FEB-Saturday,,Aurora Village Transit Center,,0,,101-sb-Saturday,0,12FEB-Saturday-101s-13
+101,12FEB-Saturday,,Aurora Village Transit Center,,0,,101-sb-Saturday,0,12FEB-Saturday-101s-14
+101,12FEB-Saturday,,Aurora Village Transit Center,,0,,101-sb-Saturday,0,12FEB-Saturday-101s-15
+101,12FEB-Saturday,,Aurora Village Transit Center,,0,,101-sb-Saturday,0,12FEB-Saturday-101s-2
+101,12FEB-Saturday,,Aurora Village Transit Center,,0,,101-sb-Saturday,0,12FEB-Saturday-101s-3
+101,12FEB-Saturday,,Aurora Village Transit Center,,0,,101-sb-Saturday,0,12FEB-Saturday-101s-4
+101,12FEB-Saturday,,Aurora Village Transit Center,,0,,101-sb-Saturday,0,12FEB-Saturday-101s-5
+101,12FEB-Saturday,,Aurora Village Transit Center,,0,,101-sb-Saturday,0,12FEB-Saturday-101s-6
+101,12FEB-Saturday,,Aurora Village Transit Center,,0,,101-sb-Saturday,0,12FEB-Saturday-101s-7
+101,12FEB-Saturday,,Aurora Village Transit Center,,0,,101-sb-Saturday,0,12FEB-Saturday-101s-8
+101,12FEB-Saturday,,Aurora Village Transit Center,,0,,101-sb-Saturday,0,12FEB-Saturday-101s-9
+105,12FEB-Saturday,,Mariner Park & Ride,,0,,105-nb-Saturday,0,12FEB-Saturday-105nv-0
+105,12FEB-Saturday,,Mariner Park & Ride,,0,,105-nb-Saturday,0,12FEB-Saturday-105nv-1
+105,12FEB-Saturday,,Mariner Park & Ride,,0,,105-nb-Saturday,0,12FEB-Saturday-105nv-10
+105,12FEB-Saturday,,Mariner Park & Ride,,0,,105-nb-Saturday,0,12FEB-Saturday-105nv-11
+105,12FEB-Saturday,,Mariner Park & Ride,,0,,105-nb-Saturday,0,12FEB-Saturday-105nv-12
+105,12FEB-Saturday,,Mariner Park & Ride,,0,,105-nb-Saturday,0,12FEB-Saturday-105nv-13
+105,12FEB-Saturday,,Mariner Park & Ride,,0,,105-nb-Saturday,0,12FEB-Saturday-105nv-14
+105,12FEB-Saturday,,Mariner Park & Ride,,0,,105-nb-Saturday,0,12FEB-Saturday-105nv-2
+105,12FEB-Saturday,,Mariner Park & Ride,,0,,105-nb-Saturday,0,12FEB-Saturday-105nv-3
+105,12FEB-Saturday,,Mariner Park & Ride,,0,,105-nb-Saturday,0,12FEB-Saturday-105nv-4
+105,12FEB-Saturday,,Mariner Park & Ride,,0,,105-nb-Saturday,0,12FEB-Saturday-105nv-5
+105,12FEB-Saturday,,Mariner Park & Ride,,0,,105-nb-Saturday,0,12FEB-Saturday-105nv-6
+105,12FEB-Saturday,,Mariner Park & Ride,,0,,105-nb-Saturday,0,12FEB-Saturday-105nv-7
+105,12FEB-Saturday,,Mariner Park & Ride,,0,,105-nb-Saturday,0,12FEB-Saturday-105nv-8
+105,12FEB-Saturday,,Mariner Park & Ride,,0,,105-nb-Saturday,0,12FEB-Saturday-105nv-9
+105,12FEB-Saturday,,Bothell,,0,,105-sb-Saturday,0,12FEB-Saturday-105sv-0
+105,12FEB-Saturday,,Bothell,,0,,105-sb-Saturday,0,12FEB-Saturday-105sv-1
+105,12FEB-Saturday,,Bothell,,0,,105-sb-Saturday,0,12FEB-Saturday-105sv-10
+105,12FEB-Saturday,,Bothell,,0,,105-sb-Saturday,0,12FEB-Saturday-105sv-11
+105,12FEB-Saturday,,Bothell,,0,,105-sb-Saturday,0,12FEB-Saturday-105sv-12
+105,12FEB-Saturday,,Bothell,,0,,105-sb-Saturday,0,12FEB-Saturday-105sv-13
+105,12FEB-Saturday,,Bothell,,0,,105-sb-Saturday,0,12FEB-Saturday-105sv-14
+105,12FEB-Saturday,,Bothell,,0,,105-sb-Saturday,0,12FEB-Saturday-105sv-15
+105,12FEB-Saturday,,Bothell,,0,,105-sb-Saturday,0,12FEB-Saturday-105sv-2
+105,12FEB-Saturday,,Bothell,,0,,105-sb-Saturday,0,12FEB-Saturday-105sv-3
+105,12FEB-Saturday,,Bothell,,0,,105-sb-Saturday,0,12FEB-Saturday-105sv-4
+105,12FEB-Saturday,,Bothell,,0,,105-sb-Saturday,0,12FEB-Saturday-105sv-5
+105,12FEB-Saturday,,Bothell,,0,,105-sb-Saturday,0,12FEB-Saturday-105sv-6
+105,12FEB-Saturday,,Bothell,,0,,105-sb-Saturday,0,12FEB-Saturday-105sv-7
+105,12FEB-Saturday,,Bothell,,0,,105-sb-Saturday,0,12FEB-Saturday-105sv-8
+105,12FEB-Saturday,,Bothell,,0,,105-sb-Saturday,0,12FEB-Saturday-105sv-9
+112,12FEB-Saturday,,Ash Way Park & Ride,,0,,112-nb-Saturday,0,12FEB-Saturday-112nv-0
+112,12FEB-Saturday,,Ash Way Park & Ride,,0,,112-nb-Saturday,0,12FEB-Saturday-112nv-1
+112,12FEB-Saturday,,Ash Way Park & Ride,,0,,112-nb-Saturday,0,12FEB-Saturday-112nv-10
+112,12FEB-Saturday,,Ash Way Park & Ride,,0,,112-nb-Saturday,0,12FEB-Saturday-112nv-11
+112,12FEB-Saturday,,Ash Way Park & Ride,,0,,112-nb-Saturday,0,12FEB-Saturday-112nv-12
+112,12FEB-Saturday,,Ash Way Park & Ride,,0,,112-nb-Saturday,0,12FEB-Saturday-112nv-13
+112,12FEB-Saturday,,Ash Way Park & Ride,,0,,112-nb-Saturday,0,12FEB-Saturday-112nv-14
+112,12FEB-Saturday,,Ash Way Park & Ride,,0,,112-nb-Saturday,0,12FEB-Saturday-112nv-2
+112,12FEB-Saturday,,Ash Way Park & Ride,,0,,112-nb-Saturday,0,12FEB-Saturday-112nv-3
+112,12FEB-Saturday,,Ash Way Park & Ride,,0,,112-nb-Saturday,0,12FEB-Saturday-112nv-4
+112,12FEB-Saturday,,Ash Way Park & Ride,,0,,112-nb-Saturday,0,12FEB-Saturday-112nv-5
+112,12FEB-Saturday,,Ash Way Park & Ride,,0,,112-nb-Saturday,0,12FEB-Saturday-112nv-6
+112,12FEB-Saturday,,Ash Way Park & Ride,,0,,112-nb-Saturday,0,12FEB-Saturday-112nv-7
+112,12FEB-Saturday,,Ash Way Park & Ride,,0,,112-nb-Saturday,0,12FEB-Saturday-112nv-8
+112,12FEB-Saturday,,Ash Way Park & Ride,,0,,112-nb-Saturday,0,12FEB-Saturday-112nv-9
+112,12FEB-Saturday,,Mountlake Terrace,,0,,112-sb-Saturday,0,12FEB-Saturday-112sv-0
+112,12FEB-Saturday,,Mountlake Terrace,,0,,112-sb-Saturday,0,12FEB-Saturday-112sv-1
+112,12FEB-Saturday,,Mountlake Terrace,,0,,112-sb-Saturday,0,12FEB-Saturday-112sv-10
+112,12FEB-Saturday,,Mountlake Terrace,,0,,112-sb-Saturday,0,12FEB-Saturday-112sv-11
+112,12FEB-Saturday,,Mountlake Terrace,,0,,112-sb-Saturday,0,12FEB-Saturday-112sv-12
+112,12FEB-Saturday,,Mountlake Terrace,,0,,112-sb-Saturday,0,12FEB-Saturday-112sv-13
+112,12FEB-Saturday,,Mountlake Terrace,,0,,112-sb-Saturday,0,12FEB-Saturday-112sv-14
+112,12FEB-Saturday,,Mountlake Terrace,,0,,112-sb-Saturday,0,12FEB-Saturday-112sv-2
+112,12FEB-Saturday,,Mountlake Terrace,,0,,112-sb-Saturday,0,12FEB-Saturday-112sv-3
+112,12FEB-Saturday,,Mountlake Terrace,,0,,112-sb-Saturday,0,12FEB-Saturday-112sv-4
+112,12FEB-Saturday,,Mountlake Terrace,,0,,112-sb-Saturday,0,12FEB-Saturday-112sv-5
+112,12FEB-Saturday,,Mountlake Terrace,,0,,112-sb-Saturday,0,12FEB-Saturday-112sv-6
+112,12FEB-Saturday,,Mountlake Terrace,,0,,112-sb-Saturday,0,12FEB-Saturday-112sv-7
+112,12FEB-Saturday,,Mountlake Terrace,,0,,112-sb-Saturday,0,12FEB-Saturday-112sv-8
+112,12FEB-Saturday,,Mountlake Terrace,,0,,112-sb-Saturday,0,12FEB-Saturday-112sv-9
+113,12FEB-Saturday,,Mukilteo,,0,,113-nb-Saturday,0,12FEB-Saturday-113nv-0
+113,12FEB-Saturday,,Mukilteo,,0,,113-nb-Saturday,0,12FEB-Saturday-113nv-1
+113,12FEB-Saturday,,Mukilteo,,0,,113-nb-Saturday,0,12FEB-Saturday-113nv-10
+113,12FEB-Saturday,,Mukilteo,,0,,113-nb-Saturday,0,12FEB-Saturday-113nv-11
+113,12FEB-Saturday,,Mukilteo,,0,,113-nb-Saturday,0,12FEB-Saturday-113nv-12
+113,12FEB-Saturday,,Mukilteo,,0,,113-nb-Saturday,0,12FEB-Saturday-113nv-13
+113,12FEB-Saturday,,Mukilteo,,0,,113-nb-Saturday,0,12FEB-Saturday-113nv-14
+113,12FEB-Saturday,,Mukilteo,,0,,113-nb-Saturday,0,12FEB-Saturday-113nv-15
+113,12FEB-Saturday,,Mukilteo,,0,,113-nb-Saturday,0,12FEB-Saturday-113nv-2
+113,12FEB-Saturday,,Mukilteo,,0,,113-nb-Saturday,0,12FEB-Saturday-113nv-3
+113,12FEB-Saturday,,Mukilteo,,0,,113-nb-Saturday,0,12FEB-Saturday-113nv-4
+113,12FEB-Saturday,,Mukilteo,,0,,113-nb-Saturday,0,12FEB-Saturday-113nv-5
+113,12FEB-Saturday,,Mukilteo,,0,,113-nb-Saturday,0,12FEB-Saturday-113nv-6
+113,12FEB-Saturday,,Mukilteo,,0,,113-nb-Saturday,0,12FEB-Saturday-113nv-7
+113,12FEB-Saturday,,Mukilteo,,0,,113-nb-Saturday,0,12FEB-Saturday-113nv-8
+113,12FEB-Saturday,,Mukilteo,,0,,113-nb-Saturday,0,12FEB-Saturday-113nv-9
+113,12FEB-Saturday,,Ash Way Park & Ride,,0,,113-sb-Saturday,0,12FEB-Saturday-113sv-0
+113,12FEB-Saturday,,Ash Way Park & Ride,,0,,113-sb-Saturday,0,12FEB-Saturday-113sv-1
+113,12FEB-Saturday,,Ash Way Park & Ride,,0,,113-sb-Saturday,0,12FEB-Saturday-113sv-10
+113,12FEB-Saturday,,Ash Way Park & Ride,,0,,113-sb-Saturday,0,12FEB-Saturday-113sv-11
+113,12FEB-Saturday,,Ash Way Park & Ride,,0,,113-sb-Saturday,0,12FEB-Saturday-113sv-12
+113,12FEB-Saturday,,Ash Way Park & Ride,,0,,113-sb-Saturday,0,12FEB-Saturday-113sv-13
+113,12FEB-Saturday,,Ash Way Park & Ride,,0,,113-sb-Saturday,0,12FEB-Saturday-113sv-14
+113,12FEB-Saturday,,Ash Way Park & Ride,,0,,113-sb-Saturday,0,12FEB-Saturday-113sv-2
+113,12FEB-Saturday,,Ash Way Park & Ride,,0,,113-sb-Saturday,0,12FEB-Saturday-113sv-3
+113,12FEB-Saturday,,Ash Way Park & Ride,,0,,113-sb-Saturday,0,12FEB-Saturday-113sv-4
+113,12FEB-Saturday,,Ash Way Park & Ride,,0,,113-sb-Saturday,0,12FEB-Saturday-113sv-5
+113,12FEB-Saturday,,Ash Way Park & Ride,,0,,113-sb-Saturday,0,12FEB-Saturday-113sv-6
+113,12FEB-Saturday,,Ash Way Park & Ride,,0,,113-sb-Saturday,0,12FEB-Saturday-113sv-7
+113,12FEB-Saturday,,Ash Way Park & Ride,,0,,113-sb-Saturday,0,12FEB-Saturday-113sv-8
+113,12FEB-Saturday,,Ash Way Park & Ride,,0,,113-sb-Saturday,0,12FEB-Saturday-113sv-9
+115,12FEB-Saturday,,Mariner Park & Ride,,0,,115-eb-Saturday,0,12FEB-Saturday-115ev-0
+115,12FEB-Saturday,,Mariner Park & Ride,,0,,115-eb-Saturday,0,12FEB-Saturday-115ev-1
+115,12FEB-Saturday,,Mariner Park & Ride,,0,,115-eb-Saturday,0,12FEB-Saturday-115ev-10
+115,12FEB-Saturday,,Mariner Park & Ride,,0,,115-eb-Saturday,0,12FEB-Saturday-115ev-11
+115,12FEB-Saturday,,Mariner Park & Ride,,0,,115-eb-Saturday,0,12FEB-Saturday-115ev-12
+115,12FEB-Saturday,,Mariner Park & Ride,,0,,115-eb-Saturday,0,12FEB-Saturday-115ev-13
+115,12FEB-Saturday,,Mariner Park & Ride,,0,,115-eb-Saturday,0,12FEB-Saturday-115ev-14
+115,12FEB-Saturday,,Mariner Park & Ride,,0,,115-eb-Saturday,0,12FEB-Saturday-115ev-15
+115,12FEB-Saturday,,Mariner Park & Ride,,0,,115-eb-Saturday,0,12FEB-Saturday-115ev-2
+115,12FEB-Saturday,,Mariner Park & Ride,,0,,115-eb-Saturday,0,12FEB-Saturday-115ev-3
+115,12FEB-Saturday,,Mariner Park & Ride,,0,,115-eb-Saturday,0,12FEB-Saturday-115ev-4
+115,12FEB-Saturday,,Mariner Park & Ride,,0,,115-eb-Saturday,0,12FEB-Saturday-115ev-5
+115,12FEB-Saturday,,Mariner Park & Ride,,0,,115-eb-Saturday,0,12FEB-Saturday-115ev-6
+115,12FEB-Saturday,,Mariner Park & Ride,,0,,115-eb-Saturday,0,12FEB-Saturday-115ev-7
+115,12FEB-Saturday,,Mariner Park & Ride,,0,,115-eb-Saturday,0,12FEB-Saturday-115ev-8
+115,12FEB-Saturday,,Mariner Park & Ride,,0,,115-eb-Saturday,0,12FEB-Saturday-115ev-9
+115,12FEB-Saturday,,Aurora Village Transit Center,,0,,115-wb-Saturday,0,12FEB-Saturday-115wv-0
+115,12FEB-Saturday,,Aurora Village Transit Center,,0,,115-wb-Saturday,0,12FEB-Saturday-115wv-1
+115,12FEB-Saturday,,Aurora Village Transit Center,,0,,115-wb-Saturday,0,12FEB-Saturday-115wv-10
+115,12FEB-Saturday,,Aurora Village Transit Center,,0,,115-wb-Saturday,0,12FEB-Saturday-115wv-11
+115,12FEB-Saturday,,Aurora Village Transit Center,,0,,115-wb-Saturday,0,12FEB-Saturday-115wv-12
+115,12FEB-Saturday,,Aurora Village Transit Center,,0,,115-wb-Saturday,0,12FEB-Saturday-115wv-13
+115,12FEB-Saturday,,Aurora Village Transit Center,,0,,115-wb-Saturday,0,12FEB-Saturday-115wv-14
+115,12FEB-Saturday,,Aurora Village Transit Center,,0,,115-wb-Saturday,0,12FEB-Saturday-115wv-15
+115,12FEB-Saturday,,Aurora Village Transit Center,,0,,115-wb-Saturday,0,12FEB-Saturday-115wv-2
+115,12FEB-Saturday,,Aurora Village Transit Center,,0,,115-wb-Saturday,0,12FEB-Saturday-115wv-3
+115,12FEB-Saturday,,Aurora Village Transit Center,,0,,115-wb-Saturday,0,12FEB-Saturday-115wv-4
+115,12FEB-Saturday,,Aurora Village Transit Center,,0,,115-wb-Saturday,0,12FEB-Saturday-115wv-5
+115,12FEB-Saturday,,Aurora Village Transit Center,,0,,115-wb-Saturday,0,12FEB-Saturday-115wv-6
+115,12FEB-Saturday,,Aurora Village Transit Center,,0,,115-wb-Saturday,0,12FEB-Saturday-115wv-7
+115,12FEB-Saturday,,Aurora Village Transit Center,,0,,115-wb-Saturday,0,12FEB-Saturday-115wv-8
+115,12FEB-Saturday,,Aurora Village Transit Center,,0,,115-wb-Saturday,0,12FEB-Saturday-115wv-9
+116,12FEB-Saturday,,Mill Creek/Silver Firs,,0,,116-eb-Saturday,0,12FEB-Saturday-116ev-0
+116,12FEB-Saturday,,Mill Creek/Silver Firs,,0,,116-eb-Saturday,0,12FEB-Saturday-116ev-1
+116,12FEB-Saturday,,Mill Creek/Silver Firs,,0,,116-eb-Saturday,0,12FEB-Saturday-116ev-10
+116,12FEB-Saturday,,Mill Creek/Silver Firs,,0,,116-eb-Saturday,0,12FEB-Saturday-116ev-11
+116,12FEB-Saturday,,Mill Creek/Silver Firs,,0,,116-eb-Saturday,0,12FEB-Saturday-116ev-12
+116,12FEB-Saturday,,Mill Creek/Silver Firs,,0,,116-eb-Saturday,0,12FEB-Saturday-116ev-13
+116,12FEB-Saturday,,Mill Creek/Silver Firs,,0,,116-eb-Saturday,0,12FEB-Saturday-116ev-14
+116,12FEB-Saturday,,Mill Creek/Silver Firs,,0,,116-eb-Saturday,0,12FEB-Saturday-116ev-2
+116,12FEB-Saturday,,Mill Creek/Silver Firs,,0,,116-eb-Saturday,0,12FEB-Saturday-116ev-3
+116,12FEB-Saturday,,Mill Creek/Silver Firs,,0,,116-eb-Saturday,0,12FEB-Saturday-116ev-4
+116,12FEB-Saturday,,Mill Creek/Silver Firs,,0,,116-eb-Saturday,0,12FEB-Saturday-116ev-5
+116,12FEB-Saturday,,Mill Creek/Silver Firs,,0,,116-eb-Saturday,0,12FEB-Saturday-116ev-6
+116,12FEB-Saturday,,Mill Creek/Silver Firs,,0,,116-eb-Saturday,0,12FEB-Saturday-116ev-7
+116,12FEB-Saturday,,Mill Creek/Silver Firs,,0,,116-eb-Saturday,0,12FEB-Saturday-116ev-8
+116,12FEB-Saturday,,Mill Creek/Silver Firs,,0,,116-eb-Saturday,0,12FEB-Saturday-116ev-9
+116,12FEB-Saturday,,Edmonds,,0,,116-wb-Saturday,0,12FEB-Saturday-116wv-0
+116,12FEB-Saturday,,Edmonds,,0,,116-wb-Saturday,0,12FEB-Saturday-116wv-1
+116,12FEB-Saturday,,Edmonds,,0,,116-wb-Saturday,0,12FEB-Saturday-116wv-10
+116,12FEB-Saturday,,Edmonds,,0,,116-wb-Saturday,0,12FEB-Saturday-116wv-11
+116,12FEB-Saturday,,Edmonds,,0,,116-wb-Saturday,0,12FEB-Saturday-116wv-12
+116,12FEB-Saturday,,Edmonds,,0,,116-wb-Saturday,0,12FEB-Saturday-116wv-13
+116,12FEB-Saturday,,Edmonds,,0,,116-wb-Saturday,0,12FEB-Saturday-116wv-14
+116,12FEB-Saturday,,Edmonds,,0,,116-wb-Saturday,0,12FEB-Saturday-116wv-15
+116,12FEB-Saturday,,Edmonds,,0,,116-wb-Saturday,0,12FEB-Saturday-116wv-2
+116,12FEB-Saturday,,Edmonds,,0,,116-wb-Saturday,0,12FEB-Saturday-116wv-3
+116,12FEB-Saturday,,Edmonds,,0,,116-wb-Saturday,0,12FEB-Saturday-116wv-4
+116,12FEB-Saturday,,Edmonds,,0,,116-wb-Saturday,0,12FEB-Saturday-116wv-5
+116,12FEB-Saturday,,Edmonds,,0,,116-wb-Saturday,0,12FEB-Saturday-116wv-6
+116,12FEB-Saturday,,Edmonds,,0,,116-wb-Saturday,0,12FEB-Saturday-116wv-7
+116,12FEB-Saturday,,Edmonds,,0,,116-wb-Saturday,0,12FEB-Saturday-116wv-8
+116,12FEB-Saturday,,Edmonds,,0,,116-wb-Saturday,0,12FEB-Saturday-116wv-9
+119,12FEB-Saturday,,Ash Way Park & Ride,,0,,119-nb-Saturday,0,12FEB-Saturday-119nv-0
+119,12FEB-Saturday,,Ash Way Park & Ride,,0,,119-nb-Saturday,0,12FEB-Saturday-119nv-1
+119,12FEB-Saturday,,Ash Way Park & Ride,,0,,119-nb-Saturday,0,12FEB-Saturday-119nv-10
+119,12FEB-Saturday,,Ash Way Park & Ride,,0,,119-nb-Saturday,0,12FEB-Saturday-119nv-11
+119,12FEB-Saturday,,Ash Way Park & Ride,,0,,119-nb-Saturday,0,12FEB-Saturday-119nv-12
+119,12FEB-Saturday,,Ash Way Park & Ride,,0,,119-nb-Saturday,0,12FEB-Saturday-119nv-13
+119,12FEB-Saturday,,Ash Way Park & Ride,,0,,119-nb-Saturday,0,12FEB-Saturday-119nv-14
+119,12FEB-Saturday,,Ash Way Park & Ride,,0,,119-nb-Saturday,0,12FEB-Saturday-119nv-15
+119,12FEB-Saturday,,Ash Way Park & Ride,,0,,119-nb-Saturday,0,12FEB-Saturday-119nv-2
+119,12FEB-Saturday,,Ash Way Park & Ride,,0,,119-nb-Saturday,0,12FEB-Saturday-119nv-3
+119,12FEB-Saturday,,Ash Way Park & Ride,,0,,119-nb-Saturday,0,12FEB-Saturday-119nv-4
+119,12FEB-Saturday,,Ash Way Park & Ride,,0,,119-nb-Saturday,0,12FEB-Saturday-119nv-5
+119,12FEB-Saturday,,Ash Way Park & Ride,,0,,119-nb-Saturday,0,12FEB-Saturday-119nv-6
+119,12FEB-Saturday,,Ash Way Park & Ride,,0,,119-nb-Saturday,0,12FEB-Saturday-119nv-7
+119,12FEB-Saturday,,Ash Way Park & Ride,,0,,119-nb-Saturday,0,12FEB-Saturday-119nv-8
+119,12FEB-Saturday,,Ash Way Park & Ride,,0,,119-nb-Saturday,0,12FEB-Saturday-119nv-9
+119,12FEB-Saturday,,Mountlake Terrace,,0,,119-sb-Saturday,0,12FEB-Saturday-119sv-0
+119,12FEB-Saturday,,Mountlake Terrace,,0,,119-sb-Saturday,0,12FEB-Saturday-119sv-1
+119,12FEB-Saturday,,Mountlake Terrace,,0,,119-sb-Saturday,0,12FEB-Saturday-119sv-10
+119,12FEB-Saturday,,Mountlake Terrace,,0,,119-sb-Saturday,0,12FEB-Saturday-119sv-11
+119,12FEB-Saturday,,Mountlake Terrace,,0,,119-sb-Saturday,0,12FEB-Saturday-119sv-12
+119,12FEB-Saturday,,Mountlake Terrace,,0,,119-sb-Saturday,0,12FEB-Saturday-119sv-13
+119,12FEB-Saturday,,Mountlake Terrace,,0,,119-sb-Saturday,0,12FEB-Saturday-119sv-14
+119,12FEB-Saturday,,Mountlake Terrace,,0,,119-sb-Saturday,0,12FEB-Saturday-119sv-15
+119,12FEB-Saturday,,Mountlake Terrace,,0,,119-sb-Saturday,0,12FEB-Saturday-119sv-2
+119,12FEB-Saturday,,Mountlake Terrace,,0,,119-sb-Saturday,0,12FEB-Saturday-119sv-3
+119,12FEB-Saturday,,Mountlake Terrace,,0,,119-sb-Saturday,0,12FEB-Saturday-119sv-4
+119,12FEB-Saturday,,Mountlake Terrace,,0,,119-sb-Saturday,0,12FEB-Saturday-119sv-5
+119,12FEB-Saturday,,Mountlake Terrace,,0,,119-sb-Saturday,0,12FEB-Saturday-119sv-6
+119,12FEB-Saturday,,Mountlake Terrace,,0,,119-sb-Saturday,0,12FEB-Saturday-119sv-7
+119,12FEB-Saturday,,Mountlake Terrace,,0,,119-sb-Saturday,0,12FEB-Saturday-119sv-8
+119,12FEB-Saturday,,Mountlake Terrace,,0,,119-sb-Saturday,0,12FEB-Saturday-119sv-9
+120,12FEB-Saturday,,Canyon Park,,0,,120-eb-Saturday,0,12FEB-Saturday-120e-0
+120,12FEB-Saturday,,Canyon Park,,0,,120-eb-Saturday,0,12FEB-Saturday-120e-1
+120,12FEB-Saturday,,Canyon Park,,0,,120-eb-Saturday,0,12FEB-Saturday-120e-10
+120,12FEB-Saturday,,Canyon Park,,0,,120-eb-Saturday,0,12FEB-Saturday-120e-11
+120,12FEB-Saturday,,Canyon Park,,0,,120-eb-Saturday,0,12FEB-Saturday-120e-12
+120,12FEB-Saturday,,Canyon Park,,0,,120-eb-Saturday,0,12FEB-Saturday-120e-13
+120,12FEB-Saturday,,Canyon Park,,0,,120-eb-Saturday,0,12FEB-Saturday-120e-14
+120,12FEB-Saturday,,Canyon Park,,0,,120-eb-Saturday,0,12FEB-Saturday-120e-15
+120,12FEB-Saturday,,Canyon Park,,0,,120-eb-Saturday,0,12FEB-Saturday-120e-2
+120,12FEB-Saturday,,Canyon Park,,0,,120-eb-Saturday,0,12FEB-Saturday-120e-3
+120,12FEB-Saturday,,Canyon Park,,0,,120-eb-Saturday,0,12FEB-Saturday-120e-4
+120,12FEB-Saturday,,Canyon Park,,0,,120-eb-Saturday,0,12FEB-Saturday-120e-5
+120,12FEB-Saturday,,Canyon Park,,0,,120-eb-Saturday,0,12FEB-Saturday-120e-6
+120,12FEB-Saturday,,Canyon Park,,0,,120-eb-Saturday,0,12FEB-Saturday-120e-7
+120,12FEB-Saturday,,Canyon Park,,0,,120-eb-Saturday,0,12FEB-Saturday-120e-8
+120,12FEB-Saturday,,Canyon Park,,0,,120-eb-Saturday,0,12FEB-Saturday-120e-9
+120,12FEB-Saturday,,Lynnwood Transit Center,,0,,120-wb-Saturday,0,12FEB-Saturday-120w-0
+120,12FEB-Saturday,,Lynnwood Transit Center,,0,,120-wb-Saturday,0,12FEB-Saturday-120w-1
+120,12FEB-Saturday,,Lynnwood Transit Center,,0,,120-wb-Saturday,0,12FEB-Saturday-120w-10
+120,12FEB-Saturday,,Lynnwood Transit Center,,0,,120-wb-Saturday,0,12FEB-Saturday-120w-11
+120,12FEB-Saturday,,Lynnwood Transit Center,,0,,120-wb-Saturday,0,12FEB-Saturday-120w-12
+120,12FEB-Saturday,,Lynnwood Transit Center,,0,,120-wb-Saturday,0,12FEB-Saturday-120w-13
+120,12FEB-Saturday,,Lynnwood Transit Center,,0,,120-wb-Saturday,0,12FEB-Saturday-120w-14
+120,12FEB-Saturday,,Lynnwood Transit Center,,0,,120-wb-Saturday,0,12FEB-Saturday-120w-15
+120,12FEB-Saturday,,Lynnwood Transit Center,,0,,120-wb-Saturday,0,12FEB-Saturday-120w-2
+120,12FEB-Saturday,,Lynnwood Transit Center,,0,,120-wb-Saturday,0,12FEB-Saturday-120w-3
+120,12FEB-Saturday,,Lynnwood Transit Center,,0,,120-wb-Saturday,0,12FEB-Saturday-120w-4
+120,12FEB-Saturday,,Lynnwood Transit Center,,0,,120-wb-Saturday,0,12FEB-Saturday-120w-5
+120,12FEB-Saturday,,Lynnwood Transit Center,,0,,120-wb-Saturday,0,12FEB-Saturday-120w-6
+120,12FEB-Saturday,,Lynnwood Transit Center,,0,,120-wb-Saturday,0,12FEB-Saturday-120w-7
+120,12FEB-Saturday,,Lynnwood Transit Center,,0,,120-wb-Saturday,0,12FEB-Saturday-120w-8
+120,12FEB-Saturday,,Lynnwood Transit Center,,0,,120-wb-Saturday,0,12FEB-Saturday-120w-9
+130,12FEB-Saturday,,Lynnwood Transit Center,,0,,130-eb-Saturday,0,12FEB-Saturday-130ev-0
+130,12FEB-Saturday,,Lynnwood Transit Center,,0,,130-eb-Saturday,0,12FEB-Saturday-130ev-1
+130,12FEB-Saturday,,Lynnwood Transit Center,,0,,130-eb-Saturday,0,12FEB-Saturday-130ev-10
+130,12FEB-Saturday,,Lynnwood Transit Center,,0,,130-eb-Saturday,0,12FEB-Saturday-130ev-11
+130,12FEB-Saturday,,Lynnwood Transit Center,,0,,130-eb-Saturday,0,12FEB-Saturday-130ev-12
+130,12FEB-Saturday,,Lynnwood Transit Center,,0,,130-eb-Saturday,0,12FEB-Saturday-130ev-13
+130,12FEB-Saturday,,Lynnwood Transit Center,,0,,130-eb-Saturday,0,12FEB-Saturday-130ev-14
+130,12FEB-Saturday,,Lynnwood Transit Center,,0,,130-eb-Saturday,0,12FEB-Saturday-130ev-2
+130,12FEB-Saturday,,Lynnwood Transit Center,,0,,130-eb-Saturday,0,12FEB-Saturday-130ev-3
+130,12FEB-Saturday,,Lynnwood Transit Center,,0,,130-eb-Saturday,0,12FEB-Saturday-130ev-4
+130,12FEB-Saturday,,Lynnwood Transit Center,,0,,130-eb-Saturday,0,12FEB-Saturday-130ev-5
+130,12FEB-Saturday,,Lynnwood Transit Center,,0,,130-eb-Saturday,0,12FEB-Saturday-130ev-6
+130,12FEB-Saturday,,Lynnwood Transit Center,,0,,130-eb-Saturday,0,12FEB-Saturday-130ev-7
+130,12FEB-Saturday,,Lynnwood Transit Center,,0,,130-eb-Saturday,0,12FEB-Saturday-130ev-8
+130,12FEB-Saturday,,Lynnwood Transit Center,,0,,130-eb-Saturday,0,12FEB-Saturday-130ev-9
+130,12FEB-Saturday,,Edmonds,,0,,130-wb-Saturday,0,12FEB-Saturday-130wv-0
+130,12FEB-Saturday,,Edmonds,,0,,130-wb-Saturday,0,12FEB-Saturday-130wv-1
+130,12FEB-Saturday,,Edmonds,,0,,130-wb-Saturday,0,12FEB-Saturday-130wv-10
+130,12FEB-Saturday,,Edmonds,,0,,130-wb-Saturday,0,12FEB-Saturday-130wv-11
+130,12FEB-Saturday,,Edmonds,,0,,130-wb-Saturday,0,12FEB-Saturday-130wv-12
+130,12FEB-Saturday,,Edmonds,,0,,130-wb-Saturday,0,12FEB-Saturday-130wv-13
+130,12FEB-Saturday,,Edmonds,,0,,130-wb-Saturday,0,12FEB-Saturday-130wv-14
+130,12FEB-Saturday,,Edmonds,,0,,130-wb-Saturday,0,12FEB-Saturday-130wv-2
+130,12FEB-Saturday,,Edmonds,,0,,130-wb-Saturday,0,12FEB-Saturday-130wv-3
+130,12FEB-Saturday,,Edmonds,,0,,130-wb-Saturday,0,12FEB-Saturday-130wv-4
+130,12FEB-Saturday,,Edmonds,,0,,130-wb-Saturday,0,12FEB-Saturday-130wv-5
+130,12FEB-Saturday,,Edmonds,,0,,130-wb-Saturday,0,12FEB-Saturday-130wv-6
+130,12FEB-Saturday,,Edmonds,,0,,130-wb-Saturday,0,12FEB-Saturday-130wv-7
+130,12FEB-Saturday,,Edmonds,,0,,130-wb-Saturday,0,12FEB-Saturday-130wv-8
+130,12FEB-Saturday,,Edmonds,,0,,130-wb-Saturday,0,12FEB-Saturday-130wv-9
+196,12FEB-Saturday,,Alderwood Mall,,0,,196-eb-Saturday,0,12FEB-Saturday-196e-0
+196,12FEB-Saturday,,Alderwood Mall,,0,,196-eb-Saturday,0,12FEB-Saturday-196e-1
+196,12FEB-Saturday,,Alderwood Mall,,0,,196-eb-Saturday,0,12FEB-Saturday-196e-10
+196,12FEB-Saturday,,Alderwood Mall,,0,,196-eb-Saturday,0,12FEB-Saturday-196e-11
+196,12FEB-Saturday,,Alderwood Mall,,0,,196-eb-Saturday,0,12FEB-Saturday-196e-12
+196,12FEB-Saturday,,Alderwood Mall,,0,,196-eb-Saturday,0,12FEB-Saturday-196e-13
+196,12FEB-Saturday,,Alderwood Mall,,0,,196-eb-Saturday,0,12FEB-Saturday-196e-14
+196,12FEB-Saturday,,Alderwood Mall,,0,,196-eb-Saturday,0,12FEB-Saturday-196e-15
+196,12FEB-Saturday,,Alderwood Mall,,0,,196-eb-Saturday,0,12FEB-Saturday-196e-2
+196,12FEB-Saturday,,Alderwood Mall,,0,,196-eb-Saturday,0,12FEB-Saturday-196e-3
+196,12FEB-Saturday,,Alderwood Mall,,0,,196-eb-Saturday,0,12FEB-Saturday-196e-4
+196,12FEB-Saturday,,Alderwood Mall,,0,,196-eb-Saturday,0,12FEB-Saturday-196e-5
+196,12FEB-Saturday,,Alderwood Mall,,0,,196-eb-Saturday,0,12FEB-Saturday-196e-6
+196,12FEB-Saturday,,Alderwood Mall,,0,,196-eb-Saturday,0,12FEB-Saturday-196e-7
+196,12FEB-Saturday,,Alderwood Mall,,0,,196-eb-Saturday,0,12FEB-Saturday-196e-8
+196,12FEB-Saturday,,Alderwood Mall,,0,,196-eb-Saturday,0,12FEB-Saturday-196e-9
+196,12FEB-Saturday,,Edmonds,,0,,196-wb-Saturday,0,12FEB-Saturday-196w-0
+196,12FEB-Saturday,,Edmonds,,0,,196-wb-Saturday,0,12FEB-Saturday-196w-1
+196,12FEB-Saturday,,Edmonds,,0,,196-wb-Saturday,0,12FEB-Saturday-196w-10
+196,12FEB-Saturday,,Edmonds,,0,,196-wb-Saturday,0,12FEB-Saturday-196w-11
+196,12FEB-Saturday,,Edmonds,,0,,196-wb-Saturday,0,12FEB-Saturday-196w-12
+196,12FEB-Saturday,,Edmonds,,0,,196-wb-Saturday,0,12FEB-Saturday-196w-13
+196,12FEB-Saturday,,Edmonds,,0,,196-wb-Saturday,0,12FEB-Saturday-196w-14
+196,12FEB-Saturday,,Edmonds,,0,,196-wb-Saturday,0,12FEB-Saturday-196w-15
+196,12FEB-Saturday,,Edmonds,,0,,196-wb-Saturday,0,12FEB-Saturday-196w-2
+196,12FEB-Saturday,,Edmonds,,0,,196-wb-Saturday,0,12FEB-Saturday-196w-3
+196,12FEB-Saturday,,Edmonds,,0,,196-wb-Saturday,0,12FEB-Saturday-196w-4
+196,12FEB-Saturday,,Edmonds,,0,,196-wb-Saturday,0,12FEB-Saturday-196w-5
+196,12FEB-Saturday,,Edmonds,,0,,196-wb-Saturday,0,12FEB-Saturday-196w-6
+196,12FEB-Saturday,,Edmonds,,0,,196-wb-Saturday,0,12FEB-Saturday-196w-7
+196,12FEB-Saturday,,Edmonds,,0,,196-wb-Saturday,0,12FEB-Saturday-196w-8
+196,12FEB-Saturday,,Edmonds,,0,,196-wb-Saturday,0,12FEB-Saturday-196w-9
+201,12FEB-Saturday,,Smokey Point,,0,,201-nb-Saturday,0,12FEB-Saturday-201/2nv-0
+202,12FEB-Saturday,,Smokey Point,,0,,202-nb-Saturday,0,12FEB-Saturday-201/2nv-1
+201,12FEB-Saturday,,Smokey Point,,0,,201-nb-Saturday,0,12FEB-Saturday-201/2nv-10
+202,12FEB-Saturday,,Smokey Point,,0,,202-nb-Saturday,0,12FEB-Saturday-201/2nv-11
+201,12FEB-Saturday,,Smokey Point,,0,,201-nb-Saturday,0,12FEB-Saturday-201/2nv-12
+202,12FEB-Saturday,,Smokey Point,,0,,202-nb-Saturday,0,12FEB-Saturday-201/2nv-13
+201,12FEB-Saturday,,Smokey Point,,0,,201-nb-Saturday,0,12FEB-Saturday-201/2nv-14
+202,12FEB-Saturday,,Smokey Point,,0,,202-nb-Saturday,0,12FEB-Saturday-201/2nv-15
+201,12FEB-Saturday,,Smokey Point,,0,,201-nb-Saturday,0,12FEB-Saturday-201/2nv-16
+202,12FEB-Saturday,,Smokey Point,,0,,202-nb-Saturday,0,12FEB-Saturday-201/2nv-17
+201,12FEB-Saturday,,Smokey Point,,0,,201-nb-Saturday,0,12FEB-Saturday-201/2nv-18
+202,12FEB-Saturday,,Smokey Point,,0,,202-nb-Saturday,0,12FEB-Saturday-201/2nv-19
+201,12FEB-Saturday,,Smokey Point,,0,,201-nb-Saturday,0,12FEB-Saturday-201/2nv-2
+201,12FEB-Saturday,,Smokey Point,,0,,201-nb-Saturday,0,12FEB-Saturday-201/2nv-20
+202,12FEB-Saturday,,Smokey Point,,0,,202-nb-Saturday,0,12FEB-Saturday-201/2nv-21
+201,12FEB-Saturday,,Smokey Point,,0,,201-nb-Saturday,0,12FEB-Saturday-201/2nv-22
+202,12FEB-Saturday,,Smokey Point,,0,,202-nb-Saturday,0,12FEB-Saturday-201/2nv-23
+201,12FEB-Saturday,,Smokey Point,,0,,201-nb-Saturday,0,12FEB-Saturday-201/2nv-24
+202,12FEB-Saturday,,Smokey Point,,0,,202-nb-Saturday,0,12FEB-Saturday-201/2nv-25
+201,12FEB-Saturday,,Smokey Point,,0,,201-nb-Saturday,0,12FEB-Saturday-201/2nv-26
+202,12FEB-Saturday,,Smokey Point,,0,,202-nb-Saturday,0,12FEB-Saturday-201/2nv-27
+201,12FEB-Saturday,,Smokey Point,,0,,201-nb-Saturday,0,12FEB-Saturday-201/2nv-28
+202,12FEB-Saturday,,Smokey Point,,0,,202-nb-Saturday,0,12FEB-Saturday-201/2nv-3
+201,12FEB-Saturday,,Smokey Point,,0,,201-nb-Saturday,0,12FEB-Saturday-201/2nv-4
+202,12FEB-Saturday,,Smokey Point,,0,,202-nb-Saturday,0,12FEB-Saturday-201/2nv-5
+201,12FEB-Saturday,,Smokey Point,,0,,201-nb-Saturday,0,12FEB-Saturday-201/2nv-6
+202,12FEB-Saturday,,Smokey Point,,0,,202-nb-Saturday,0,12FEB-Saturday-201/2nv-7
+201,12FEB-Saturday,,Smokey Point,,0,,201-nb-Saturday,0,12FEB-Saturday-201/2nv-8
+202,12FEB-Saturday,,Smokey Point,,0,,202-nb-Saturday,0,12FEB-Saturday-201/2nv-9
+202,12FEB-Saturday,,Lynnwood Transit Center,,0,,202-sb-Saturday,0,12FEB-Saturday-201/2sv-0
+201,12FEB-Saturday,,Lynnwood Transit Center,,0,,201-sb-Saturday,0,12FEB-Saturday-201/2sv-1
+202,12FEB-Saturday,,Lynnwood Transit Center,,0,,202-sb-Saturday,0,12FEB-Saturday-201/2sv-10
+201,12FEB-Saturday,,Lynnwood Transit Center,,0,,201-sb-Saturday,0,12FEB-Saturday-201/2sv-11
+202,12FEB-Saturday,,Lynnwood Transit Center,,0,,202-sb-Saturday,0,12FEB-Saturday-201/2sv-12
+201,12FEB-Saturday,,Lynnwood Transit Center,,0,,201-sb-Saturday,0,12FEB-Saturday-201/2sv-13
+202,12FEB-Saturday,,Lynnwood Transit Center,,0,,202-sb-Saturday,0,12FEB-Saturday-201/2sv-14
+201,12FEB-Saturday,,Lynnwood Transit Center,,0,,201-sb-Saturday,0,12FEB-Saturday-201/2sv-15
+202,12FEB-Saturday,,Lynnwood Transit Center,,0,,202-sb-Saturday,0,12FEB-Saturday-201/2sv-16
+201,12FEB-Saturday,,Lynnwood Transit Center,,0,,201-sb-Saturday,0,12FEB-Saturday-201/2sv-17
+202,12FEB-Saturday,,Lynnwood Transit Center,,0,,202-sb-Saturday,0,12FEB-Saturday-201/2sv-18
+201,12FEB-Saturday,,Lynnwood Transit Center,,0,,201-sb-Saturday,0,12FEB-Saturday-201/2sv-19
+202,12FEB-Saturday,,Lynnwood Transit Center,,0,,202-sb-Saturday,0,12FEB-Saturday-201/2sv-2
+202,12FEB-Saturday,,Lynnwood Transit Center,,0,,202-sb-Saturday,0,12FEB-Saturday-201/2sv-20
+201,12FEB-Saturday,,Lynnwood Transit Center,,0,,201-sb-Saturday,0,12FEB-Saturday-201/2sv-21
+202,12FEB-Saturday,,Lynnwood Transit Center,,0,,202-sb-Saturday,0,12FEB-Saturday-201/2sv-22
+201,12FEB-Saturday,,Lynnwood Transit Center,,0,,201-sb-Saturday,0,12FEB-Saturday-201/2sv-23
+202,12FEB-Saturday,,Lynnwood Transit Center,,0,,202-sb-Saturday,0,12FEB-Saturday-201/2sv-24
+201,12FEB-Saturday,,Lynnwood Transit Center,,0,,201-sb-Saturday,0,12FEB-Saturday-201/2sv-25
+202,12FEB-Saturday,,Lynnwood Transit Center,,0,,202-sb-Saturday,0,12FEB-Saturday-201/2sv-26
+201,12FEB-Saturday,,Lynnwood Transit Center,,0,,201-sb-Saturday,0,12FEB-Saturday-201/2sv-27
+202,12FEB-Saturday,,Lynnwood Transit Center,,0,,202-sb-Saturday,0,12FEB-Saturday-201/2sv-28
+201,12FEB-Saturday,,Lynnwood Transit Center,,0,,201-sb-Saturday,0,12FEB-Saturday-201/2sv-29
+201,12FEB-Saturday,,Lynnwood Transit Center,,0,,201-sb-Saturday,0,12FEB-Saturday-201/2sv-3
+202,12FEB-Saturday,,Lynnwood Transit Center,,0,,202-sb-Saturday,0,12FEB-Saturday-201/2sv-30
+202,12FEB-Saturday,,Lynnwood Transit Center,,0,,202-sb-Saturday,0,12FEB-Saturday-201/2sv-4
+201,12FEB-Saturday,,Lynnwood Transit Center,,0,,201-sb-Saturday,0,12FEB-Saturday-201/2sv-5
+202,12FEB-Saturday,,Lynnwood Transit Center,,0,,202-sb-Saturday,0,12FEB-Saturday-201/2sv-6
+201,12FEB-Saturday,,Lynnwood Transit Center,,0,,201-sb-Saturday,0,12FEB-Saturday-201/2sv-7
+202,12FEB-Saturday,,Lynnwood Transit Center,,0,,202-sb-Saturday,0,12FEB-Saturday-201/2sv-8
+201,12FEB-Saturday,,Lynnwood Transit Center,,0,,201-sb-Saturday,0,12FEB-Saturday-201/2sv-9
+220,12FEB-Saturday,,Arlington,,0,,220-eb-Saturday,0,12FEB-Saturday-220e-0
+220,12FEB-Saturday,,Arlington,,0,,220-eb-Saturday,0,12FEB-Saturday-220e-1
+220,12FEB-Saturday,,Arlington,,0,,220-eb-Saturday,0,12FEB-Saturday-220e-10
+220,12FEB-Saturday,,Arlington,,0,,220-eb-Saturday,0,12FEB-Saturday-220e-11
+220,12FEB-Saturday,,Arlington,,0,,220-eb-Saturday,0,12FEB-Saturday-220e-12
+220,12FEB-Saturday,,Arlington,,0,,220-eb-Saturday,0,12FEB-Saturday-220e-13
+220,12FEB-Saturday,,Arlington,,0,,220-eb-Saturday,0,12FEB-Saturday-220e-2
+220,12FEB-Saturday,,Arlington,,0,,220-eb-Saturday,0,12FEB-Saturday-220e-3
+220,12FEB-Saturday,,Arlington,,0,,220-eb-Saturday,0,12FEB-Saturday-220e-4
+220,12FEB-Saturday,,Arlington,,0,,220-eb-Saturday,0,12FEB-Saturday-220e-5
+220,12FEB-Saturday,,Arlington,,0,,220-eb-Saturday,0,12FEB-Saturday-220e-6
+220,12FEB-Saturday,,Arlington,,0,,220-eb-Saturday,0,12FEB-Saturday-220e-7
+220,12FEB-Saturday,,Arlington,,0,,220-eb-Saturday,0,12FEB-Saturday-220e-8
+220,12FEB-Saturday,,Arlington,,0,,220-eb-Saturday,0,12FEB-Saturday-220e-9
+220,12FEB-Saturday,,Smokey Point,,0,,220-wb-Saturday,0,12FEB-Saturday-220w-0
+220,12FEB-Saturday,,Smokey Point,,0,,220-wb-Saturday,0,12FEB-Saturday-220w-1
+220,12FEB-Saturday,,Smokey Point,,0,,220-wb-Saturday,0,12FEB-Saturday-220w-10
+220,12FEB-Saturday,,Smokey Point,,0,,220-wb-Saturday,0,12FEB-Saturday-220w-11
+220,12FEB-Saturday,,Smokey Point,,0,,220-wb-Saturday,0,12FEB-Saturday-220w-12
+220,12FEB-Saturday,,Smokey Point,,0,,220-wb-Saturday,0,12FEB-Saturday-220w-13
+220,12FEB-Saturday,,Smokey Point,,0,,220-wb-Saturday,0,12FEB-Saturday-220w-2
+220,12FEB-Saturday,,Smokey Point,,0,,220-wb-Saturday,0,12FEB-Saturday-220w-3
+220,12FEB-Saturday,,Smokey Point,,0,,220-wb-Saturday,0,12FEB-Saturday-220w-4
+220,12FEB-Saturday,,Smokey Point,,0,,220-wb-Saturday,0,12FEB-Saturday-220w-5
+220,12FEB-Saturday,,Smokey Point,,0,,220-wb-Saturday,0,12FEB-Saturday-220w-6
+220,12FEB-Saturday,,Smokey Point,,0,,220-wb-Saturday,0,12FEB-Saturday-220w-7
+220,12FEB-Saturday,,Smokey Point,,0,,220-wb-Saturday,0,12FEB-Saturday-220w-8
+220,12FEB-Saturday,,Smokey Point,,0,,220-wb-Saturday,0,12FEB-Saturday-220w-9
+222,12FEB-Saturday,,Marysville,,0,,222-eb-Saturday,0,12FEB-Saturday-222ev-0
+222,12FEB-Saturday,,Marysville,,0,,222-eb-Saturday,0,12FEB-Saturday-222ev-1
+222,12FEB-Saturday,,Marysville,,0,,222-eb-Saturday,0,12FEB-Saturday-222ev-2
+222,12FEB-Saturday,,Marysville,,0,,222-eb-Saturday,0,12FEB-Saturday-222ev-3
+222,12FEB-Saturday,,Marysville,,0,,222-eb-Saturday,0,12FEB-Saturday-222ev-4
+222,12FEB-Saturday,,Marysville,,0,,222-eb-Saturday,0,12FEB-Saturday-222ev-5
+222,12FEB-Saturday,,Marysville,,0,,222-eb-Saturday,0,12FEB-Saturday-222ev-6
+222,12FEB-Saturday,,Tulalip,,0,,222-wb-Saturday,0,12FEB-Saturday-222wv-0
+222,12FEB-Saturday,,Tulalip,,0,,222-wb-Saturday,0,12FEB-Saturday-222wv-1
+222,12FEB-Saturday,,Tulalip,,0,,222-wb-Saturday,0,12FEB-Saturday-222wv-2
+222,12FEB-Saturday,,Tulalip,,0,,222-wb-Saturday,0,12FEB-Saturday-222wv-3
+222,12FEB-Saturday,,Tulalip,,0,,222-wb-Saturday,0,12FEB-Saturday-222wv-4
+222,12FEB-Saturday,,Tulalip,,0,,222-wb-Saturday,0,12FEB-Saturday-222wv-5
+222,12FEB-Saturday,,Tulalip,,0,,222-wb-Saturday,0,12FEB-Saturday-222wv-6
+240,12FEB-Saturday,,Smokey Point,,0,,240-eb-Saturday,0,12FEB-Saturday-240ev-0
+240,12FEB-Saturday,,Smokey Point,,0,,240-eb-Saturday,0,12FEB-Saturday-240ev-1
+240,12FEB-Saturday,,Smokey Point,,0,,240-eb-Saturday,0,12FEB-Saturday-240ev-2
+240,12FEB-Saturday,,Smokey Point,,0,,240-eb-Saturday,0,12FEB-Saturday-240ev-3
+240,12FEB-Saturday,,Smokey Point,,0,,240-eb-Saturday,0,12FEB-Saturday-240ev-4
+240,12FEB-Saturday,,Smokey Point,,0,,240-eb-Saturday,0,12FEB-Saturday-240ev-5
+240,12FEB-Saturday,,Smokey Point,,0,,240-eb-Saturday,0,12FEB-Saturday-240ev-6
+240,12FEB-Saturday,,Stanwood,,0,,240-wb-Saturday,0,12FEB-Saturday-240wv-0
+240,12FEB-Saturday,,Stanwood,,0,,240-wb-Saturday,0,12FEB-Saturday-240wv-1
+240,12FEB-Saturday,,Stanwood,,0,,240-wb-Saturday,0,12FEB-Saturday-240wv-2
+240,12FEB-Saturday,,Stanwood,,0,,240-wb-Saturday,0,12FEB-Saturday-240wv-3
+240,12FEB-Saturday,,Stanwood,,0,,240-wb-Saturday,0,12FEB-Saturday-240wv-4
+240,12FEB-Saturday,,Stanwood,,0,,240-wb-Saturday,0,12FEB-Saturday-240wv-5
+275,12FEB-Saturday,,Monroe,,0,,275-eb-Saturday,0,12FEB-Saturday-275ev-0
+275,12FEB-Saturday,,Monroe,,0,,275-eb-Saturday,0,12FEB-Saturday-275ev-1
+275,12FEB-Saturday,,Monroe,,0,,275-eb-Saturday,0,12FEB-Saturday-275ev-10
+275,12FEB-Saturday,,Monroe,,0,,275-eb-Saturday,0,12FEB-Saturday-275ev-11
+275,12FEB-Saturday,,Monroe,,0,,275-eb-Saturday,0,12FEB-Saturday-275ev-2
+275,12FEB-Saturday,,Monroe,,0,,275-eb-Saturday,0,12FEB-Saturday-275ev-3
+275,12FEB-Saturday,,Monroe,,0,,275-eb-Saturday,0,12FEB-Saturday-275ev-4
+275,12FEB-Saturday,,Monroe,,0,,275-eb-Saturday,0,12FEB-Saturday-275ev-5
+275,12FEB-Saturday,,Monroe,,0,,275-eb-Saturday,0,12FEB-Saturday-275ev-6
+275,12FEB-Saturday,,Monroe,,0,,275-eb-Saturday,0,12FEB-Saturday-275ev-7
+275,12FEB-Saturday,,Monroe,,0,,275-eb-Saturday,0,12FEB-Saturday-275ev-8
+275,12FEB-Saturday,,Monroe,,0,,275-eb-Saturday,0,12FEB-Saturday-275ev-9
+275,12FEB-Saturday,,Everett,,0,,275-wb-Saturday,0,12FEB-Saturday-275wv-0
+275,12FEB-Saturday,,Everett,,0,,275-wb-Saturday,0,12FEB-Saturday-275wv-1
+275,12FEB-Saturday,,Everett,,0,,275-wb-Saturday,0,12FEB-Saturday-275wv-10
+275,12FEB-Saturday,,Everett,,0,,275-wb-Saturday,0,12FEB-Saturday-275wv-2
+275,12FEB-Saturday,,Everett,,0,,275-wb-Saturday,0,12FEB-Saturday-275wv-3
+275,12FEB-Saturday,,Everett,,0,,275-wb-Saturday,0,12FEB-Saturday-275wv-4
+275,12FEB-Saturday,,Everett,,0,,275-wb-Saturday,0,12FEB-Saturday-275wv-5
+275,12FEB-Saturday,,Everett,,0,,275-wb-Saturday,0,12FEB-Saturday-275wv-6
+275,12FEB-Saturday,,Everett,,0,,275-wb-Saturday,0,12FEB-Saturday-275wv-7
+275,12FEB-Saturday,,Everett,,0,,275-wb-Saturday,0,12FEB-Saturday-275wv-8
+275,12FEB-Saturday,,Everett,,0,,275-wb-Saturday,0,12FEB-Saturday-275wv-9
+280,12FEB-Saturday,,Lake Stevens/Granite Falls,,0,,280-eb-Saturday,0,12FEB-Saturday-280ev-0
+280,12FEB-Saturday,,Lake Stevens/Granite Falls,,0,,280-eb-Saturday,0,12FEB-Saturday-280ev-1
+280,12FEB-Saturday,,Lake Stevens/Granite Falls,,0,,280-eb-Saturday,0,12FEB-Saturday-280ev-2
+280,12FEB-Saturday,,Lake Stevens/Granite Falls,,0,,280-eb-Saturday,0,12FEB-Saturday-280ev-3
+280,12FEB-Saturday,,Lake Stevens/Granite Falls,,0,,280-eb-Saturday,0,12FEB-Saturday-280ev-4
+280,12FEB-Saturday,,Lake Stevens/Granite Falls,,0,,280-eb-Saturday,0,12FEB-Saturday-280ev-5
+280,12FEB-Saturday,,Lake Stevens/Granite Falls,,0,,280-eb-Saturday,0,12FEB-Saturday-280ev-6
+280,12FEB-Saturday,,Lake Stevens/Granite Falls,,0,,280-eb-Saturday,0,12FEB-Saturday-280ev-7
+280,12FEB-Saturday,,Everett,,0,,280-wb-Saturday,0,12FEB-Saturday-280wv-0
+280,12FEB-Saturday,,Everett,,0,,280-wb-Saturday,0,12FEB-Saturday-280wv-1
+280,12FEB-Saturday,,Everett,,0,,280-wb-Saturday,0,12FEB-Saturday-280wv-2
+280,12FEB-Saturday,,Everett,,0,,280-wb-Saturday,0,12FEB-Saturday-280wv-3
+280,12FEB-Saturday,,Everett,,0,,280-wb-Saturday,0,12FEB-Saturday-280wv-4
+280,12FEB-Saturday,,Everett,,0,,280-wb-Saturday,0,12FEB-Saturday-280wv-5
+280,12FEB-Saturday,,Everett,,0,,280-wb-Saturday,0,12FEB-Saturday-280wv-6
+280,12FEB-Saturday,,Everett,,0,,280-wb-Saturday,0,12FEB-Saturday-280wv-7
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-0
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-1
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-10
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-11
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-12
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-13
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-14
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-15
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-16
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-17
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-18
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-19
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-2
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-20
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-21
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-22
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-23
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-24
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-25
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-26
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-27
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-28
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-29
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-3
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-30
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-31
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-32
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-33
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-34
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-35
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-36
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-37
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-38
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-39
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-4
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-40
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-41
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-42
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-43
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-44
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-45
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-46
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-47
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-5
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-6
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-7
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-8
+701,12FEB-Saturday,,Everett Swift Station,,0,,701-nb-Saturday,0,12FEB-Saturday-701n-9
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-0
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-1
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-10
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-11
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-12
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-13
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-14
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-15
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-16
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-17
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-18
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-19
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-2
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-20
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-21
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-22
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-23
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-24
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-25
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-26
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-27
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-28
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-29
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-3
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-30
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-31
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-32
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-33
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-34
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-35
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-36
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-37
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-38
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-39
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-4
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-40
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-41
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-42
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-43
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-44
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-45
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-46
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-47
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-5
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-6
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-7
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-8
+701,12FEB-Saturday,,Aurora Village Transit Center,,0,,701-sb-Saturday,0,12FEB-Saturday-701s-9
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-0
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-1
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-10
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-11
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-12
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-13
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-14
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-15
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-16
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-17
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-18
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-19
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-2
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-20
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-21
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-22
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-23
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-24
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-25
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-26
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-27
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-28
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-29
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-3
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-30
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-31
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-32
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-33
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-4
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-5
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-6
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-7
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-8
+101,12FEB-Weekday,,Mariner Park & Ride,,0,,101-nb-Weekday,0,12FEB-Weekday-101n-9
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-0
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-1
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-10
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-11
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-12
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-13
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-14
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-15
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-16
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-17
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-18
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-19
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-2
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-20
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-21
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-22
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-23
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-24
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-25
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-26
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-27
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-28
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-29
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-3
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-30
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-31
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-32
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-33
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-4
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-5
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-6
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-7
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-8
+101,12FEB-Weekday,,Aurora Village Transit Center,,0,,101-sb-Weekday,0,12FEB-Weekday-101s-9
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-0
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-1
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-10
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-11
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-12
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-13
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-14
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-15
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-16
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-17
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-18
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-19
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-2
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-20
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-21
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-22
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-23
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-24
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-25
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-26
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-27
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-28
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-29
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-3
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-4
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-5
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-6
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-7
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-8
+105,12FEB-Weekday,,Mariner Park & Ride,,0,,105-nb-Weekday,0,12FEB-Weekday-105nv-9
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-0
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-1
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-10
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-11
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-12
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-13
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-14
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-15
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-16
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-17
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-18
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-19
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-2
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-20
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-21
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-22
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-23
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-24
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-25
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-26
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-27
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-28
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-29
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-3
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-4
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-5
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-6
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-7
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-8
+105,12FEB-Weekday,,Bothell,,0,,105-sb-Weekday,0,12FEB-Weekday-105sv-9
+106,12FEB-Weekday,,Mariner Park Park & Ride,,0,,106-nb-Weekday,0,12FEB-Weekday-106nv-0
+106,12FEB-Weekday,,Mariner Park Park & Ride,,0,,106-nb-Weekday,0,12FEB-Weekday-106nv-1
+106,12FEB-Weekday,,Mariner Park Park & Ride,,0,,106-nb-Weekday,0,12FEB-Weekday-106nv-2
+106,12FEB-Weekday,,Mariner Park Park & Ride,,0,,106-nb-Weekday,0,12FEB-Weekday-106nv-3
+106,12FEB-Weekday,,Mariner Park Park & Ride,,0,,106-nb-Weekday,0,12FEB-Weekday-106nv-4
+106,12FEB-Weekday,,Mariner Park Park & Ride,,0,,106-nb-Weekday,0,12FEB-Weekday-106nv-5
+106,12FEB-Weekday,,Mariner Park Park & Ride,,0,,106-nb-Weekday,0,12FEB-Weekday-106nv-6
+106,12FEB-Weekday,,Mariner Park Park & Ride,,0,,106-nb-Weekday,0,12FEB-Weekday-106nv-7
+106,12FEB-Weekday,,Mariner Park Park & Ride,,0,,106-nb-Weekday,0,12FEB-Weekday-106nv-8
+106,12FEB-Weekday,,Mariner Park Park & Ride,,0,,106-nb-Weekday,0,12FEB-Weekday-106nv-9
+106,12FEB-Weekday,,Bothell,,0,,106-sb-Weekday,0,12FEB-Weekday-106sv-0
+106,12FEB-Weekday,,Bothell,,0,,106-sb-Weekday,0,12FEB-Weekday-106sv-1
+106,12FEB-Weekday,,Bothell,,0,,106-sb-Weekday,0,12FEB-Weekday-106sv-2
+106,12FEB-Weekday,,Bothell,,0,,106-sb-Weekday,0,12FEB-Weekday-106sv-3
+106,12FEB-Weekday,,Bothell,,0,,106-sb-Weekday,0,12FEB-Weekday-106sv-4
+106,12FEB-Weekday,,Bothell,,0,,106-sb-Weekday,0,12FEB-Weekday-106sv-5
+106,12FEB-Weekday,,Bothell,,0,,106-sb-Weekday,0,12FEB-Weekday-106sv-6
+106,12FEB-Weekday,,Bothell,,0,,106-sb-Weekday,0,12FEB-Weekday-106sv-7
+106,12FEB-Weekday,,Bothell,,0,,106-sb-Weekday,0,12FEB-Weekday-106sv-8
+106,12FEB-Weekday,,Bothell,,0,,106-sb-Weekday,0,12FEB-Weekday-106sv-9
+110,12FEB-Weekday,,Mountlake Terrace,,0,,110-eb-Weekday,0,12FEB-Weekday-110ev-0
+110,12FEB-Weekday,,Mountlake Terrace,,0,,110-eb-Weekday,0,12FEB-Weekday-110ev-1
+110,12FEB-Weekday,,Mountlake Terrace,,0,,110-eb-Weekday,0,12FEB-Weekday-110ev-2
+110,12FEB-Weekday,,Mountlake Terrace,,0,,110-eb-Weekday,0,12FEB-Weekday-110ev-3
+110,12FEB-Weekday,,Mountlake Terrace,,0,,110-eb-Weekday,0,12FEB-Weekday-110ev-4
+110,12FEB-Weekday,,Mountlake Terrace,,0,,110-eb-Weekday,0,12FEB-Weekday-110ev-5
+110,12FEB-Weekday,,Mountlake Terrace,,0,,110-eb-Weekday,0,12FEB-Weekday-110ev-6
+110,12FEB-Weekday,,Mountlake Terrace,,0,,110-eb-Weekday,0,12FEB-Weekday-110ev-7
+110,12FEB-Weekday,,Mountlake Terrace,,0,,110-eb-Weekday,0,12FEB-Weekday-110ev-8
+110,12FEB-Weekday,,Mountlake Terrace,,0,,110-eb-Weekday,0,12FEB-Weekday-110ev-9
+110,12FEB-Weekday,,Edmonds,,0,,110-wb-Weekday,0,12FEB-Weekday-110wv-0
+110,12FEB-Weekday,,Edmonds,,0,,110-wb-Weekday,0,12FEB-Weekday-110wv-1
+110,12FEB-Weekday,,Edmonds,,0,,110-wb-Weekday,0,12FEB-Weekday-110wv-2
+110,12FEB-Weekday,,Edmonds,,0,,110-wb-Weekday,0,12FEB-Weekday-110wv-3
+110,12FEB-Weekday,,Edmonds,,0,,110-wb-Weekday,0,12FEB-Weekday-110wv-4
+110,12FEB-Weekday,,Edmonds,,0,,110-wb-Weekday,0,12FEB-Weekday-110wv-5
+110,12FEB-Weekday,,Edmonds,,0,,110-wb-Weekday,0,12FEB-Weekday-110wv-6
+110,12FEB-Weekday,,Edmonds,,0,,110-wb-Weekday,0,12FEB-Weekday-110wv-7
+110,12FEB-Weekday,,Edmonds,,0,,110-wb-Weekday,0,12FEB-Weekday-110wv-8
+110,12FEB-Weekday,,Edmonds,,0,,110-wb-Weekday,0,12FEB-Weekday-110wv-9
+111,12FEB-Weekday,,Brier,,0,,111-eb-Weekday,0,12FEB-Weekday-111e-0
+111,12FEB-Weekday,,Brier,,0,,111-eb-Weekday,0,12FEB-Weekday-111e-1
+111,12FEB-Weekday,,Brier,,0,,111-eb-Weekday,0,12FEB-Weekday-111e-2
+111,12FEB-Weekday,,Brier,,0,,111-eb-Weekday,0,12FEB-Weekday-111e-3
+111,12FEB-Weekday,,Brier,,0,,111-eb-Weekday,0,12FEB-Weekday-111e-4
+111,12FEB-Weekday,,Mountlake Terrace,,0,,111-wb-Weekday,0,12FEB-Weekday-111w-0
+111,12FEB-Weekday,,Mountlake Terrace,,0,,111-wb-Weekday,0,12FEB-Weekday-111w-1
+111,12FEB-Weekday,,Mountlake Terrace,,0,,111-wb-Weekday,0,12FEB-Weekday-111w-2
+111,12FEB-Weekday,,Mountlake Terrace,,0,,111-wb-Weekday,0,12FEB-Weekday-111w-3
+111,12FEB-Weekday,,Mountlake Terrace,,0,,111-wb-Weekday,0,12FEB-Weekday-111w-4
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-0
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-1
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-10
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-11
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-12
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-13
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-14
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-15
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-16
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-17
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-18
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-19
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-2
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-20
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-21
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-22
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-23
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-24
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-3
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-4
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-5
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-6
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-7
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-8
+112,12FEB-Weekday,,Ash Way Park & Ride,,0,,112-nb-Weekday,0,12FEB-Weekday-112nv-9
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-0
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-1
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-10
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-11
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-12
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-13
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-14
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-15
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-16
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-17
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-18
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-19
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-2
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-20
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-21
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-22
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-23
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-24
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-3
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-4
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-5
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-6
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-7
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-8
+112,12FEB-Weekday,,Mountlake Terrace,,0,,112-sb-Weekday,0,12FEB-Weekday-112sv-9
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-0
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-1
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-10
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-11
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-12
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-13
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-14
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-15
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-16
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-17
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-18
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-19
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-2
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-20
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-21
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-22
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-23
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-24
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-25
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-26
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-27
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-28
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-29
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-3
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-4
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-5
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-6
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-7
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-8
+113,12FEB-Weekday,,Mukilteo,,0,,113-nb-Weekday,0,12FEB-Weekday-113nv-9
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-0
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-1
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-10
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-11
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-12
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-13
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-14
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-15
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-16
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-17
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-18
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-19
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-2
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-20
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-21
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-22
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-23
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-24
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-25
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-26
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-27
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-28
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-29
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-3
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-4
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-5
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-6
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-7
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-8
+113,12FEB-Weekday,,Ash Way Park & Ride,,0,,113-sb-Weekday,0,12FEB-Weekday-113sv-9
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-0
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-1
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-10
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-11
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-12
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-13
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-14
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-15
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-16
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-17
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-18
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-19
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-2
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-20
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-21
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-22
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-23
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-24
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-25
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-26
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-27
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-28
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-29
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-3
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-4
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-5
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-6
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-7
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-8
+115,12FEB-Weekday,,Mariner Park & Ride,,0,,115-eb-Weekday,0,12FEB-Weekday-115ev-9
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-0
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-1
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-10
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-11
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-12
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-13
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-14
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-15
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-16
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-17
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-18
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-19
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-2
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-20
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-21
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-22
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-23
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-24
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-25
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-26
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-27
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-28
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-29
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-3
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-4
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-5
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-6
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-7
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-8
+115,12FEB-Weekday,,Aurora Village Transit Center,,0,,115-wb-Weekday,0,12FEB-Weekday-115wv-9
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-0
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-1
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-10
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-11
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-12
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-13
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-14
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-15
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-16
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-17
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-18
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-19
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-2
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-20
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-21
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-22
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-23
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-24
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-25
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-26
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-27
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-28
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-29
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-3
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-4
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-5
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-6
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-7
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-8
+116,12FEB-Weekday,,Silver Firs,,0,,116-eb-Weekday,0,12FEB-Weekday-116ev-9
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-0
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-1
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-10
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-11
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-12
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-13
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-14
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-15
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-16
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-17
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-18
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-19
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-2
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-20
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-21
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-22
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-23
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-24
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-25
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-26
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-27
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-28
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-3
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-4
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-5
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-6
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-7
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-8
+116,12FEB-Weekday,,Edmonds,,0,,116-wb-Weekday,0,12FEB-Weekday-116wv-9
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-0
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-1
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-10
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-11
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-12
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-13
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-14
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-15
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-16
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-17
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-18
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-19
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-2
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-20
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-21
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-22
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-23
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-3
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-4
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-5
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-6
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-7
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-8
+119,12FEB-Weekday,,Ash Way Park & Ride,,0,,119-nb-Weekday,0,12FEB-Weekday-119nv-9
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-0
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-1
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-10
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-11
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-12
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-13
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-14
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-15
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-16
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-17
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-18
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-19
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-2
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-20
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-21
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-22
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-3
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-4
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-5
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-6
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-7
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-8
+119,12FEB-Weekday,,Mountlake Terrace,,0,,119-sb-Weekday,0,12FEB-Weekday-119sv-9
+120,12FEB-Weekday,,Canyon Park,,0,,120-eb-Weekday,0,12FEB-Weekday-120e-0
+120,12FEB-Weekday,,Canyon Park,,0,,120-eb-Weekday,0,12FEB-Weekday-120e-1
+120,12FEB-Weekday,,Canyon Park,,0,,120-eb-Weekday,0,12FEB-Weekday-120e-10
+120,12FEB-Weekday,,Canyon Park,,0,,120-eb-Weekday,0,12FEB-Weekday-120e-11
+120,12FEB-Weekday,,Canyon Park,,0,,120-eb-Weekday,0,12FEB-Weekday-120e-12
+120,12FEB-Weekday,,Canyon Park,,0,,120-eb-Weekday,0,12FEB-Weekday-120e-13
+120,12FEB-Weekday,,Canyon Park,,0,,120-eb-Weekday,0,12FEB-Weekday-120e-14
+120,12FEB-Weekday,,Canyon Park,,0,,120-eb-Weekday,0,12FEB-Weekday-120e-15
+120,12FEB-Weekday,,Canyon Park,,0,,120-eb-Weekday,0,12FEB-Weekday-120e-16
+120,12FEB-Weekday,,Canyon Park,,0,,120-eb-Weekday,0,12FEB-Weekday-120e-2
+120,12FEB-Weekday,,Canyon Park,,0,,120-eb-Weekday,0,12FEB-Weekday-120e-3
+120,12FEB-Weekday,,Canyon Park,,0,,120-eb-Weekday,0,12FEB-Weekday-120e-4
+120,12FEB-Weekday,,Canyon Park,,0,,120-eb-Weekday,0,12FEB-Weekday-120e-5
+120,12FEB-Weekday,,Canyon Park,,0,,120-eb-Weekday,0,12FEB-Weekday-120e-6
+120,12FEB-Weekday,,Canyon Park,,0,,120-eb-Weekday,0,12FEB-Weekday-120e-7
+120,12FEB-Weekday,,Canyon Park,,0,,120-eb-Weekday,0,12FEB-Weekday-120e-8
+120,12FEB-Weekday,,Canyon Park,,0,,120-eb-Weekday,0,12FEB-Weekday-120e-9
+120,12FEB-Weekday,,Lynnwood Transit Center,,0,,120-wb-Weekday,0,12FEB-Weekday-120w-0
+120,12FEB-Weekday,,Lynnwood Transit Center,,0,,120-wb-Weekday,0,12FEB-Weekday-120w-1
+120,12FEB-Weekday,,Lynnwood Transit Center,,0,,120-wb-Weekday,0,12FEB-Weekday-120w-10
+120,12FEB-Weekday,,Lynnwood Transit Center,,0,,120-wb-Weekday,0,12FEB-Weekday-120w-11
+120,12FEB-Weekday,,Lynnwood Transit Center,,0,,120-wb-Weekday,0,12FEB-Weekday-120w-12
+120,12FEB-Weekday,,Lynnwood Transit Center,,0,,120-wb-Weekday,0,12FEB-Weekday-120w-13
+120,12FEB-Weekday,,Lynnwood Transit Center,,0,,120-wb-Weekday,0,12FEB-Weekday-120w-14
+120,12FEB-Weekday,,Lynnwood Transit Center,,0,,120-wb-Weekday,0,12FEB-Weekday-120w-15
+120,12FEB-Weekday,,Lynnwood Transit Center,,0,,120-wb-Weekday,0,12FEB-Weekday-120w-16
+120,12FEB-Weekday,,Lynnwood Transit Center,,0,,120-wb-Weekday,0,12FEB-Weekday-120w-17
+120,12FEB-Weekday,,Lynnwood Transit Center,,0,,120-wb-Weekday,0,12FEB-Weekday-120w-2
+120,12FEB-Weekday,,Lynnwood Transit Center,,0,,120-wb-Weekday,0,12FEB-Weekday-120w-3
+120,12FEB-Weekday,,Lynnwood Transit Center,,0,,120-wb-Weekday,0,12FEB-Weekday-120w-4
+120,12FEB-Weekday,,Lynnwood Transit Center,,0,,120-wb-Weekday,0,12FEB-Weekday-120w-5
+120,12FEB-Weekday,,Lynnwood Transit Center,,0,,120-wb-Weekday,0,12FEB-Weekday-120w-6
+120,12FEB-Weekday,,Lynnwood Transit Center,,0,,120-wb-Weekday,0,12FEB-Weekday-120w-7
+120,12FEB-Weekday,,Lynnwood Transit Center,,0,,120-wb-Weekday,0,12FEB-Weekday-120w-8
+120,12FEB-Weekday,,Lynnwood Transit Center,,0,,120-wb-Weekday,0,12FEB-Weekday-120w-9
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-0
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-1
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-10
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-11
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-12
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-13
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-14
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-15
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-16
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-17
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-18
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-19
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-2
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-20
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-21
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-22
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-23
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-3
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-4
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-5
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-6
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-7
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-8
+130,12FEB-Weekday,,Lynnwood Transit Center,,0,,130-eb-Weekday,0,12FEB-Weekday-130ev-9
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-0
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-1
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-10
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-11
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-12
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-13
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-14
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-15
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-16
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-17
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-18
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-19
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-2
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-20
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-21
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-22
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-23
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-3
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-4
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-5
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-6
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-7
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-8
+130,12FEB-Weekday,,Edmonds,,0,,130-wb-Weekday,0,12FEB-Weekday-130wv-9
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-0
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-1
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-10
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-11
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-12
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-13
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-14
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-15
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-16
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-17
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-18
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-19
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-2
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-20
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-21
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-22
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-23
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-24
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-25
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-26
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-27
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-28
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-3
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-4
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-5
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-6
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-7
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-8
+196,12FEB-Weekday,,Alderwood Mall,,0,,196-eb-Weekday,0,12FEB-Weekday-196e-9
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-0
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-1
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-10
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-11
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-12
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-13
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-14
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-15
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-16
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-17
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-18
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-19
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-2
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-20
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-21
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-22
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-23
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-24
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-25
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-26
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-27
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-28
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-29
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-3
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-4
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-5
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-6
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-7
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-8
+196,12FEB-Weekday,,Edmonds,,0,,196-wb-Weekday,0,12FEB-Weekday-196w-9
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-0
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-1
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-10
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-11
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-12
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-13
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-14
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-15
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-16
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-17
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-18
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-19
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-2
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-20
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-21
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-22
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-23
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-24
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-25
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-26
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-27
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-28
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-29
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-3
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-30
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-31
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-32
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-33
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-34
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-35
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-36
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-37
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-38
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-39
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-4
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-40
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-41
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-42
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-43
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-44
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-45
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-46
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-47
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-48
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-49
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-5
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-50
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-6
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-7
+201,12FEB-Weekday,,Smokey Point,,0,,201-nb-Weekday,0,12FEB-Weekday-201/2nv-8
+202,12FEB-Weekday,,Smokey Point,,0,,202-nb-Weekday,0,12FEB-Weekday-201/2nv-9
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-0
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-1
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-10
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-11
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-12
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-13
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-14
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-15
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-16
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-17
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-18
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-19
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-2
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-20
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-21
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-22
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-23
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-24
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-25
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-26
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-27
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-28
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-29
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-3
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-30
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-31
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-32
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-33
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-34
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-35
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-36
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-37
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-38
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-39
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-4
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-40
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-41
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-42
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-43
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-44
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-45
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-46
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-47
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-48
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-5
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-6
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-7
+201,12FEB-Weekday,,Lynnwood Transit Center,,0,,201-sb-Weekday,0,12FEB-Weekday-201/2sv-8
+202,12FEB-Weekday,,Lynnwood Transit Center,,0,,202-sb-Weekday,0,12FEB-Weekday-201/2sv-9
+220,12FEB-Weekday,,Arlington,,0,,220-eb-Weekday,0,12FEB-Weekday-220e-0
+220,12FEB-Weekday,,Arlington,,0,,220-eb-Weekday,0,12FEB-Weekday-220e-1
+220,12FEB-Weekday,,Arlington,,0,,220-eb-Weekday,0,12FEB-Weekday-220e-10
+220,12FEB-Weekday,,Arlington,,0,,220-eb-Weekday,0,12FEB-Weekday-220e-11
+220,12FEB-Weekday,,Arlington,,0,,220-eb-Weekday,0,12FEB-Weekday-220e-12
+220,12FEB-Weekday,,Arlington,,0,,220-eb-Weekday,0,12FEB-Weekday-220e-13
+220,12FEB-Weekday,,Arlington,,0,,220-eb-Weekday,0,12FEB-Weekday-220e-2
+220,12FEB-Weekday,,Arlington,,0,,220-eb-Weekday,0,12FEB-Weekday-220e-3
+220,12FEB-Weekday,,Arlington,,0,,220-eb-Weekday,0,12FEB-Weekday-220e-4
+220,12FEB-Weekday,,Arlington,,0,,220-eb-Weekday,0,12FEB-Weekday-220e-5
+220,12FEB-Weekday,,Arlington,,0,,220-eb-Weekday,0,12FEB-Weekday-220e-6
+220,12FEB-Weekday,,Arlington,,0,,220-eb-Weekday,0,12FEB-Weekday-220e-7
+220,12FEB-Weekday,,Arlington,,0,,220-eb-Weekday,0,12FEB-Weekday-220e-8
+220,12FEB-Weekday,,Arlington,,0,,220-eb-Weekday,0,12FEB-Weekday-220e-9
+220,12FEB-Weekday,,Smokey Point,,0,,220-wb-Weekday,0,12FEB-Weekday-220w-0
+220,12FEB-Weekday,,Smokey Point,,0,,220-wb-Weekday,0,12FEB-Weekday-220w-1
+220,12FEB-Weekday,,Smokey Point,,0,,220-wb-Weekday,0,12FEB-Weekday-220w-10
+220,12FEB-Weekday,,Smokey Point,,0,,220-wb-Weekday,0,12FEB-Weekday-220w-11
+220,12FEB-Weekday,,Smokey Point,,0,,220-wb-Weekday,0,12FEB-Weekday-220w-12
+220,12FEB-Weekday,,Smokey Point,,0,,220-wb-Weekday,0,12FEB-Weekday-220w-13
+220,12FEB-Weekday,,Smokey Point,,0,,220-wb-Weekday,0,12FEB-Weekday-220w-2
+220,12FEB-Weekday,,Smokey Point,,0,,220-wb-Weekday,0,12FEB-Weekday-220w-3
+220,12FEB-Weekday,,Smokey Point,,0,,220-wb-Weekday,0,12FEB-Weekday-220w-4
+220,12FEB-Weekday,,Smokey Point,,0,,220-wb-Weekday,0,12FEB-Weekday-220w-5
+220,12FEB-Weekday,,Smokey Point,,0,,220-wb-Weekday,0,12FEB-Weekday-220w-6
+220,12FEB-Weekday,,Smokey Point,,0,,220-wb-Weekday,0,12FEB-Weekday-220w-7
+220,12FEB-Weekday,,Smokey Point,,0,,220-wb-Weekday,0,12FEB-Weekday-220w-8
+220,12FEB-Weekday,,Smokey Point,,0,,220-wb-Weekday,0,12FEB-Weekday-220w-9
+222,12FEB-Weekday,,Marysville,,0,,222-eb-Weekday,0,12FEB-Weekday-222ev-0
+222,12FEB-Weekday,,Marysville,,0,,222-eb-Weekday,0,12FEB-Weekday-222ev-1
+222,12FEB-Weekday,,Marysville,,0,,222-eb-Weekday,0,12FEB-Weekday-222ev-10
+222,12FEB-Weekday,,Marysville,,0,,222-eb-Weekday,0,12FEB-Weekday-222ev-11
+222,12FEB-Weekday,,Marysville,,0,,222-eb-Weekday,0,12FEB-Weekday-222ev-12
+222,12FEB-Weekday,,Marysville,,0,,222-eb-Weekday,0,12FEB-Weekday-222ev-13
+222,12FEB-Weekday,,Marysville,,0,,222-eb-Weekday,0,12FEB-Weekday-222ev-14
+222,12FEB-Weekday,,Marysville,,0,,222-eb-Weekday,0,12FEB-Weekday-222ev-2
+222,12FEB-Weekday,,Marysville,,0,,222-eb-Weekday,0,12FEB-Weekday-222ev-3
+222,12FEB-Weekday,,Marysville,,0,,222-eb-Weekday,0,12FEB-Weekday-222ev-4
+222,12FEB-Weekday,,Marysville,,0,,222-eb-Weekday,0,12FEB-Weekday-222ev-5
+222,12FEB-Weekday,,Marysville,,0,,222-eb-Weekday,0,12FEB-Weekday-222ev-6
+222,12FEB-Weekday,,Marysville,,0,,222-eb-Weekday,0,12FEB-Weekday-222ev-7
+222,12FEB-Weekday,,Marysville,,0,,222-eb-Weekday,0,12FEB-Weekday-222ev-8
+222,12FEB-Weekday,,Marysville,,0,,222-eb-Weekday,0,12FEB-Weekday-222ev-9
+222,12FEB-Weekday,,Tulalip,,0,,222-wb-Weekday,0,12FEB-Weekday-222wv-0
+222,12FEB-Weekday,,Tulalip,,0,,222-wb-Weekday,0,12FEB-Weekday-222wv-1
+222,12FEB-Weekday,,Tulalip,,0,,222-wb-Weekday,0,12FEB-Weekday-222wv-10
+222,12FEB-Weekday,,Tulalip,,0,,222-wb-Weekday,0,12FEB-Weekday-222wv-11
+222,12FEB-Weekday,,Tulalip,,0,,222-wb-Weekday,0,12FEB-Weekday-222wv-12
+222,12FEB-Weekday,,Tulalip,,0,,222-wb-Weekday,0,12FEB-Weekday-222wv-13
+222,12FEB-Weekday,,Tulalip,,0,,222-wb-Weekday,0,12FEB-Weekday-222wv-14
+222,12FEB-Weekday,,Tulalip,,0,,222-wb-Weekday,0,12FEB-Weekday-222wv-2
+222,12FEB-Weekday,,Tulalip,,0,,222-wb-Weekday,0,12FEB-Weekday-222wv-3
+222,12FEB-Weekday,,Tulalip,,0,,222-wb-Weekday,0,12FEB-Weekday-222wv-4
+222,12FEB-Weekday,,Tulalip,,0,,222-wb-Weekday,0,12FEB-Weekday-222wv-5
+222,12FEB-Weekday,,Tulalip,,0,,222-wb-Weekday,0,12FEB-Weekday-222wv-6
+222,12FEB-Weekday,,Tulalip,,0,,222-wb-Weekday,0,12FEB-Weekday-222wv-7
+222,12FEB-Weekday,,Tulalip,,0,,222-wb-Weekday,0,12FEB-Weekday-222wv-8
+222,12FEB-Weekday,,Tulalip,,0,,222-wb-Weekday,0,12FEB-Weekday-222wv-9
+230,12FEB-Weekday,,Darrington,,0,,230-eb-Weekday,0,12FEB-Weekday-230ev-0
+230,12FEB-Weekday,,Darrington,,0,,230-eb-Weekday,0,12FEB-Weekday-230ev-1
+230,12FEB-Weekday,,Arlington,,0,,230-wb-Weekday,0,12FEB-Weekday-230wv-0
+230,12FEB-Weekday,,Arlington,,0,,230-wb-Weekday,0,12FEB-Weekday-230wv-1
+240,12FEB-Weekday,,Smokey Point,,0,,240-eb-Weekday,0,12FEB-Weekday-240ev-0
+240,12FEB-Weekday,,Smokey Point,,0,,240-eb-Weekday,0,12FEB-Weekday-240ev-1
+240,12FEB-Weekday,,Smokey Point,,0,,240-eb-Weekday,0,12FEB-Weekday-240ev-10
+240,12FEB-Weekday,,Smokey Point,,0,,240-eb-Weekday,0,12FEB-Weekday-240ev-2
+240,12FEB-Weekday,,Smokey Point,,0,,240-eb-Weekday,0,12FEB-Weekday-240ev-3
+240,12FEB-Weekday,,Smokey Point,,0,,240-eb-Weekday,0,12FEB-Weekday-240ev-4
+240,12FEB-Weekday,,Smokey Point,,0,,240-eb-Weekday,0,12FEB-Weekday-240ev-5
+240,12FEB-Weekday,,Smokey Point,,0,,240-eb-Weekday,0,12FEB-Weekday-240ev-6
+240,12FEB-Weekday,,Smokey Point,,0,,240-eb-Weekday,0,12FEB-Weekday-240ev-7
+240,12FEB-Weekday,,Smokey Point,,0,,240-eb-Weekday,0,12FEB-Weekday-240ev-8
+240,12FEB-Weekday,,Smokey Point,,0,,240-eb-Weekday,0,12FEB-Weekday-240ev-9
+240,12FEB-Weekday,,Stanwood,,0,,240-wb-Weekday,0,12FEB-Weekday-240wv-0
+240,12FEB-Weekday,,Stanwood,,0,,240-wb-Weekday,0,12FEB-Weekday-240wv-1
+240,12FEB-Weekday,,Stanwood,,0,,240-wb-Weekday,0,12FEB-Weekday-240wv-10
+240,12FEB-Weekday,,Stanwood,,0,,240-wb-Weekday,0,12FEB-Weekday-240wv-2
+240,12FEB-Weekday,,Stanwood,,0,,240-wb-Weekday,0,12FEB-Weekday-240wv-3
+240,12FEB-Weekday,,Stanwood,,0,,240-wb-Weekday,0,12FEB-Weekday-240wv-4
+240,12FEB-Weekday,,Stanwood,,0,,240-wb-Weekday,0,12FEB-Weekday-240wv-5
+240,12FEB-Weekday,,Stanwood,,0,,240-wb-Weekday,0,12FEB-Weekday-240wv-6
+240,12FEB-Weekday,,Stanwood,,0,,240-wb-Weekday,0,12FEB-Weekday-240wv-7
+240,12FEB-Weekday,,Stanwood,,0,,240-wb-Weekday,0,12FEB-Weekday-240wv-8
+240,12FEB-Weekday,,Stanwood,,0,,240-wb-Weekday,0,12FEB-Weekday-240wv-9
+247,12FEB-Weekday,,Stanwood,,0,,247-nb-Weekday,0,12FEB-Weekday-247nb-0
+247,12FEB-Weekday,,Stanwood,,0,,247-nb-Weekday,0,12FEB-Weekday-247nb-1
+247,12FEB-Weekday,,Everett Boeing,,0,,247-sb-Weekday,0,12FEB-Weekday-247sb-0
+247,12FEB-Weekday,,Everett Boeing,,0,,247-sb-Weekday,0,12FEB-Weekday-247sb-1
+275,12FEB-Weekday,,Monroe/Gold Bar,,0,,275-eb-Weekday,0,12FEB-Weekday-270gev-0
+270,12FEB-Weekday,,Monroe/Gold Bar,,0,,270-eb-Weekday,0,12FEB-Weekday-270gev-1
+275,12FEB-Weekday,,Monroe/Gold Bar,,0,,275-eb-Weekday,0,12FEB-Weekday-270gev-10
+275,12FEB-Weekday,,Monroe/Gold Bar,,0,,275-eb-Weekday,0,12FEB-Weekday-270gev-11
+270,12FEB-Weekday,,Monroe/Gold Bar,,0,,270-eb-Weekday,0,12FEB-Weekday-270gev-12
+275,12FEB-Weekday,,Monroe/Gold Bar,,0,,275-eb-Weekday,0,12FEB-Weekday-270gev-13
+270,12FEB-Weekday,,Monroe/Gold Bar,,0,,270-eb-Weekday,0,12FEB-Weekday-270gev-14
+275,12FEB-Weekday,,Monroe/Gold Bar,,0,,275-eb-Weekday,0,12FEB-Weekday-270gev-15
+275,12FEB-Weekday,,Monroe/Gold Bar,,0,,275-eb-Weekday,0,12FEB-Weekday-270gev-16
+270,12FEB-Weekday,,Monroe/Gold Bar,,0,,270-eb-Weekday,0,12FEB-Weekday-270gev-17
+277,12FEB-Weekday,,Monroe/Gold Bar,,0,,277-eb-Weekday,0,12FEB-Weekday-270gev-18
+277,12FEB-Weekday,,Monroe/Gold Bar,,0,,277-eb-Weekday,0,12FEB-Weekday-270gev-19
+275,12FEB-Weekday,,Monroe/Gold Bar,,0,,275-eb-Weekday,0,12FEB-Weekday-270gev-2
+270,12FEB-Weekday,,Monroe/Gold Bar,,0,,270-eb-Weekday,0,12FEB-Weekday-270gev-20
+275,12FEB-Weekday,,Monroe/Gold Bar,,0,,275-eb-Weekday,0,12FEB-Weekday-270gev-21
+270,12FEB-Weekday,,Monroe/Gold Bar,,0,,270-eb-Weekday,0,12FEB-Weekday-270gev-22
+275,12FEB-Weekday,,Monroe/Gold Bar,,0,,275-eb-Weekday,0,12FEB-Weekday-270gev-23
+270,12FEB-Weekday,,Monroe/Gold Bar,,0,,270-eb-Weekday,0,12FEB-Weekday-270gev-24
+275,12FEB-Weekday,,Monroe/Gold Bar,,0,,275-eb-Weekday,0,12FEB-Weekday-270gev-25
+270,12FEB-Weekday,,Monroe/Gold Bar,,0,,270-eb-Weekday,0,12FEB-Weekday-270gev-26
+275,12FEB-Weekday,,Monroe/Gold Bar,,0,,275-eb-Weekday,0,12FEB-Weekday-270gev-27
+275,12FEB-Weekday,,Monroe/Gold Bar,,0,,275-eb-Weekday,0,12FEB-Weekday-270gev-28
+270,12FEB-Weekday,,Monroe/Gold Bar,,0,,270-eb-Weekday,0,12FEB-Weekday-270gev-3
+275,12FEB-Weekday,,Monroe/Gold Bar,,0,,275-eb-Weekday,0,12FEB-Weekday-270gev-4
+270,12FEB-Weekday,,Monroe/Gold Bar,,0,,270-eb-Weekday,0,12FEB-Weekday-270gev-5
+275,12FEB-Weekday,,Monroe/Gold Bar,,0,,275-eb-Weekday,0,12FEB-Weekday-270gev-6
+270,12FEB-Weekday,,Monroe/Gold Bar,,0,,270-eb-Weekday,0,12FEB-Weekday-270gev-7
+275,12FEB-Weekday,,Monroe/Gold Bar,,0,,275-eb-Weekday,0,12FEB-Weekday-270gev-8
+270,12FEB-Weekday,,Monroe/Gold Bar,,0,,270-eb-Weekday,0,12FEB-Weekday-270gev-9
+277,12FEB-Weekday,,Monroe/Everett,,0,,277-wb-Weekday,0,12FEB-Weekday-270gwv-0
+277,12FEB-Weekday,,Monroe/Everett,,0,,277-wb-Weekday,0,12FEB-Weekday-270gwv-1
+275,12FEB-Weekday,,Monroe/Everett,,0,,275-wb-Weekday,0,12FEB-Weekday-270gwv-10
+270,12FEB-Weekday,,Monroe/Everett,,0,,270-wb-Weekday,0,12FEB-Weekday-270gwv-11
+275,12FEB-Weekday,,Monroe/Everett,,0,,275-wb-Weekday,0,12FEB-Weekday-270gwv-12
+275,12FEB-Weekday,,Monroe/Everett,,0,,275-wb-Weekday,0,12FEB-Weekday-270gwv-13
+270,12FEB-Weekday,,Monroe/Everett,,0,,270-wb-Weekday,0,12FEB-Weekday-270gwv-14
+275,12FEB-Weekday,,Monroe/Everett,,0,,275-wb-Weekday,0,12FEB-Weekday-270gwv-15
+270,12FEB-Weekday,,Monroe/Everett,,0,,270-wb-Weekday,0,12FEB-Weekday-270gwv-16
+275,12FEB-Weekday,,Monroe/Everett,,0,,275-wb-Weekday,0,12FEB-Weekday-270gwv-17
+275,12FEB-Weekday,,Monroe/Everett,,0,,275-wb-Weekday,0,12FEB-Weekday-270gwv-18
+270,12FEB-Weekday,,Monroe/Everett,,0,,270-wb-Weekday,0,12FEB-Weekday-270gwv-19
+275,12FEB-Weekday,,Monroe/Everett,,0,,275-wb-Weekday,0,12FEB-Weekday-270gwv-2
+275,12FEB-Weekday,,Monroe/Everett,,0,,275-wb-Weekday,0,12FEB-Weekday-270gwv-20
+270,12FEB-Weekday,,Monroe/Everett,,0,,270-wb-Weekday,0,12FEB-Weekday-270gwv-21
+275,12FEB-Weekday,,Monroe/Everett,,0,,275-wb-Weekday,0,12FEB-Weekday-270gwv-22
+270,12FEB-Weekday,,Monroe/Everett,,0,,270-wb-Weekday,0,12FEB-Weekday-270gwv-23
+275,12FEB-Weekday,,Monroe/Everett,,0,,275-wb-Weekday,0,12FEB-Weekday-270gwv-24
+270,12FEB-Weekday,,Monroe/Everett,,0,,270-wb-Weekday,0,12FEB-Weekday-270gwv-25
+275,12FEB-Weekday,,Monroe/Everett,,0,,275-wb-Weekday,0,12FEB-Weekday-270gwv-26
+270,12FEB-Weekday,,Monroe/Everett,,0,,270-wb-Weekday,0,12FEB-Weekday-270gwv-27
+275,12FEB-Weekday,,Monroe/Everett,,0,,275-wb-Weekday,0,12FEB-Weekday-270gwv-28
+275,12FEB-Weekday,,Monroe/Everett,,0,,275-wb-Weekday,0,12FEB-Weekday-270gwv-29
+270,12FEB-Weekday,,Monroe/Everett,,0,,270-wb-Weekday,0,12FEB-Weekday-270gwv-3
+275,12FEB-Weekday,,Monroe/Everett,,0,,275-wb-Weekday,0,12FEB-Weekday-270gwv-4
+270,12FEB-Weekday,,Monroe/Everett,,0,,270-wb-Weekday,0,12FEB-Weekday-270gwv-5
+275,12FEB-Weekday,,Monroe/Everett,,0,,275-wb-Weekday,0,12FEB-Weekday-270gwv-6
+270,12FEB-Weekday,,Monroe/Everett,,0,,270-wb-Weekday,0,12FEB-Weekday-270gwv-7
+275,12FEB-Weekday,,Monroe/Everett,,0,,275-wb-Weekday,0,12FEB-Weekday-270gwv-8
+270,12FEB-Weekday,,Monroe/Everett,,0,,270-wb-Weekday,0,12FEB-Weekday-270gwv-9
+277,12FEB-Weekday,,Gold Bar,,0,,277-eb-Weekday,0,12FEB-Weekday-277ev-0
+277,12FEB-Weekday,,Gold Bar,,0,,277-eb-Weekday,0,12FEB-Weekday-277ev-1
+277,12FEB-Weekday,,Boeing via Everett Station,,0,,277-wb-Weekday,0,12FEB-Weekday-277wv-0
+277,12FEB-Weekday,,Boeing via Everett Station,,0,,277-wb-Weekday,0,12FEB-Weekday-277wv-1
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-0
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-1
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-10
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-11
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-12
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-13
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-14
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-15
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-16
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-17
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-18
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-19
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-2
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-20
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-3
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-4
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-5
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-6
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-7
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-8
+280,12FEB-Weekday,,Lake Stevens/Granite Falls,,0,,280-eb-Weekday,0,12FEB-Weekday-280ev-9
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-0
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-1
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-10
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-11
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-12
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-13
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-14
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-15
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-16
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-17
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-18
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-19
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-2
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-20
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-21
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-22
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-3
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-4
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-5
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-6
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-7
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-8
+280,12FEB-Weekday,,Everett,,0,,280-wb-Weekday,0,12FEB-Weekday-280wv-9
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402/417n-0
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402/417n-1
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402/417n-10
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402/417n-11
+417,12FEB-Weekday,,Lynnwood,,0,,417-nb-Weekday,0,12FEB-Weekday-402/417n-12
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402/417n-13
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402/417n-14
+417,12FEB-Weekday,,Lynnwood,,0,,417-nb-Weekday,0,12FEB-Weekday-402/417n-15
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402/417n-16
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402/417n-17
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402/417n-18
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402/417n-19
+417,12FEB-Weekday,,Lynnwood,,0,,417-nb-Weekday,0,12FEB-Weekday-402/417n-2
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402/417n-3
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402/417n-4
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402/417n-5
+417,12FEB-Weekday,,Lynnwood,,0,,417-nb-Weekday,0,12FEB-Weekday-402/417n-6
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402/417n-7
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402/417n-8
+417,12FEB-Weekday,,Lynnwood,,0,,417-nb-Weekday,0,12FEB-Weekday-402/417n-9
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402/417s-0
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402/417s-1
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402/417s-10
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402/417s-11
+417,12FEB-Weekday,,Downtown Seattle,,0,,417-sb-Weekday,0,12FEB-Weekday-402/417s-12
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402/417s-13
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402/417s-14
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402/417s-15
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402/417s-16
+417,12FEB-Weekday,,Downtown Seattle,,0,,417-sb-Weekday,0,12FEB-Weekday-402/417s-17
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402/417s-2
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402/417s-3
+417,12FEB-Weekday,,Downtown Seattle,,0,,417-sb-Weekday,0,12FEB-Weekday-402/417s-4
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402/417s-5
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402/417s-6
+417,12FEB-Weekday,,Downtown Seattle,,0,,417-sb-Weekday,0,12FEB-Weekday-402/417s-7
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402/417s-8
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402/417s-9
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402n-0
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402n-1
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402n-10
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402n-11
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402n-12
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402n-13
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402n-14
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402n-2
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402n-3
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402n-4
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402n-5
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402n-6
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402n-7
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402n-8
+402,12FEB-Weekday,,Lynnwood,,0,,402-nb-Weekday,0,12FEB-Weekday-402n-9
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402s-0
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402s-1
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402s-10
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402s-11
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402s-12
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402s-13
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402s-2
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402s-3
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402s-4
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402s-5
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402s-6
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402s-7
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402s-8
+402,12FEB-Weekday,,Downtown Seattle,,0,,402-sb-Weekday,0,12FEB-Weekday-402s-9
+405,12FEB-Weekday,,Edmonds P&R,,0,,405-nb-Weekday,0,12FEB-Weekday-405n-0
+405,12FEB-Weekday,,Edmonds P&R,,0,,405-nb-Weekday,0,12FEB-Weekday-405n-1
+405,12FEB-Weekday,,Edmonds P&R,,0,,405-nb-Weekday,0,12FEB-Weekday-405n-2
+405,12FEB-Weekday,,Edmonds P&R,,0,,405-nb-Weekday,0,12FEB-Weekday-405n-3
+405,12FEB-Weekday,,Edmonds P&R,,0,,405-nb-Weekday,0,12FEB-Weekday-405n-4
+405,12FEB-Weekday,,Edmonds P&R,,0,,405-nb-Weekday,0,12FEB-Weekday-405n-5
+405,12FEB-Weekday,,Downtown Seattle,,0,,405-sb-Weekday,0,12FEB-Weekday-405s-0
+405,12FEB-Weekday,,Downtown Seattle,,0,,405-sb-Weekday,0,12FEB-Weekday-405s-1
+405,12FEB-Weekday,,Downtown Seattle,,0,,405-sb-Weekday,0,12FEB-Weekday-405s-2
+405,12FEB-Weekday,,Downtown Seattle,,0,,405-sb-Weekday,0,12FEB-Weekday-405s-3
+410,12FEB-Weekday,,Mariner P&R,,0,,410-nb-Weekday,0,12FEB-Weekday-410n-0
+410,12FEB-Weekday,,Mariner P&R,,0,,410-nb-Weekday,0,12FEB-Weekday-410n-1
+410,12FEB-Weekday,,Mariner P&R,,0,,410-nb-Weekday,0,12FEB-Weekday-410n-2
+410,12FEB-Weekday,,Mariner P&R,,0,,410-nb-Weekday,0,12FEB-Weekday-410n-3
+410,12FEB-Weekday,,Mariner P&R,,0,,410-nb-Weekday,0,12FEB-Weekday-410n-4
+410,12FEB-Weekday,,Mariner P&R,,0,,410-nb-Weekday,0,12FEB-Weekday-410n-5
+410,12FEB-Weekday,,Downtown Seattle,,0,,410-sb-Weekday,0,12FEB-Weekday-410s-0
+410,12FEB-Weekday,,Downtown Seattle,,0,,410-sb-Weekday,0,12FEB-Weekday-410s-1
+410,12FEB-Weekday,,Downtown Seattle,,0,,410-sb-Weekday,0,12FEB-Weekday-410s-2
+410,12FEB-Weekday,,Downtown Seattle,,0,,410-sb-Weekday,0,12FEB-Weekday-410s-3
+410,12FEB-Weekday,,Downtown Seattle,,0,,410-sb-Weekday,0,12FEB-Weekday-410s-4
+410,12FEB-Weekday,,Downtown Seattle,,0,,410-sb-Weekday,0,12FEB-Weekday-410s-5
+410,12FEB-Weekday,,Downtown Seattle,,0,,410-sb-Weekday,0,12FEB-Weekday-410s-6
+412,12FEB-Weekday,,Silver Firs,,0,,412-nb-Weekday,0,12FEB-Weekday-412n-0
+412,12FEB-Weekday,,Silver Firs,,0,,412-nb-Weekday,0,12FEB-Weekday-412n-1
+412,12FEB-Weekday,,Silver Firs,,0,,412-nb-Weekday,0,12FEB-Weekday-412n-2
+412,12FEB-Weekday,,Silver Firs,,0,,412-nb-Weekday,0,12FEB-Weekday-412n-3
+412,12FEB-Weekday,,Silver Firs,,0,,412-nb-Weekday,0,12FEB-Weekday-412n-4
+412,12FEB-Weekday,,Silver Firs,,0,,412-nb-Weekday,0,12FEB-Weekday-412n-5
+412,12FEB-Weekday,,Silver Firs,,0,,412-nb-Weekday,0,12FEB-Weekday-412n-6
+412,12FEB-Weekday,,Silver Firs,,0,,412-nb-Weekday,0,12FEB-Weekday-412n-7
+412,12FEB-Weekday,,Silver Firs,,0,,412-nb-Weekday,0,12FEB-Weekday-412n-8
+412,12FEB-Weekday,,Downtown Seattle,,0,,412-sb-Weekday,0,12FEB-Weekday-412s-0
+412,12FEB-Weekday,,Downtown Seattle,,0,,412-sb-Weekday,0,12FEB-Weekday-412s-1
+412,12FEB-Weekday,,Downtown Seattle,,0,,412-sb-Weekday,0,12FEB-Weekday-412s-2
+412,12FEB-Weekday,,Downtown Seattle,,0,,412-sb-Weekday,0,12FEB-Weekday-412s-3
+412,12FEB-Weekday,,Downtown Seattle,,0,,412-sb-Weekday,0,12FEB-Weekday-412s-4
+412,12FEB-Weekday,,Downtown Seattle,,0,,412-sb-Weekday,0,12FEB-Weekday-412s-5
+412,12FEB-Weekday,,Downtown Seattle,,0,,412-sb-Weekday,0,12FEB-Weekday-412s-6
+412,12FEB-Weekday,,Downtown Seattle,,0,,412-sb-Weekday,0,12FEB-Weekday-412s-7
+413,12FEB-Weekday,,Swamp Creek P&R,,0,,413-nb-Weekday,0,12FEB-Weekday-413n-0
+413,12FEB-Weekday,,Swamp Creek P&R,,0,,413-nb-Weekday,0,12FEB-Weekday-413n-1
+413,12FEB-Weekday,,Swamp Creek P&R,,0,,413-nb-Weekday,0,12FEB-Weekday-413n-2
+413,12FEB-Weekday,,Swamp Creek P&R,,0,,413-nb-Weekday,0,12FEB-Weekday-413n-3
+413,12FEB-Weekday,,Swamp Creek P&R,,0,,413-nb-Weekday,0,12FEB-Weekday-413n-4
+413,12FEB-Weekday,,Swamp Creek P&R,,0,,413-nb-Weekday,0,12FEB-Weekday-413n-5
+413,12FEB-Weekday,,Swamp Creek P&R,,0,,413-nb-Weekday,0,12FEB-Weekday-413n-6
+413,12FEB-Weekday,,Swamp Creek P&R,,0,,413-nb-Weekday,0,12FEB-Weekday-413n-7
+413,12FEB-Weekday,,Swamp Creek P&R,,0,,413-nb-Weekday,0,12FEB-Weekday-413n-8
+413,12FEB-Weekday,,Swamp Creek P&R,,0,,413-nb-Weekday,0,12FEB-Weekday-413n-9
+413,12FEB-Weekday,,Downtown Seattle,,0,,413-sb-Weekday,0,12FEB-Weekday-413s-0
+413,12FEB-Weekday,,Downtown Seattle,,0,,413-sb-Weekday,0,12FEB-Weekday-413s-1
+413,12FEB-Weekday,,Downtown Seattle,,0,,413-sb-Weekday,0,12FEB-Weekday-413s-2
+413,12FEB-Weekday,,Downtown Seattle,,0,,413-sb-Weekday,0,12FEB-Weekday-413s-3
+413,12FEB-Weekday,,Downtown Seattle,,0,,413-sb-Weekday,0,12FEB-Weekday-413s-4
+413,12FEB-Weekday,,Downtown Seattle,,0,,413-sb-Weekday,0,12FEB-Weekday-413s-5
+413,12FEB-Weekday,,Downtown Seattle,,0,,413-sb-Weekday,0,12FEB-Weekday-413s-6
+413,12FEB-Weekday,,Downtown Seattle,,0,,413-sb-Weekday,0,12FEB-Weekday-413s-7
+413,12FEB-Weekday,,Downtown Seattle,,0,,413-sb-Weekday,0,12FEB-Weekday-413s-8
+413,12FEB-Weekday,,Downtown Seattle,,0,,413-sb-Weekday,0,12FEB-Weekday-413s-9
+415,12FEB-Weekday,,North Lynnwood,,0,,415-nb-Weekday,0,12FEB-Weekday-415n-0
+415,12FEB-Weekday,,North Lynnwood,,0,,415-nb-Weekday,0,12FEB-Weekday-415n-1
+415,12FEB-Weekday,,North Lynnwood,,0,,415-nb-Weekday,0,12FEB-Weekday-415n-2
+415,12FEB-Weekday,,North Lynnwood,,0,,415-nb-Weekday,0,12FEB-Weekday-415n-3
+415,12FEB-Weekday,,North Lynnwood,,0,,415-nb-Weekday,0,12FEB-Weekday-415n-4
+415,12FEB-Weekday,,North Lynnwood,,0,,415-nb-Weekday,0,12FEB-Weekday-415n-5
+415,12FEB-Weekday,,Downtown Seattle,,0,,415-sb-Weekday,0,12FEB-Weekday-415s-0
+415,12FEB-Weekday,,Downtown Seattle,,0,,415-sb-Weekday,0,12FEB-Weekday-415s-1
+415,12FEB-Weekday,,Downtown Seattle,,0,,415-sb-Weekday,0,12FEB-Weekday-415s-2
+415,12FEB-Weekday,,Downtown Seattle,,0,,415-sb-Weekday,0,12FEB-Weekday-415s-3
+415,12FEB-Weekday,,Downtown Seattle,,0,,415-sb-Weekday,0,12FEB-Weekday-415s-4
+415,12FEB-Weekday,,Downtown Seattle,,0,,415-sb-Weekday,0,12FEB-Weekday-415s-5
+416,12FEB-Weekday,,Edmonds,,0,,416-nb-Weekday,0,12FEB-Weekday-416nv-0
+416,12FEB-Weekday,,Edmonds,,0,,416-nb-Weekday,0,12FEB-Weekday-416nv-1
+416,12FEB-Weekday,,Edmonds,,0,,416-nb-Weekday,0,12FEB-Weekday-416nv-2
+416,12FEB-Weekday,,Edmonds,,0,,416-nb-Weekday,0,12FEB-Weekday-416nv-3
+416,12FEB-Weekday,,Downtown Seattle,,0,,416-sb-Weekday,0,12FEB-Weekday-416sv-0
+416,12FEB-Weekday,,Downtown Seattle,,0,,416-sb-Weekday,0,12FEB-Weekday-416sv-1
+416,12FEB-Weekday,,Downtown Seattle,,0,,416-sb-Weekday,0,12FEB-Weekday-416sv-2
+416,12FEB-Weekday,,Downtown Seattle,,0,,416-sb-Weekday,0,12FEB-Weekday-416sv-3
+417,12FEB-Weekday,,Mukilteo,,0,,417-nb-Weekday,0,12FEB-Weekday-417nv-0
+417,12FEB-Weekday,,Mukilteo,,0,,417-nb-Weekday,0,12FEB-Weekday-417nv-1
+417,12FEB-Weekday,,Mukilteo,,0,,417-nb-Weekday,0,12FEB-Weekday-417nv-2
+417,12FEB-Weekday,,Mukilteo,,0,,417-nb-Weekday,0,12FEB-Weekday-417nv-3
+417,12FEB-Weekday,,Mukilteo,,0,,417-nb-Weekday,0,12FEB-Weekday-417nv-4
+417,12FEB-Weekday,,Downtown Seattle,,0,,417-sb-Weekday,0,12FEB-Weekday-417sv-0
+417,12FEB-Weekday,,Downtown Seattle,,0,,417-sb-Weekday,0,12FEB-Weekday-417sv-1
+417,12FEB-Weekday,,Downtown Seattle,,0,,417-sb-Weekday,0,12FEB-Weekday-417sv-2
+417,12FEB-Weekday,,Downtown Seattle,,0,,417-sb-Weekday,0,12FEB-Weekday-417sv-3
+421,12FEB-Weekday,,Marysville,,0,,421-nb-Weekday,0,12FEB-Weekday-421n-0
+421,12FEB-Weekday,,Marysville,,0,,421-nb-Weekday,0,12FEB-Weekday-421n-1
+421,12FEB-Weekday,,Marysville,,0,,421-nb-Weekday,0,12FEB-Weekday-421n-2
+421,12FEB-Weekday,,Marysville,,0,,421-nb-Weekday,0,12FEB-Weekday-421n-3
+421,12FEB-Weekday,,Marysville,,0,,421-nb-Weekday,0,12FEB-Weekday-421n-4
+421,12FEB-Weekday,,Marysville,,0,,421-nb-Weekday,0,12FEB-Weekday-421n-5
+421,12FEB-Weekday,,Marysville,,0,,421-nb-Weekday,0,12FEB-Weekday-421n-6
+421,12FEB-Weekday,,Marysville,,0,,421-nb-Weekday,0,12FEB-Weekday-421n-7
+421,12FEB-Weekday,,Downtown Seattle,,0,,421-sb-Weekday,0,12FEB-Weekday-421s-0
+421,12FEB-Weekday,,Downtown Seattle,,0,,421-sb-Weekday,0,12FEB-Weekday-421s-1
+421,12FEB-Weekday,,Downtown Seattle,,0,,421-sb-Weekday,0,12FEB-Weekday-421s-2
+421,12FEB-Weekday,,Downtown Seattle,,0,,421-sb-Weekday,0,12FEB-Weekday-421s-3
+421,12FEB-Weekday,,Downtown Seattle,,0,,421-sb-Weekday,0,12FEB-Weekday-421s-4
+421,12FEB-Weekday,,Downtown Seattle,,0,,421-sb-Weekday,0,12FEB-Weekday-421s-5
+421,12FEB-Weekday,,Downtown Seattle,,0,,421-sb-Weekday,0,12FEB-Weekday-421s-6
+422,12FEB-Weekday,,Stanwood,,0,,422-nb-Weekday,0,12FEB-Weekday-422n-0
+422,12FEB-Weekday,,Stanwood,,0,,422-nb-Weekday,0,12FEB-Weekday-422n-1
+422,12FEB-Weekday,,Downtown Seattle,,0,,422-sb-Weekday,0,12FEB-Weekday-422s-0
+422,12FEB-Weekday,,Downtown Seattle,,0,,422-sb-Weekday,0,12FEB-Weekday-422s-1
+424,12FEB-Weekday,,Snohomish,,0,,424-nb-Weekday,0,12FEB-Weekday-424n-0
+424,12FEB-Weekday,,Snohomish,,0,,424-nb-Weekday,0,12FEB-Weekday-424n-1
+424,12FEB-Weekday,,Downtown Seattle,,0,,424-sb-Weekday,0,12FEB-Weekday-424s-0
+424,12FEB-Weekday,,Downtown Seattle,,0,,424-sb-Weekday,0,12FEB-Weekday-424s-1
+425,12FEB-Weekday,,Lake Stevens,,0,,425-nb-Weekday,0,12FEB-Weekday-425n-0
+425,12FEB-Weekday,,Lake Stevens,,0,,425-nb-Weekday,0,12FEB-Weekday-425n-1
+425,12FEB-Weekday,,Lake Stevens,,0,,425-nb-Weekday,0,12FEB-Weekday-425n-2
+425,12FEB-Weekday,,Lake Stevens,,0,,425-nb-Weekday,0,12FEB-Weekday-425n-3
+425,12FEB-Weekday,,Downtown Seatte,,0,,425-sb-Weekday,0,12FEB-Weekday-425s-0
+425,12FEB-Weekday,,Downtown Seatte,,0,,425-sb-Weekday,0,12FEB-Weekday-425s-1
+425,12FEB-Weekday,,Downtown Seatte,,0,,425-sb-Weekday,0,12FEB-Weekday-425s-2
+435,12FEB-Weekday,,Canyon Park,,0,,435-nb-Weekday,0,12FEB-Weekday-435nv-0
+435,12FEB-Weekday,,Canyon Park,,0,,435-nb-Weekday,0,12FEB-Weekday-435nv-1
+435,12FEB-Weekday,,Canyon Park,,0,,435-nb-Weekday,0,12FEB-Weekday-435nv-2
+435,12FEB-Weekday,,Canyon Park,,0,,435-nb-Weekday,0,12FEB-Weekday-435nv-3
+435,12FEB-Weekday,,Canyon Park,,0,,435-nb-Weekday,0,12FEB-Weekday-435nv-4
+435,12FEB-Weekday,,Canyon Park,,0,,435-nb-Weekday,0,12FEB-Weekday-435nv-5
+435,12FEB-Weekday,,Downtown Seattle,,0,,435-sb-Weekday,0,12FEB-Weekday-435sv-0
+435,12FEB-Weekday,,Downtown Seattle,,0,,435-sb-Weekday,0,12FEB-Weekday-435sv-1
+435,12FEB-Weekday,,Downtown Seattle,,0,,435-sb-Weekday,0,12FEB-Weekday-435sv-2
+435,12FEB-Weekday,,Downtown Seattle,,0,,435-sb-Weekday,0,12FEB-Weekday-435sv-3
+435,12FEB-Weekday,,Downtown Seattle,,0,,435-sb-Weekday,0,12FEB-Weekday-435sv-4
+435,12FEB-Weekday,,Downtown Seattle,,0,,435-sb-Weekday,0,12FEB-Weekday-435sv-5
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-0
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-1
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-10
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-11
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-12
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-13
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-14
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-15
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-16
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-17
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-18
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-19
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-2
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-20
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-21
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-22
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-23
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-24
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-25
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-26
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-27
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-28
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-29
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-3
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-30
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-31
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-32
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-33
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-34
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-35
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-36
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-37
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-38
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-39
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-4
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-40
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-41
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-42
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-43
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-44
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-45
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-5
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-6
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-7
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-8
+510,12FEB-Weekday,,Everett,,0,,510-nb-Weekday,0,12FEB-Weekday-510n-9
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-0
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-1
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-10
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-11
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-12
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-13
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-14
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-15
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-16
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-17
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-18
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-19
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-2
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-20
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-21
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-22
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-23
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-24
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-25
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-26
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-27
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-28
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-29
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-3
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-30
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-31
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-32
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-33
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-34
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-35
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-36
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-37
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-38
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-39
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-4
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-40
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-41
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-5
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-6
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-7
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-8
+510,12FEB-Weekday,,Downtown Seattle,,0,,510-sb-Weekday,0,12FEB-Weekday-510s-9
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-0
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-1
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-10
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-11
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-12
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-13
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-14
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-15
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-16
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-17
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-18
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-19
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-2
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-20
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-21
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-22
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-23
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-24
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-25
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-26
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-27
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-28
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-29
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-3
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-30
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-31
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-32
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-33
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-34
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-35
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-36
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-37
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-38
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-39
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-4
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-40
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-41
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-42
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-43
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-44
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-45
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-46
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-47
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-48
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-49
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-5
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-50
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-51
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-52
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-53
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-54
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-55
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-56
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-57
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-58
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-59
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-6
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-60
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-61
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-7
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-8
+511,12FEB-Weekday,,Ash Way Park & Ride,,0,,511-nb-Weekday,0,12FEB-Weekday-511n-9
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-0
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-1
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-10
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-11
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-12
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-13
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-14
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-15
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-16
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-17
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-18
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-19
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-2
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-20
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-21
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-22
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-23
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-24
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-25
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-26
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-27
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-28
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-29
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-3
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-30
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-31
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-32
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-33
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-34
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-35
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-36
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-37
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-38
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-39
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-4
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-40
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-41
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-42
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-43
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-44
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-45
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-46
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-47
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-48
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-49
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-5
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-50
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-51
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-52
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-53
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-54
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-55
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-56
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-57
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-58
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-59
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-6
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-60
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-61
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-62
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-7
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-8
+511,12FEB-Weekday,,Downtown Seattle,,0,,511-sb-Weekday,0,12FEB-Weekday-511s-9
+513,12FEB-Weekday,,Everett,,0,,513-nb-Weekday,0,12FEB-Weekday-513n-0
+513,12FEB-Weekday,,Everett,,0,,513-nb-Weekday,0,12FEB-Weekday-513n-1
+513,12FEB-Weekday,,Everett,,0,,513-nb-Weekday,0,12FEB-Weekday-513n-2
+513,12FEB-Weekday,,Everett,,0,,513-nb-Weekday,0,12FEB-Weekday-513n-3
+513,12FEB-Weekday,,Everett,,0,,513-nb-Weekday,0,12FEB-Weekday-513n-4
+513,12FEB-Weekday,,Downtown Seattle,,0,,513-sb-Weekday,0,12FEB-Weekday-513s-0
+513,12FEB-Weekday,,Downtown Seattle,,0,,513-sb-Weekday,0,12FEB-Weekday-513s-1
+513,12FEB-Weekday,,Downtown Seattle,,0,,513-sb-Weekday,0,12FEB-Weekday-513s-2
+513,12FEB-Weekday,,Downtown Seattle,,0,,513-sb-Weekday,0,12FEB-Weekday-513s-3
+513,12FEB-Weekday,,Downtown Seattle,,0,,513-sb-Weekday,0,12FEB-Weekday-513s-4
+513,12FEB-Weekday,,Downtown Seattle,,0,,513-sb-Weekday,0,12FEB-Weekday-513s-5
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-0
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-1
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-10
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-11
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-12
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-13
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-14
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-15
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-16
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-17
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-18
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-19
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-2
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-20
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-21
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-22
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-23
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-24
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-25
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-26
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-27
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-28
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-29
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-3
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-30
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-31
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-32
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-33
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-34
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-35
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-36
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-37
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-38
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-39
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-4
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-40
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-41
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-42
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-43
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-44
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-45
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-46
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-47
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-48
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-49
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-5
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-50
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-51
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-52
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-53
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-6
+532,12FEB-Weekday,,Lynnwood/Everett,,0,,532-nb-Weekday,0,12FEB-Weekday-532nb-7
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-8
+535,12FEB-Weekday,,Lynnwood/Everett,,0,,535-nb-Weekday,0,12FEB-Weekday-532nb-9
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-0
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-1
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-10
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-11
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-12
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-13
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-14
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-15
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-16
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-17
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-18
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-19
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-2
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-20
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-21
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-22
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-23
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-24
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-25
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-26
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-27
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-28
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-29
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-3
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-30
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-31
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-32
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-33
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-34
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-35
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-36
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-37
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-38
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-39
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-4
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-40
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-41
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-42
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-43
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-44
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-45
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-46
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-47
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-48
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-49
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-5
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-50
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-51
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-6
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-7
+532,12FEB-Weekday,,Bellevue Transit Center,,0,,532-sb-Weekday,0,12FEB-Weekday-532sb-8
+535,12FEB-Weekday,,Bellevue Transit Center,,0,,535-sb-Weekday,0,12FEB-Weekday-532sb-9
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-0
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-1
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-10
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-11
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-12
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-13
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-14
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-15
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-16
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-17
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-18
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-19
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-2
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-20
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-21
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-22
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-23
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-24
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-25
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-26
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-27
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-28
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-29
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-3
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-30
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-31
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-32
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-33
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-34
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-35
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-36
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-37
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-38
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-39
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-4
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-40
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-41
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-42
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-43
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-44
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-45
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-46
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-47
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-48
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-49
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-5
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-50
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-51
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-52
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-53
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-54
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-55
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-56
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-57
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-58
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-59
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-6
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-60
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-61
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-62
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-63
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-64
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-65
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-66
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-67
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-68
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-69
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-7
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-70
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-71
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-72
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-73
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-74
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-75
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-76
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-8
+701,12FEB-Weekday,,Everett Swift Station,,0,,701-nb-Weekday,0,12FEB-Weekday-701n-9
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-0
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-1
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-10
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-11
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-12
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-13
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-14
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-15
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-16
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-17
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-18
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-19
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-2
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-20
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-21
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-22
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-23
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-24
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-25
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-26
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-27
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-28
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-29
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-3
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-30
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-31
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-32
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-33
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-34
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-35
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-36
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-37
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-38
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-39
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-4
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-40
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-41
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-42
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-43
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-44
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-45
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-46
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-47
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-48
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-49
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-5
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-50
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-51
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-52
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-53
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-54
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-55
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-56
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-57
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-58
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-59
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-6
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-60
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-61
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-62
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-63
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-64
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-65
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-66
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-67
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-68
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-69
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-7
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-70
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-71
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-72
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-73
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-74
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-75
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-76
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-8
+701,12FEB-Weekday,,Aurora Village Transit Center,,0,,701-sb-Weekday,0,12FEB-Weekday-701s-9
+885,12FEB-Weekday,,North Lynnwood/Mukilteo,,0,,885-nb-Weekday,0,12FEB-Weekday-880-5n-0
+880,12FEB-Weekday,,North Lynnwood/Mukilteo,,0,,880-nb-Weekday,0,12FEB-Weekday-880-5n-1
+880,12FEB-Weekday,,North Lynnwood/Mukilteo,,0,,880-nb-Weekday,0,12FEB-Weekday-880-5n-2
+880,12FEB-Weekday,,North Lynnwood/Mukilteo,,0,,880-nb-Weekday,0,12FEB-Weekday-880-5n-3
+885,12FEB-Weekday,,North Lynnwood/Mukilteo,,0,,885-nb-Weekday,0,12FEB-Weekday-880-5n-4
+880,12FEB-Weekday,,North Lynnwood/Mukilteo,,0,,880-nb-Weekday,0,12FEB-Weekday-880-5n-5
+880,12FEB-Weekday,,North Lynnwood/Mukilteo,,0,,880-nb-Weekday,0,12FEB-Weekday-880-5n-6
+885,12FEB-Weekday,,University District,,0,,885-sb-Weekday,0,12FEB-Weekday-880-5s-0
+880,12FEB-Weekday,,University District,,0,,880-sb-Weekday,0,12FEB-Weekday-880-5s-1
+880,12FEB-Weekday,,University District,,0,,880-sb-Weekday,0,12FEB-Weekday-880-5s-2
+880,12FEB-Weekday,,University District,,0,,880-sb-Weekday,0,12FEB-Weekday-880-5s-3
+880,12FEB-Weekday,,University District,,0,,880-sb-Weekday,0,12FEB-Weekday-880-5s-4
+880,12FEB-Weekday,,University District,,0,,880-sb-Weekday,0,12FEB-Weekday-880-5s-5
+880,12FEB-Weekday,,University District,,0,,880-sb-Weekday,0,12FEB-Weekday-880-5s-6
+880,12FEB-Weekday,,University District,,0,,880-sb-Weekday,0,12FEB-Weekday-880-5s-7

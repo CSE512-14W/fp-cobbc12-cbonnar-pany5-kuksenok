@@ -1,0 +1,50 @@
+agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color,route_bikes_allowed,route_id
+PT,1,6th Ave / Pacific Ave,,3,,,,0,1-140
+PT,10,Pearl Street,,3,,,,0,10-140
+PT,100,Purdy Gig Harbor TCC,,3,,,,0,100-140
+PT,102,Purdy Gig Harbor Tacoma Express,,3,,,,0,102-140
+PT,11,Pt. Defiance,,3,,,,0,11-140
+PT,13,N. 30th Street,,3,,,,0,13-140
+PT,14,N.Proctor Distric,,3,,,,0,14-140
+PT,16,UPS- TCC,,3,,,,0,16-140
+PT,2,Bridgeport/S. 19th ST.,,3,,,,0,2-140
+PT,202,72nd Street,,3,,,,0,202-140
+PT,204,Lakewood/Parkland,,3,,,,0,204-140
+PT,206,Ft. Lewis,,3,,,,0,206-140
+PT,212,Steilacoom,,3,,,,0,212-140
+PT,214,Washington,,3,,,,0,214-140
+PT,28,S 12TH ST,,3,,,,0,28-140
+PT,3,Lakewood,,3,,,,0,3-140
+PT,300,S Tacoma Way,,3,,,,0,300-140
+PT,400,SHill/Tacoma,,3,,,,0,400-140
+PT,402,Meridian/Federal Way/Graham/SR 7,,3,,,,0,402-140
+PT,409,Stewart Ave/Main Ave,,3,,,,0,409-140
+PT,41,Portland Ave,,3,,,,0,41-140
+PT,410,112th St,,3,,,,0,410-140
+PT,42,McKinley Ave,,3,,,,0,42-140
+PT,45,Yakima,,3,,,,0,45-140
+PT,48,Sheridan M St,,3,,,,0,48-140
+PT,495,Puyallup Station,,3,,,,0,495-140
+PT,496,Sounder Connector,,3,,,,0,496-140
+PT,497,Lakeland Hill connector,,3,,,,0,497-140
+PT,500,Federal Way,,3,,,,0,500-140
+PT,501,Milton-Federal Way,,3,,,,0,501-140
+PT,51,Union Ave,,3,,,,0,51-140
+PT,52,TCC Tac Mall,,3,,,,0,52-140
+PT,53,University Place,,3,,,,0,53-140
+PT,54,38th St,,3,,,,0,54-140
+PT,55,Parkland Tac Mall,,3,,,,0,55-140
+PT,56,56th St,,3,,,,0,56-140
+ST,566,Auburn-Overlake,,3,,,,0,566-140
+PT,57,Tacoma Mall,,3,,,,0,57-140
+ST,574,Lakewood/Tacoma/SeaTac Airport,,3,,,,0,574-140
+ST,577,FederalWay-Seattle,,3,,,,0,577-140
+ST,578,Seattle/Puyallup,,3,,,,0,578-140
+ST,586,Tacoma - UW Seattle Campus,,3,,,,0,586-140
+ST,590,590x Seattle Express,,3,,,,0,590-140
+ST,592,592x  Seattle Express,,3,,,,0,592-140
+ST,593,593x Seattle Express,,3,,,,0,593-140
+ST,594,594x Seattle Express,,3,,,,0,594-140
+ST,595,595x Seattle Express,,3,,,,0,595-140
+PT,62,N.E Tacoma,,3,,,,0,62-140
+PT,shut,Shuttle,,3,,,,0,shut-140

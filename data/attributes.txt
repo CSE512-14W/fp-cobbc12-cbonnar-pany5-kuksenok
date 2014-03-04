@@ -1,0 +1,1 @@
+block_agencyId	block_id	distanceAlongBlock	distanceAlongTrip	locationLat	locationLon	orientation	phase	scheduleDeviation	serviceDate	status	time	timepoint_agencyId	timepoint_id	timepointPredictedTime	timepointScheduledTime	trip_agencyId	trip_id	vehicle_agencyId	vehicle_id

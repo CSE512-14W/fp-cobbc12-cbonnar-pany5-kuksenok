@@ -1,0 +1,7 @@
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+11OCT-MVS-SAT-Saturday-04,0,0,0,0,0,1,0,20120204,20120218
+11OCT-MVS-SUN-Sunday-04,0,0,0,0,0,0,1,20120205,20120212
+11OCT-MVS-WKD-Weekday-05,1,1,1,1,1,0,0,20120202,20120217
+12FEB-MVS-SAT-Saturday-03,0,0,0,0,0,1,0,20120225,20120609
+12FEB-MVS-SUN-Sunday-03,0,0,0,0,0,0,1,20120219,20120603
+12FEB-MVS-WKD-Weekday-03,1,1,1,1,1,0,0,20120220,20120608

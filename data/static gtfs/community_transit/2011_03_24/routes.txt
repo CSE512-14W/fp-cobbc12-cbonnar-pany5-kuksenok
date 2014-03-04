@@ -1,0 +1,54 @@
+agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color,route_id
+29,101,Mariner P&R - Aurora Village,,3,,,,101
+29,105,Mariner P&R - Bothell,,3,,,,105
+29,106,Canyon Park - Bothell,,3,,,,106
+29,110,Edmonds - Lynnwood,,3,,,,110
+29,111,Brier - Mountlake Terrace,,3,,,,111
+29,112,Edmonds CC - Lynnwood,,3,,,,112
+29,113,Mukilteo - Lynnwood,,3,,,,113
+29,115,Edmonds CC - Mill Creek,,3,,,,115
+29,116,Edmonds - Silver Firs,,3,,,,116
+29,118,Lynnwood - Aurora Village,,3,,,,118
+29,119,Ash Way - Lynnwood,,3,,,,119
+29,120,Lynnwood - Canyon Park,,3,,,,120
+29,121,Canyon Park - Bothell,,3,,,,121
+29,130,Lynnwood - Aurora Village,,3,,,,130
+29,131,Aurora Village - Edmonds CC,,3,,,,131
+29,190,Mukilteo - Edmonds CC,,3,,,,190
+29,201,Smokey Point - Lynnwood,,3,,,,201
+29,202,Smokey Point - Lynnwood,,3,,,,202
+29,221,Quil Ceda-Lake Stevens,,3,,,,221
+29,222,Tulalip - Marysville,,3,,,,222
+29,227,Arlington - Boeing,,3,,,,227
+29,230,Darrington - Smokey Point,,3,,,,230
+29,240,Stanwood - Arlington,,3,,,,240
+29,247,Stanwood - Boeing,,3,,,,247
+29,270,Everett - Gold Bar,,3,,,,270
+29,271,Everett - Gold Bar,,3,,,,271
+29,275,Everett - Monroe,,3,,,,275
+29,277,Boeing - Gold Bar,,3,,,,277
+29,280,Everett - Granite Falls,,3,,,,280
+29,401,Lynnwood - Seattle,,3,,,,401
+29,402,Lynnwood - Seattle,,3,,,,402
+29,405,Edmonds - Seattle,,3,,,,405
+29,406,Edmonds - Seattle,,3,,,,406
+29,410,Mariner P&R - Seattle,,3,,,,410
+29,412,Silver Firs - Seattle,,3,,,,412
+29,413,Swamp Creek P&R - Seattle,,3,,,,413
+29,414,McCollum Park P&R - Seattle,,3,,,,414
+29,415,North Lynnwood - Seattle,,3,,,,415
+29,416,Edmonds - Seattle,,3,,,,416
+29,417,Mukilteo - Seattle,,3,,,,417
+29,421,Marysville - Seattle,,3,,,,421
+29,422,Stanwood - Seattle,,3,,,,422
+29,424,Snohomish - Seattle,,3,,,,424
+29,425,Lake Stevens - Seattle,,3,,,,425
+29,435,Mays Pond - Seattle,,3,,,,435
+29,,Swift,,3,,,,701
+29,810,McCollum Park P&R - University District,,3,,,,810
+29,821,Marysville - University District,,3,,,,821
+29,855,Lynnwood - University District,,3,,,,855
+29,860,McCollum Park P&R - University District,,3,,,,860
+29,871,Edmonds - University District,,3,,,,871
+29,880,Mukilteo - University District,,3,,,,880
+29,885,North Lynnwood - University District,,3,,,,885

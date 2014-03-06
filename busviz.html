@@ -5,6 +5,8 @@
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
 <link rel="stylesheet" href="vizstyle.css" />
 <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+<script src="map.js"></script>
+<script src="AnimatedMarker.js"></script>
 </head>
 <body>
 
@@ -12,30 +14,9 @@
 	 
 	 <script>
 	 
-	 var southWest = L.latLng(47.212893,-122.821655),
-	 	northEast = L.latLng(47.789027,-121.773834),
-	 	bounds = L.latLngBounds(southWest, northEast);
-	 	
-	 var map = L.map('map', { maxBounds: bounds}).setView([47.606209, -122.332071], 12),
-	 	 cloudmadeUrl = 'http://{s}.tile.cloudmade.com/af71292a98e943fe976cf463d4cbd82e/{styleId}@2x/256/{z}/{x}/{y}.png',
-	 	 cloudmadeAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade';
-	 	 
-	 	
-	 var day   = L.tileLayer(cloudmadeUrl, {styleId: 123649, attribution: cloudmadeAttribution, minZoom: 12, maxZoom: 12}),
-	 	 night  = L.tileLayer(cloudmadeUrl, {styleId: 33332,   attribution: cloudmadeAttribution, minZoom: 12, maxZoom: 12}),
-	 	 minimal = L.tileLayer(cloudmadeUrl, {styleId: 123647, attribution: cloudmadeAttribution, minZoom: 12, maxZoom: 12});
-	 
-
-	 var baseMaps = {
-		 "Day": day,
-		 "Night": night
-	};
-
-	var overlayMaps = {
-    	"Minimal": minimal
-	};
-	day.addTo(map);
-	L.control.layers(baseMaps, overlayMaps).addTo(map);
+	 initializeMap();
+	
+	
 	 
 	 </script>
 	 

@@ -1,3 +1,0 @@
-service_id,date,exception_type
-SU,20120528,1
-WD,20120528,2

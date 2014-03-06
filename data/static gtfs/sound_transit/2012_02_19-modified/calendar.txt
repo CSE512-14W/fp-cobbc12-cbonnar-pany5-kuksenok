@@ -1,4 +1,0 @@
-service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
-SA,0,0,0,0,0,1,0,20120219,20120609
-SU,0,0,0,0,0,0,1,20120219,20120609
-WD,1,1,1,1,1,0,0,20120219,20120609

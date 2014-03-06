@@ -1,8 +1,0 @@
-route_id,route_short_name,route_long_name,route_desc,route_type,route_color
-CA,,SCH-Church,,3,
-E1,,SCH-E1,,3,
-GRN,,SCH-Green,,3,
-MP,,SCH-Magnuson,,3,
-ORG,,SCH-Orange,,3,
-PRK,,SCH-Loop,,3,
-PUR,,SCH-Purple,,3,

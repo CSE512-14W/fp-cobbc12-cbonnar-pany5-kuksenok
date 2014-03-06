@@ -1,5 +1,0 @@
-service_id,date,exception_type
-WD,20111124,2
-SU,20111124,1
-WD,20120116,2
-SU,20120116,1

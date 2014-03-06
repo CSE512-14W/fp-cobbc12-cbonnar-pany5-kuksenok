@@ -1,2 +1,0 @@
-service_id,start_date,end_date,sunday,monday,tuesday,wednesday,thursday,friday,saturday
-SCH-WKDY,20110124,20201231,0,1,1,1,1,1,0

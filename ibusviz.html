@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Transit Trails</title>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+<link rel="stylesheet" href="vizstyle.css" />
+<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+<script src="map.js"></script>
+<script src="AnimatedMarker.js"></script>
+<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/dot-luv/jquery-ui.css" />
+
+</head>
+<body>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> 
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js" type="text/javascript"></script>
+
+<h1>Transit Trails</h1>
+<p>Use this app to explore overall public transit congestion in the Seattle area. For example, below we are showing
+congestion on a Monday in December 2010 (on the left) and congenstion on a Monday in March 2012 (on the right).</p>
+
+<div id="controlsA">
+  <div id="dayA">
+    <input type="radio" id="dayA1" name="dayA"><label for="radio1">Choice 1</label>
+    <input type="radio" id="dayA2" name="dayA" checked="checked"><label for="radio2">Choice 2</label>
+    <input type="radio" id="dayA3" name="dayA"><label for="radio3">Choice 3</label>
+  </div>
+	<div id="mapA" class="map">Map1 goes here</div>
+</div>
+<div id="controlsB">
+  <div id="dayA">
+    <input type="radio" id="dayB1" name="dayB"><label for="radio1">Choice 1</label>
+    <input type="radio" id="dayB2" name="dayB" checked="checked"><label for="radio2">Choice 2</label>
+    <input type="radio" id="dayB3" name="dayB"><label for="radio3">Choice 3</label>
+  </div>
+	<div id="mapB" class="map">Map2 goes here</div>
+</div>
+<div id="controlsC">
+	<div id="slider1">
+		<div id="slider-range"></div>
+		<div id="startTime"></div>
+		<div id="endTime"></div>
+	</div>
+
+	<div id="slider2">
+		<em>You can select a second timespan, and compare congestion during different times of day, if you select the same day.</em>
+	</div>
+
+	<div id="explain">A natural language explanation goes here.
+		If pre/post: "the weather on these two Mondays is similar. There was 0.03 mroe precipitation in March (going from .13 to .16) and it was 5 degrees warmer (going from 40 to45) but here were no outstanding adverse conditions.
+	</div>
+</div>
+
+<script>
+//initializeMap();
+</script>
+
+
+<script type="text/javascript">
+  $(function() {
+    $( "#dayA" ).buttonset();
+  });
+  $(function() {
+    $( "#dayB" ).buttonset();
+  });
+	$("#slider-range").slider({
+		range: true,
+		min: 0,
+		max: 2879,
+		values: [540, 1020],
+		step:5,
+		slide: slideTime
+	});
+	function slideTime(event, ui){
+    var val0 = $("#slider-range").slider("values", 0),
+        val1 = $("#slider-range").slider("values", 1),
+        minutes0 = parseInt(val0 % 60, 10),
+        hours0 = parseInt(val0 / 60 % 24, 10),
+        minutes1 = parseInt(val1 % 60, 10),
+        hours1 = parseInt(val1 / 60 % 24, 10);
+    $("#startTime").text(hours0 + ":" + minutes0);
+	$("#endTime").text(hours1 + ":" + minutes1);
+}
+slideTime();
+
+</script>
+</body>
+</html>

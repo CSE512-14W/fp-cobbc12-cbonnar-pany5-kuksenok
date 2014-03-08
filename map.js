@@ -1,20 +1,12 @@
-var DEFAULT_ZOOM = 11;
-var MAX_ZOOM = 11;
-var count = 0;
-var testRoute = new Array();
+var DEFAULT_ZOOM = 13;
+var MAX_ZOOM = 16;
+var DOT_SIZE = 10;
+var markers = new Array();
+var first = 0;
 
-testRoute[0] = [[47.679114,-122.321777],
-    			[47.654143,-122.320404],
-				[47.621756,-122.325897],
-				[47.597685,-122.33139],
-				[47.571749,-122.33963],
-				[47.513346,-122.33139]];
-				
-testRoute[1] = [-360, 60, -6000, 0, 720, -45];
-    
-    
 function initializeMap(){
-	
+
+
 	var southWest = L.latLng(47.212893,-122.821655),
 	 	northEast = L.latLng(47.789027,-121.773834),
 	 	bounds = L.latLngBounds(southWest, northEast);
@@ -37,49 +29,53 @@ function initializeMap(){
 	var overlayMaps = {
     	"Minimal": minimal
 	};
-	day.addTo(map);
+	night.addTo(map);
 	L.control.layers(baseMaps, overlayMaps).addTo(map);
+	
+	/*map.on('zoomend', function() {
+		if (map.getZoom() <= 14){
+			dot_size = 60;
+		}
+		else if (map.getZoom() == 15) {
+			dot_size = 40;
+		}
+		else{
+			dot_size = 20;
+		}
+		drawDots(map);
+	});*/
+	
+	drawDots(map);
 
-	//Reference for animated markers: https://github.com/openplans/Leaflet.AnimatedMarker
-	var line = L.polyline(testRoute[0]),
-    animatedMarker = L.animatedMarker(line.getLatLngs(), {distance: 300, interval: 2000,});
-    var latLngs = new Array();
-    
-    console.log(testRoute[0][0][0]);
-    for (var i = 0; i<testRoute[0].length; i++){
-    	
-	    latLngs[i] = new L.latLng(testRoute[0][i][0], testRoute[0][i][1]);
-    }
-	var path = new L.Polyline(latLngs, {color: "purple", opacity: 1.0});
-	map.addLayer(animatedMarker);
-	animatedMarker.start();
-	map.addLayer(path);
-	//To convert Unix time to Date
+/*
+		//To convert Unix time to Date
 	//new Date(1324123199*1000).toString()
 	
-	//Setting up a timer to draw parts of the route dynamically
-	/*
-	var id = setInterval(
-	function (){
-		var route = [];
-		var lineOpacity = .5;
-		var pointA = new L.latLng(testRoute[count][0], testRoute[count][1]);
-		var pointB = new L.latLng(testRoute[count+1][0], testRoute[count+1][1]);
-		var newLine = [pointA, pointB];
-		var line = new L.Polyline(newLine, {color: "purple", opacity: lineOpacity});
-		route.push(line);
-		var point = new L.Circle(pointB, 100, {color: "red", opacity: lineOpacity});
-		
-		
-		map.addLayer(line);
-		map.addLayer(point);
-		count = count + 1;
-		if (count == testRoute.length)
-			clearInterval(id);
-	}
-	, 1000);
-	
 */
+}
+
+function drawDots(map){
+	var outlineColor = 'red';
+	var fillColor = '#f03';
+	var opacity = 1;
+	for (var i = 0; i<testRoute[0].length; i++){
+		if (testRoute[1][i] < -60) {
+			outlineColor = 'red';
+			fillColor = '#f03';
+		} else {
+			outlineColor = 'green';
+			fillColor = '#33FF00';
+		} 
+		var circle = L.circle(testRoute[0][i], DOT_SIZE, {
+    		color: outlineColor,
+			fillColor: fillColor,
+			fillOpacity: opacity});
+		circle.bindPopup("<b>Hello world!</b><br />I am a popup.");
+		markers.push(circle);
+	}
+	var currentMarks = L.layerGroup(markers);
+	currentMarks.addTo(map);
+	first = 1;
 }
 
 

@@ -4,59 +4,83 @@
 <title>Transit Trails</title>
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
 <link rel="stylesheet" href="vizstyle.css" />
+<link href='http://fonts.googleapis.com/css?family=Alef' rel='stylesheet' type='text/css'>
 <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
 <script src="map.js"></script>
-<script src="AnimatedMarker.js"></script>
-<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/dot-luv/jquery-ui.css" />
-
-</head>
-<body>
-
+<script src="sample.js"></script>
+<link rel="stylesheet" type="text/css" href="jquery-ui.css" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> 
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js" type="text/javascript"></script>
+</head>
 
-<h1>Transit Trails</h1>
-<p>Use this app to explore overall public transit congestion in the Seattle area. For example, below we are showing
-congestion on a Monday in December 2010 (on the left) and congenstion on a Monday in March 2012 (on the right).</p>
+<body>
 
-<div id="controlsA">
-  <div id="dayA">
-    <input type="radio" id="dayA1" name="dayA"><label for="radio1">Choice 1</label>
-    <input type="radio" id="dayA2" name="dayA" checked="checked"><label for="radio2">Choice 2</label>
-    <input type="radio" id="dayA3" name="dayA"><label for="radio3">Choice 3</label>
-  </div>
-	<div id="mapA" class="map">Map1 goes here</div>
-</div>
-<div id="controlsB">
-  <div id="dayA">
-    <input type="radio" id="dayB1" name="dayB"><label for="radio1">Choice 1</label>
-    <input type="radio" id="dayB2" name="dayB" checked="checked"><label for="radio2">Choice 2</label>
-    <input type="radio" id="dayB3" name="dayB"><label for="radio3">Choice 3</label>
-  </div>
-	<div id="mapB" class="map">Map2 goes here</div>
-</div>
-<div id="controlsC">
-	<div id="slider1">
+<div class= "controls">
+<img src = "Ttrails.png" align=center style = " height:5em; vertical-align:middle;">
+<p align=center>Use this app to explore overall public transit congestion in the Seattle area. For example, below we are showing
+congestion on a Monday in December 2011 (on the left) and congestion on a Monday in March 2012 (on the right).</p>
+
+<div class="container">
+<div class="left_div" id="controlsA" style="float:left;">
+    <input type="radio" id="dayA1" name="dayA" onclick="changeDay(1,0)"><label for="radio1" checked>December 2011 (Monday)</label>
+    <input type="radio" id="dayA2" name="dayA" onclick="changeDay(1,1)"><label for="radio2">March 2012 (Monday)</label>
+	<br>
+	<div id="map1"><script>initializeMap(1, 0);</script></div>
+	<br>
+	<div class="slider_container" id = "slider1">
+	<div class = "slider_labels">
+		<div id = "left_label">Start time: <div id = "startTime" style="color: red; font-size: 14pt;"></div></div>
+		<div id = "right_label">End time: <div id="endTime" style="color: red; font-size: 14pt;"></div></div>
+		<br><br>
 		<div id="slider-range"></div>
-		<div id="startTime"></div>
-		<div id="endTime"></div>
 	</div>
-
-	<div id="slider2">
-		<em>You can select a second timespan, and compare congestion during different times of day, if you select the same day.</em>
-	</div>
-
-	<div id="explain">A natural language explanation goes here.
-		If pre/post: "the weather on these two Mondays is similar. There was 0.03 mroe precipitation in March (going from .13 to .16) and it was 5 degrees warmer (going from 40 to45) but here were no outstanding adverse conditions.
-	</div>
+	<br>
+	<button type="button" style="float: right;" onclick="filterByTime(parseInt(hours0), parseInt(minutes0), parseInt(hours1), parseInt(minutes1), 1);">Set Time</button>
 </div>
 
-<script>
-//initializeMap();
-</script>
+</div>
 
+<div class="right_div" id="controlsB" style="float:left;">
+    <input type="radio" id="dayB1" name="dayB" onclick="changeDay(2,0)"><label for="radio1">December 2011 (Monday)</label>
+    <input type="radio" id="dayB2" name="dayB" onclick="changeDay(2,1)" checked><label for="radio2">March 2012 (Monday)</label>
+	<br>
+	<div id="map2"><script>initializeMap(2, 1);</script></div>
+	<br>
+	<div class="slider_container" id = "slider2">
+	
+	<div class = "slider_labels">
+		<div id = "left_label">Start time: <div id = "startTime2" style="color: red; font-size: 14pt;"></div></div>
+		<div id = "right_label">End time: <div id="endTime2" style="color: red; font-size: 14pt;"></div></div>
+		<br><br>
+		<div id="slider-range2"></div>
+	</div>
+	<!-- 
+		<em>You can select a second timespan, and compare congestion during different times of day, if you select the same day.</em>
+	
+	-->
+	<br>
+	<button type="button" style="float: right;" onclick="filterByTime(parseInt(hours2), parseInt(minutes2), parseInt(hours3), parseInt(minutes3), 2);">Set Time</button>
+</div>
+</div>
+<div class"clear"></div>
+</div>
+<div id="explain" align= center> Select the time interval for which you wish to see bus locations. Drag the left handle to set the beginning of the time interval. Drag the right handle to set the end of the interval. Times are in 24-hour time PST.
+	
+	<!--A natural language explanation goes here.
+		If pre/post: "the weather on these two Mondays is similar. There was 0.03 more precipitation in March (going from .13 to .16) and it was 5 degrees warmer (going from 40 to45) but here were no outstanding adverse conditions. -->
+	</div><br>
+
+</div>
 
 <script type="text/javascript">
+	var minutes0 = 0,
+		minutes1 = 0,
+		hours0 = 9,
+		hours1 = 17,
+		minutes2 = 0,
+		minutes3 = 0,
+		hours2 = 9,
+		hours3 = 17;
   $(function() {
     $( "#dayA" ).buttonset();
   });
@@ -66,20 +90,49 @@ congestion on a Monday in December 2010 (on the left) and congenstion on a Monda
 	$("#slider-range").slider({
 		range: true,
 		min: 0,
-		max: 2879,
+		max: 1435,
+		values: [540, 1020],
+		step:5,
+		slide: slideTime
+	});
+	$("#slider-range2").slider({
+		range: true,
+		min: 0,
+		max: 1435,
 		values: [540, 1020],
 		step:5,
 		slide: slideTime
 	});
 	function slideTime(event, ui){
     var val0 = $("#slider-range").slider("values", 0),
-        val1 = $("#slider-range").slider("values", 1),
-        minutes0 = parseInt(val0 % 60, 10),
-        hours0 = parseInt(val0 / 60 % 24, 10),
-        minutes1 = parseInt(val1 % 60, 10),
-        hours1 = parseInt(val1 / 60 % 24, 10);
+        val1 = $("#slider-range").slider("values", 1);
+        
+    minutes0 = parseInt(val0 % 60, 10);
+    hours0 = parseInt(val0 / 60 % 24, 10);
+    minutes1 = parseInt(val1 % 60, 10);
+    hours1 = parseInt(val1 / 60 % 24, 10);
+        
+    if (minutes0 < 10)
+    	minutes0 = '0'.concat(minutes0);
+    if (minutes1 < 10)
+    	minutes1 = '0'.concat(minutes1);
     $("#startTime").text(hours0 + ":" + minutes0);
 	$("#endTime").text(hours1 + ":" + minutes1);
+	
+	var val2 = $("#slider-range2").slider("values", 0),
+        val3 = $("#slider-range2").slider("values", 1);
+        
+    minutes2 = parseInt(val2 % 60, 10);
+    hours2 = parseInt(val2 / 60 % 24, 10);
+    minutes3 = parseInt(val3 % 60, 10);
+    hours3 = parseInt(val3 / 60 % 24, 10);
+        
+    if (minutes2 < 10)
+    	minutes2 = '0'.concat(minutes2);
+    if (minutes3 < 10)
+    	minutes3 = '0'.concat(minutes3);
+    $("#startTime2").text(hours2 + ":" + minutes2);
+	$("#endTime2").text(hours3 + ":" + minutes3);
 }
 slideTime();
 

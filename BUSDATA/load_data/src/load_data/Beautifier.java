@@ -28,6 +28,8 @@ public class Beautifier {
         route_where = "(\"" + route_where + "\")";
         
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/bus2?user=root&password=");
+        Schedule.init(conn);
+        
         PreparedStatement ps = conn.prepareStatement("SELECT route_short_name, trip_id, service, trips.gtfs_data FROM trips, route WHERE trips.route_id=route.route_id AND trips.gtfs_data=route.gtfs_data AND route_short_name IN " + route_where);
         
         ResultSet rs = ps.executeQuery();
@@ -47,7 +49,7 @@ public class Beautifier {
                     tripFilter.put(gtfs_data, list);
                 }
                 list.add(trip_id);
-                tripData.put(trip_id, new TripInfo(route_short_name, service, trip_id));
+                tripData.put(trip_id, new TripInfo(route_short_name, service, trip_id, gtfs_data));
             } while(rs.next());
         }
         
@@ -70,10 +72,11 @@ class TripInfo {
     String service;
     int trip_id;
     String gtfs_data;
-    public TripInfo(String short_name, String service, int trip_id) {
+    public TripInfo(String short_name, String service, int trip_id, String gtfs_data) {
         this.short_name = short_name;
         this.service = service;
         this.trip_id = trip_id;
+        this.gtfs_data = gtfs_data;
     }
 }
 
@@ -123,6 +126,7 @@ class Schedule {
                 t.stop_id = Integer.parseInt(parts[2]);
                 t.arrival_hr = Integer.parseInt(time[0]);
                 t.arrival_min = Integer.parseInt(time[1]);
+                t.ri = tripInfo.get(trip_id);
                 result += t.write();
             }
            // t.stop_id = Integer.parseInt(parts[2]);

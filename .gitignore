@@ -12,3 +12,4 @@ dbproc/build/classes/dbproc/Stop.class
 dbproc/build/classes/dbproc/Dbproc.class
 dbproc/manifest.mf
 BUSDATA/DATA/*
+/BUSDATA/load_data/build/

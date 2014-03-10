@@ -31,14 +31,9 @@ public class Load_data {
             System.out.println("Added stops for " + gtfs_date + " : " + Stop.pushFromGtfsFile("../DATA/" + gtfs_date + " stops.txt", gtfs_date));
             System.out.println("Added routes for " + gtfs_date + " : " + Route.pushFromGtfsFile("../DATA/" + gtfs_date + " routes.txt", gtfs_date));
             System.out.println("Added trips for " + gtfs_date + " : " + Trip.pushFromGtfsFile("../DATA/" + gtfs_date + " trips.txt", gtfs_date));
-            System.out.println("Added hopeful schedule for " + gtfs_date + " : " + Schedule.pushFromGtfsFile("../DATA/" + gtfs_date + " stop_times.txt", gtfs_date));
 
         }
 
-        String[] oba_dates = new String[]{"2011-12-16", "2011-12-17", "2011-12-18", "2011-12-21", "2012-03-02", "2012-03-03", "2012-03-04", "2012-03-07"};
-        for (String oba_date : oba_dates) {
-            // 
-        }
     }
 
     /**
@@ -56,55 +51,6 @@ public class Load_data {
         int result = 0;
         while ((line = tr.readLine()) != null) {
             result++;
-        }
-        fr.close();
-        return result;
-    }
-
-}
-class Schedule {
-
-    int stop_id;
-    int trip_id;
-    int arrival_hr;
-    int arrival_min;
-    
-    static PreparedStatement write = null;
-
-    public static void init(Connection conn) throws SQLException {
-        write = conn.prepareStatement("insert into schedule set trip_id=?, stop_id=?, arrival_hr=?, arrival_min=?");
-    }
-
-    public int write() throws SQLException {
-        write.setInt(1, trip_id);
-        write.setInt(2, stop_id);
-        write.setInt(3, arrival_hr);
-        write.setInt(4, arrival_min);
-        try {
-            return write.executeUpdate();
-        } catch (Exception e) {
-            return 0;
-        }
-    }
-
-    public static int pushFromGtfsFile(String path, String gtfs_data) throws FileNotFoundException, IOException, SQLException {
-        FileReader fr = new FileReader(path);
-        BufferedReader tr = new BufferedReader(fr);
-        String line = tr.readLine();
-        /*
-         Header row:
-         trip_id,stop_sequence,stop_id,arrival_time,departure_time,stop_headsign,route_short_name,pickup_type,drop_off_type,shape_dist_traveled
-         */
-        int result = 0;
-        while ((line = tr.readLine()) != null) {
-            String[] parts = line.split(",");
-            Schedule t = new Schedule();
-            t.trip_id = Integer.parseInt(parts[0]);
-            t.stop_id = Integer.parseInt(parts[2]);
-            String[] time = parts[3].split(":");
-            t.arrival_hr = Integer.parseInt(time[0]);
-            t.arrival_min = Integer.parseInt(time[1]);
-            result += t.write();
         }
         fr.close();
         return result;
@@ -143,6 +89,7 @@ class Trip {
         try {
             return write.executeUpdate();
         } catch (Exception e) {
+            e.printStackTrace();
             return 0;
         }
     }
@@ -202,6 +149,7 @@ class Route {
         try {
             return write.executeUpdate();
         } catch (Exception e) {
+            e.printStackTrace();
             return 0;
         }
     }
@@ -262,6 +210,7 @@ class Stop {
         try {
             return write.executeUpdate();
         } catch (Exception e) {
+            e.printStackTrace();
             return 0;
         }
     }
@@ -290,13 +239,4 @@ class Stop {
         fr.close();
         return result;
     }
-}
-
-
-class Deviation {
-
-    int stop_id;
-    int trip_id;
-    int deviation;
-    long time;
 }

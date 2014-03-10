@@ -10,6 +10,13 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+/**
+ * What now?!
+ * Some queries:
+ * SELECT count(*), trips.gtfs_data, service FROM `schedule`, trips, route where route.route_short_name="31" and trips.trip_id=schedule.trip_id and route.route_id=trips.route_id
+group by trips.gtfs_data, service
+ * @author kukse_000
+ */
 public class Load_data {
 
     public static void main(String[] args) throws SQLException, IOException {
@@ -24,7 +31,7 @@ public class Load_data {
             System.out.println("Added stops for " + gtfs_date + " : " + Stop.pushFromGtfsFile("../DATA/" + gtfs_date + " stops.txt", gtfs_date));
             System.out.println("Added routes for " + gtfs_date + " : " + Route.pushFromGtfsFile("../DATA/" + gtfs_date + " routes.txt", gtfs_date));
             System.out.println("Added trips for " + gtfs_date + " : " + Trip.pushFromGtfsFile("../DATA/" + gtfs_date + " trips.txt", gtfs_date));
-            System.out.println("Added hopeful schedule for " + gtfs_date + " : " + Trip.pushFromGtfsFile("../DATA/" + gtfs_date + " stop-times.txt", gtfs_date));
+            System.out.println("Added hopeful schedule for " + gtfs_date + " : " + Schedule.pushFromGtfsFile("../DATA/" + gtfs_date + " stop_times.txt", gtfs_date));
 
         }
 
@@ -58,34 +65,23 @@ public class Load_data {
 class Schedule {
 
     int stop_id;
+    int stop_seq;
     int trip_id;
     int arrival_hr;
     int arrival_min;
-    String gtfs_data;
     
     static PreparedStatement write = null;
-    static PreparedStatement count = null;
 
     public static void init(Connection conn) throws SQLException {
-        write = conn.prepareStatement("insert into schedule set trip_id=?, stop_id=?, arrival_hr=?, arrival_min=?, gtfs_data=?");
-        count = conn.prepareStatement("select count(*) from schedule where gtfs_data=?");
-    }
-
-    public static int count(String gtfs_data) throws SQLException {
-        count.setString(1, gtfs_data);
-        ResultSet rs = count.executeQuery();
-        if (rs.first()) {
-            return rs.getInt(1);
-        }
-        return 0;
+        write = conn.prepareStatement("insert into schedule set trip_id=?, stop_id=?, stop_seq=?, arrival_hr=?, arrival_min=?");
     }
 
     public int write() throws SQLException {
         write.setInt(1, trip_id);
         write.setInt(2, stop_id);
-        write.setInt(3, arrival_hr);
-        write.setInt(4, arrival_min);
-        write.setString(5, gtfs_data);
+        write.setInt(3, stop_seq);
+        write.setInt(4, arrival_hr);
+        write.setInt(5, arrival_min);
         try {
             return write.executeUpdate();
         } catch (Exception e) {
@@ -94,9 +90,6 @@ class Schedule {
     }
 
     public static int pushFromGtfsFile(String path, String gtfs_data) throws FileNotFoundException, IOException, SQLException {
-        if (Trip.count(gtfs_data) == Load_data.count(path)) {
-            return 0;
-        }
         FileReader fr = new FileReader(path);
         BufferedReader tr = new BufferedReader(fr);
         String line = tr.readLine();
@@ -109,11 +102,11 @@ class Schedule {
             String[] parts = line.split(",");
             Schedule t = new Schedule();
             t.trip_id = Integer.parseInt(parts[0]);
-            t.stop_id = Integer.parseInt(parts[1]);
+            t.stop_seq = Integer.parseInt(parts[1]);
+            t.stop_id = Integer.parseInt(parts[2]);
             String[] time = parts[3].split(":");
             t.arrival_hr = Integer.parseInt(time[0]);
             t.arrival_min = Integer.parseInt(time[1]);
-            t.gtfs_data = gtfs_data;
             result += t.write();
         }
         fr.close();

@@ -9,8 +9,8 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 
 /**
  *
@@ -18,7 +18,7 @@ import java.util.HashMap;
  */
 public class Beautifier {
 
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) throws SQLException, IOException {
         String[] routes = new String[]{"8", "31", "32", "10", "40", "44", "16", "26", "28", "2", "43", "48"};
         String route_where = "";
         for(String rt : routes) {
@@ -32,8 +32,8 @@ public class Beautifier {
         
         ResultSet rs = ps.executeQuery();
         
-        HashMap<String, ArrayList<Integer>> tripFilter = new HashMap<>();
-        HashMap<Integer, String[]> tripData = new HashMap<>();
+        HashMap<String, HashSet<Integer>> tripFilter = new HashMap<>();
+        HashMap<Integer, TripInfo> tripData = new HashMap<>();
         
         if(rs.first()) {
             do {
@@ -41,15 +41,19 @@ public class Beautifier {
                 int trip_id = rs.getInt(2);
                 String service = rs.getString(3);
                 String gtfs_data = rs.getString(4);
-                ArrayList<Integer> list = tripFilter.get(gtfs_data);
+                HashSet<Integer> list = tripFilter.get(gtfs_data);
                 if (list == null) {
-                    list = new ArrayList<>();
+                    list = new HashSet<>();
                     tripFilter.put(gtfs_data, list);
                 }
                 list.add(trip_id);
-                tripData.put(trip_id, new String[]{route_short_name, service});
-                System.out.println(route_short_name+","+trip_id+","+service+","+gtfs_data);
+                tripData.put(trip_id, new TripInfo(route_short_name, service, trip_id));
             } while(rs.next());
+        }
+        
+        for (String gtfs_data : tripFilter.keySet()) {
+            System.out.println (gtfs_data+": "+tripFilter.get(gtfs_data).size());
+            Schedule.pushFromGtfsFile("../DATA/" +gtfs_data+" stop_times.txt", tripFilter.get(gtfs_data), tripData);            
         }
         
         
@@ -60,32 +64,48 @@ public class Beautifier {
     }
     
 }
-class Schedule {
 
-    int stop_id;
+class TripInfo {
+    String short_name;
+    String service;
     int trip_id;
+    String gtfs_data;
+    public TripInfo(String short_name, String service, int trip_id) {
+        this.short_name = short_name;
+        this.service = service;
+        this.trip_id = trip_id;
+    }
+}
+
+class Schedule {
     int arrival_hr;
     int arrival_min;
+    int stop_id;
+    TripInfo ri;
     
     static PreparedStatement write = null;
 
     public static void init(Connection conn) throws SQLException {
-        write = conn.prepareStatement("insert into schedule set trip_id=?, stop_id=?, arrival_hr=?, arrival_min=?");
+        write = conn.prepareStatement("insert into schedule set short_name=?, gtfs_data=?, arrival_hr=?, arrival_min=?, service=?, trip_id=?, stop_id=?");
     }
 
     public int write() throws SQLException {
-        write.setInt(1, trip_id);
-        write.setInt(2, stop_id);
+        write.setString(1, ri.short_name);
+        write.setString(2, ri.gtfs_data);
         write.setInt(3, arrival_hr);
         write.setInt(4, arrival_min);
+        write.setString(5, ri.service);
+        write.setInt(6, ri.trip_id);
+        write.setInt(7, stop_id);
         try {
             return write.executeUpdate();
         } catch (Exception e) {
+            e.printStackTrace();
             return 0;
         }
     }
 
-    public static int pushFromGtfsFile(String path, String gtfs_data) throws FileNotFoundException, IOException, SQLException {
+    public static int pushFromGtfsFile(String path, HashSet<Integer> trip_ids, HashMap<Integer, TripInfo> tripInfo) throws FileNotFoundException, IOException, SQLException {
         FileReader fr = new FileReader(path);
         BufferedReader tr = new BufferedReader(fr);
         String line = tr.readLine();
@@ -96,13 +116,17 @@ class Schedule {
         int result = 0;
         while ((line = tr.readLine()) != null) {
             String[] parts = line.split(",");
-            Schedule t = new Schedule();
-            t.trip_id = Integer.parseInt(parts[0]);
-            t.stop_id = Integer.parseInt(parts[2]);
-            String[] time = parts[3].split(":");
-            t.arrival_hr = Integer.parseInt(time[0]);
-            t.arrival_min = Integer.parseInt(time[1]);
-            result += t.write();
+            int trip_id = Integer.parseInt(parts[0]);
+            if (trip_ids.contains(trip_id)) {
+                Schedule t = new Schedule();
+                String[] time = parts[3].split(":");
+                t.stop_id = Integer.parseInt(parts[2]);
+                t.arrival_hr = Integer.parseInt(time[0]);
+                t.arrival_min = Integer.parseInt(time[1]);
+                result += t.write();
+            }
+           // t.stop_id = Integer.parseInt(parts[2]);
+
         }
         fr.close();
         return result;

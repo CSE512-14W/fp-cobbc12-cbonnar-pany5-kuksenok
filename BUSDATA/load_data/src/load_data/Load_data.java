@@ -24,14 +24,12 @@ public class Load_data {
         Stop.init(conn);
         Route.init(conn);
         Trip.init(conn);
-        Schedule.init(conn);
 
         String[] gtfs_dates = new String[]{"2011_11", "2011_12", "2012_03_01", "2012_03_24", "2012_04_11"};
         for (String gtfs_date : gtfs_dates) {
             System.out.println("Added stops for " + gtfs_date + " : " + Stop.pushFromGtfsFile("../DATA/" + gtfs_date + " stops.txt", gtfs_date));
             System.out.println("Added routes for " + gtfs_date + " : " + Route.pushFromGtfsFile("../DATA/" + gtfs_date + " routes.txt", gtfs_date));
             System.out.println("Added trips for " + gtfs_date + " : " + Trip.pushFromGtfsFile("../DATA/" + gtfs_date + " trips.txt", gtfs_date));
-
         }
 
     }

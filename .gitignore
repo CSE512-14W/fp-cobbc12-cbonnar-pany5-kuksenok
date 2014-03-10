@@ -1,0 +1,13 @@
+clean data/december 2011/2011-12-16.txt
+dbproc/nbproject/private/private.xml
+dbproc/build/classes/.netbeans_update_resources
+dbproc/nbproject/build-impl.xml
+dbproc/build.xml
+dbproc/build/classes/dbproc/Trip.class
+dbproc/nbproject/project.xml
+dbproc/nbproject/private/private.properties
+dbproc/nbproject/genfiles.properties
+dbproc/build/classes/.netbeans_automatic_build
+dbproc/build/classes/dbproc/Stop.class
+dbproc/build/classes/dbproc/Dbproc.class
+dbproc/manifest.mf

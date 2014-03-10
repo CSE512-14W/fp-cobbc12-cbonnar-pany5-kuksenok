@@ -6,32 +6,19 @@ var markers = new Array();
 markers[1] = new Array();
 markers[2] = new Array();
 
-var data = new Array();
-data[0] = new Array();
-data[1] = new Array();
-data[2] = new Array();
-data[3] = new Array();
 
 var maps = new Array();
 
-var dayMap1 = 0;
-var dayMap2 = 1;
+var dayMap1 = 1;
+var dayMap2 = 2;
 var timeStart = new Array();
 var timeEnd = new Array();
 timeStart[1] = 9 * 60;
 timeEnd[1] = 17 * 60;
 timeStart[2] = 9 * 60;
 timeEnd[2] = 17 * 60;
-function initializeMap(div_id, day_id){
 
-	data[0][0] = testRoute[0]; //default day
-	data[0][1] = testRoute[1];
-	data[1][0] = testRoute2[0];
-	data[1][1] = testRoute2[1];
-	data[0][2] = testRoute[2];
-	data[1][2] = testRoute2[2];
-	data[0][3] = testRoute[3];
-	data[1][3] = testRoute2[3];
+function initializeMap(div_id, day_id){
 	
 	var southWest = L.latLng(47.212893,-122.821655),
 	 	northEast = L.latLng(47.789027,-121.773834),
@@ -83,9 +70,12 @@ function drawDots(map, div_id, day_id){
 	for (var i = 0; i<data[day_id][0].length; i++){
 		if ((data[day_id][2][i][0] * 60 + data[day_id][2][i][1]) < timeStart[div_id] || (data[day_id][2][i][0] * 60 + data[day_id][2][i][1]) > timeEnd[div_id]) continue;
 
-		if (data[day_id][1][i] < -60) {
+		if (data[day_id][1][i] < -120) {
 			outlineColor = 'red';
 			fillColor = '#f03';
+		} else if(data[day_id][1][i] <=0) {
+			outlineColor = 'yellow';
+			fillColor = '#FFFF33';
 		} else {
 			outlineColor = 'green';
 			fillColor = '#33FF00';

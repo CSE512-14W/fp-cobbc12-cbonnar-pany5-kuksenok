@@ -9,7 +9,6 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import static load_data.Stop.write;
 
 public class Load_data {
 
@@ -17,11 +16,13 @@ public class Load_data {
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/bus2?user=root&password=");
         Stop.init(conn);
         Route.init(conn);
+        Trip.init(conn);
 
         String[] gtfs_dates = new String[]{"2011_11", "2011_12", "2012_03_01", "2012_03_24", "2012_04_11"};
         for (String gtfs_date : gtfs_dates) {
             System.out.println("Added stops for " + gtfs_date + " : " + Stop.pushFromGtfsFile("../DATA/" + gtfs_date + " stops.txt", gtfs_date));
             System.out.println("Added routes for " + gtfs_date + " : " + Route.pushFromGtfsFile("../DATA/" + gtfs_date + " routes.txt", gtfs_date));
+            System.out.println("Added trips for " + gtfs_date + " : " + Trip.pushFromGtfsFile("../DATA/" + gtfs_date + " trips.txt", gtfs_date));
 
         }
 
@@ -32,11 +33,12 @@ public class Load_data {
     }
 
     /**
-     * Count the amount of tuples in a file-  ignoring header row!
+     * Count the amount of tuples in a file- ignoring header row!
+     *
      * @param path
      * @return
      * @throws FileNotFoundException
-     * @throws IOException 
+     * @throws IOException
      */
     public static int count(String path) throws FileNotFoundException, IOException {
         FileReader fr = new FileReader(path);
@@ -52,6 +54,67 @@ public class Load_data {
 
 }
 
+class Trip {
+
+    int trip_id;
+    int route_id;
+    String service;
+    String gtfs_data;
+    static PreparedStatement write = null;
+    static PreparedStatement count = null;
+
+    public static void init(Connection conn) throws SQLException {
+        write = conn.prepareStatement("insert into trips set route_id=?, trip_id=?, gtfs_data=?, service=?");
+        count = conn.prepareStatement("select count(*) from trips where gtfs_data=?");
+    }
+
+    public static int count(String gtfs_data) throws SQLException {
+        count.setString(1, gtfs_data);
+        ResultSet rs = count.executeQuery();
+        if (rs.first()) {
+            return rs.getInt(1);
+        }
+        return 0;
+    }
+
+    public int write() throws SQLException {
+        write.setInt(1, route_id);
+        write.setInt(2, trip_id);
+        write.setString(3, gtfs_data);
+        write.setString(4, service);
+        try {
+            return write.executeUpdate();
+        } catch (Exception e) {
+            return 0;
+        }
+    }
+
+    public static int pushFromGtfsFile(String path, String gtfs_data) throws FileNotFoundException, IOException, SQLException {
+        if (Trip.count(gtfs_data) == Load_data.count(path)) {
+            return 0;
+        }
+        FileReader fr = new FileReader(path);
+        BufferedReader tr = new BufferedReader(fr);
+        String line = tr.readLine();
+        /*
+         Header row:
+         route_id,service_id,trip_short_name,trip_headsign,route_short_name,direction_id,block_id,shape_id,wheelchair_accessible,trip_bikes_allowed,trip_id
+         */
+        int result = 0;
+        while ((line = tr.readLine()) != null) {
+            String[] parts = line.split(",");
+            Trip t = new Trip();
+            t.route_id = Integer.parseInt(parts[0]);
+            t.trip_id = Integer.parseInt(parts[parts.length-1]);
+            t.service = parts[1];
+            t.gtfs_data = gtfs_data;
+            result += t.write();
+        }
+        fr.close();
+        return result;
+    }
+}
+
 class Route {
 
     int route_id;
@@ -59,7 +122,7 @@ class Route {
     String gtfs_data;
     static PreparedStatement write = null;
     static PreparedStatement count = null;
-    
+
     public static void init(Connection conn) throws SQLException {
         write = conn.prepareStatement("insert into route set route_id=?, route_short_name=?, gtfs_data=?");
         count = conn.prepareStatement("select count(*) from route where gtfs_data=?");
@@ -73,9 +136,10 @@ class Route {
         }
         return 0;
     }
-      public int write() throws SQLException {
+
+    public int write() throws SQLException {
         write.setInt(1, route_id);
-        write.setString(2,route_short_name);
+        write.setString(2, route_short_name);
         write.setString(3, gtfs_data);
         try {
             return write.executeUpdate();
@@ -85,7 +149,7 @@ class Route {
     }
 
     public static int pushFromGtfsFile(String path, String gtfs_data) throws FileNotFoundException, IOException, SQLException {
-        if(Route.count(gtfs_data) == Load_data.count(path)) {
+        if (Route.count(gtfs_data) == Load_data.count(path)) {
             return 0;
         }
         FileReader fr = new FileReader(path);
@@ -145,7 +209,7 @@ class Stop {
     }
 
     public static int pushFromGtfsFile(String path, String gtfs_data) throws FileNotFoundException, IOException, SQLException {
-        if(Stop.count(gtfs_data) == Load_data.count(path)) {
+        if (Stop.count(gtfs_data) == Load_data.count(path)) {
             return 0;
         }
         FileReader fr = new FileReader(path);
@@ -176,12 +240,6 @@ class Schedule {
     double lat;
     double lon;
     String gtfs_data;
-}
-
-class Trip {
-
-    int trip_id;
-    int route_id;
 }
 
 class Deviation {

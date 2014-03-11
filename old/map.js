@@ -18,16 +18,8 @@ timeEnd[1] = 17 * 60;
 timeStart[2] = 9 * 60;
 timeEnd[2] = 17 * 60;
 
-var dataSource = "http://anachrobot.us/bus/api/congestion.php"
-
-
 function initializeMap(div_id, day_id){
-	var geoData = [];
-	$.getJSON(dataSource, function( data ) {
-		geoData = data;
-		console.log(geoData);
-	});
-		
+	
 	var southWest = L.latLng(47.212893,-122.821655),
 	 	northEast = L.latLng(47.789027,-121.773834),
 	 	bounds = L.latLngBounds(southWest, northEast);
@@ -37,8 +29,8 @@ function initializeMap(div_id, day_id){
 	 	 cloudmadeAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade';
 	 	 
 	 	
-	 var day = L.tileLayer(cloudmadeUrl, {styleId: 123649, attribution: cloudmadeAttribution, minZoom: MIN_ZOOM, maxZoom: MAX_ZOOM}),
-	 	 night = L.tileLayer(cloudmadeUrl, {styleId: 33332,   attribution: cloudmadeAttribution, minZoom: MIN_ZOOM, maxZoom: MAX_ZOOM}),
+	 var day   = L.tileLayer(cloudmadeUrl, {styleId: 123649, attribution: cloudmadeAttribution, minZoom: MIN_ZOOM, maxZoom: MAX_ZOOM}),
+	 	 night  = L.tileLayer(cloudmadeUrl, {styleId: 33332,   attribution: cloudmadeAttribution, minZoom: MIN_ZOOM, maxZoom: MAX_ZOOM}),
 	 	 minimal = L.tileLayer(cloudmadeUrl, {styleId: 123647, attribution: cloudmadeAttribution, minZoom: MIN_ZOOM, maxZoom: MAX_ZOOM});
 
 
@@ -53,9 +45,8 @@ function initializeMap(div_id, day_id){
 	night.addTo(maps[div_id]);
 	L.control.layers(baseMaps, overlayMaps).addTo(maps[div_id]);
 	
-	//drawDots(maps[div_id], div_id, day_id);
+	drawDots(maps[div_id], div_id, day_id);
 	
-	/*
 	maps[div_id].on('zoomstart', function() {
 		if (maps[div_id].getZoom() <= 12){
 			DOT_SIZE = 40;
@@ -66,36 +57,10 @@ function initializeMap(div_id, day_id){
 		else{
 			DOT_SIZE = 10;
 		}
-		*/
-	
-	
-		//Initialize geoJSON
-		//var jsonData = L.geoJson().addTo(maps[div_id]);
-		//jsonData.addData(geoData);
-		
-		//removeDots(maps[div_id], div_id);
-		//drawDots(maps[div_id], div_id, day_id);
-		
-	var geojsonMarkerOptions = {
-		radius: 100,
-		fillColor: '#f03',
-		color: 'red',
-		weight: 1,
-		opacity: 1,
-		fillOpacity: 0.8
-	};
-
-	L.geoJson(geoData, {pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, geojsonMarkerOptions);
-    }
-    }).addTo(maps[div_id]);
-   
-
+		removeDots(maps[div_id], div_id);
+		drawDots(maps[div_id], div_id, day_id);
+	});
 }
-//---------------------------------------
-// NOTE: ALL FUNCTIONS BELOW ARE OLD, DO
-// NOT USE THEM
-//---------------------------------------
 
 function drawDots(map, div_id, day_id){
 	var outlineColor = 'red';

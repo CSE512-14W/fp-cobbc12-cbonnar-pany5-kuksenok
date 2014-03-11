@@ -12,7 +12,7 @@ import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.HashSet;
 
-public class Beautifier {
+public class Load_schedules {
 
     public static void main(String[] args) throws SQLException, IOException {
         String[] routes = new String[]{"31", "32", "16", "26", "28", "40"};

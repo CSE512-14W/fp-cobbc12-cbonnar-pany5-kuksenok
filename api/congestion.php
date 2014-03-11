@@ -27,8 +27,18 @@ if (empty($days)){
 
 $mysqli = new mysqli("localhost","root","","bus2");
 
+$before = explode(":", $before);
+$after = explode(":", $after);
+if (is_numeric($before[0]))
+
+$time_cond = "";
+$time_cond .= "hh>=" . $before_hh . " AND ";
+$time_cond .= "(mm>=" . $before_mm . " OR hh>" . $before_hh . ") AND ";
+$time_cond .= "hh<=" . $after_hh . " AND ";
+$time_cond .= "(mm<=" . $bafter_mm . " OR hh<" . $after_hh . ") AND ";
+
 $q = "SELECT lat, lon, AVG(deviation) avg, COUNT(deviation) ct FROM deviation ".
-	 "WHERE oba_day IN (\"". implode("\",\"",$days) ."\") GROUP BY lat, lon ORDER BY RAND() LIMIT 500";
+	 "WHERE " . $time_cond . " oba_day IN (\"". implode("\",\"",$days) ."\") GROUP BY lat, lon ORDER BY RAND()";
 
 // Extract result set and loop rows
 $result = $mysqli->query($q);
@@ -38,7 +48,7 @@ $list = array();
 while ($row = $result->fetch_assoc()) {
    $list[] = array("type" => "Feature",
       "properties" => array("avg_deviation" => $row["avg"], "data_points" => $row["ct"]),
-      "geometry" => array("coordinations" => array($row["lat"], $row["lon"]), "type" => "Point"));
+      "geometry" => array("coordinates" => array((double)$row["lat"], (double)$row["lon"]), "type" => "Point"));
 }
 
 echo json_encode($list);

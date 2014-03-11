@@ -25,3 +25,11 @@ print_r(mysqli_query($con, $q));
 
 mysqli_close($con);
 ?>
+
+var myLines = [{
+    "type": "LineString",
+    "coordinates": [[-100, 40], [-105, 45], [-110, 55]]
+}, {
+    "type": "LineString",
+    "coordinates": [[-105, 40], [-110, 45], [-115, 55]]
+}];

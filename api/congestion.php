@@ -23,30 +23,26 @@ if (empty($days)){
 
 $mysqli = new mysqli("localhost","root","","bus2");
 
-$q = "SELECT lat, lon, AVG(deviation), COUNT(deviation) FROM deviation ".
+$q = "SELECT lat, lon, AVG(deviation) avg, COUNT(deviation) ct FROM deviation ".
 	 "WHERE oba_day IN (\"". implode("\",\"",$days) ."\") GROUP BY lat, lon";
 
 // Extract result set and loop rows
 $result = $mysqli->query($q);
+echo "[{\n";
 while ($row = $result->fetch_assoc()) {
-   print_r($row);
+   $row["lat"];
+   $row["lon"];
+   $row["avg"];
+   $row["ct"];
+   echo "    \"type\": \"Feature\",\n";
+   echo "    \"properties\": {\"avg_deviation\": \"" . $row["avg"] . "\", \"data_points\": \"" . $row["ct"] . "\"},\n";
+   echo "    \"geometry\": {\n";
+   echo "        \"coordinates\": [".$avg["lat"].",".$avg["lon"]."],\n";
+   echo "        \"type\": \"Point\",\n";
+   echo "    }\n";
+   echo "}, {\n";
 }
+echo "}];";
 
 $mysqli->close();
 ?>
-
-var stops = [{
-   "type": "Feature",
-   "properties": {"avg_deviation": "-1200", "stop_name": "40th and Stone Way N"},
-   "geometry": {
-       "type": "Point",
-       "coordinates":  [-104.05, 48.99],
-   }
-}, {
-   "type": "Feature",
-   "properties": {"avg_deviation": "0", "stop_name": "Stevens and Benton"},
-   "geometry": {
-       "type": "Point",
-       "coordinates": [-109.05, 41.00],
-   }
-}];

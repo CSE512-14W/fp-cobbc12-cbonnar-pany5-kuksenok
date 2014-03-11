@@ -1,29 +1,22 @@
-var DEFAULT_ZOOM = 12;
-var MIN_ZOOM = 10;
+var DEFAULT_ZOOM = 10;
+var MIN_ZOOM = 8;
 var MAX_ZOOM = 16;
-var DOT_SIZE = 10;
+var DOT_SIZE = 3;
 
 var geoLayer;
 var maps = new Array();
 
-
-var timeStart = new Array();
-var timeEnd = new Array();
-timeStart[1] = 9 * 60;
-timeEnd[1] = 17 * 60;
-
-
-var dataSource = dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2011-12-21";
+var dataSource = dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2011-12-16&before=9:00&after:17:00";
 
 
 function initializeMap(div_id, day_id){
 
 		
-	var southWest = L.latLng(47.212893,-122.821655),
+	var southWest = L.latLng(46.736691,-123.261395),
 	 	northEast = L.latLng(47.789027,-121.773834),
 	 	bounds = L.latLngBounds(southWest, northEast);
 
-	maps[div_id] = L.map('map'.concat(div_id)).setView([47.64513397,-122.1076889], DEFAULT_ZOOM),
+	maps[div_id] = L.map('map'.concat(div_id), { maxBounds: bounds}).setView([47.390328,-122.279348], DEFAULT_ZOOM),
 	 	 cloudmadeUrl = 'http://{s}.tile.cloudmade.com/af71292a98e943fe976cf463d4cbd82e/{styleId}@2x/256/{z}/{x}/{y}.png',
 	 	 cloudmadeAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade';
 	 	 
@@ -43,6 +36,7 @@ function initializeMap(div_id, day_id){
 	};
 	night.addTo(maps[div_id]);
 	L.control.layers(baseMaps, overlayMaps).addTo(maps[div_id]);
+	loadingControl: true;
 	
 	plotPoints(maps[div_id], div_id);
 	
@@ -50,31 +44,33 @@ function initializeMap(div_id, day_id){
 	/*
 	maps[div_id].on('zoomstart', function() {
 		if (maps[div_id].getZoom() <= 12){
-			DOT_SIZE = 40;
+			DOT_SIZE = 4;
 		}
 		else if (maps[div_id].getZoom() <= 14) {
-			DOT_SIZE = 20;
+			DOT_SIZE = 3;
 		}
 		else{
-			DOT_SIZE = 10;
+			DOT_SIZE = 2;
 		}
-		*/
-	
+		removeDots(maps[div_id]);
+		plotPoints(maps[div_id], div_id);
+	});
+	*/
 }
 
 function changeDay(div_id, day_id) {
 	if (day_id == 0)
-		dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2011-12-18";
+		dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2011-12-16";
 	else if (day_id == 1)	
-		dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2011-12-21";
+		dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2011-12-17";
 	else if (day_id == 2)	
-		dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2012-03-02";
+		dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2012-12-18";
 	else if (day_id == 3)	
-		dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2012-03-03";
+		dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2012-03-02";
 	else if (day_id == 4)	
-		dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2012-03-04";
+		dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2012-03-03";
 	else
-		dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2012-03-07";
+		dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2012-03-04";
 	removeDots(maps[div_id]);
 	plotPoints(maps[div_id], div_id);
 }
@@ -82,20 +78,25 @@ function changeDay(div_id, day_id) {
 function plotPoints(map, div_id) {
 	var outlineColor = 'red';
 	var fillColor = '#f03';
-	var opacity = 1;
+	var opacity = .8;
 	
 	var geoData = [];
 	$.getJSON(dataSource, function (data) {
 		geoData = data;
+		map.on('dataloading');
    	 	}).complete(function () {
+   	 		map.on('dataload');
 	   	 	geoLayer = L.geoJson(geoData, {
 		   	 	pointToLayer: function (feature, latlng) {
-		   	 		if (parseInt(feature.properties.avg_deviation)>120){
+		   	 		if (parseInt(feature.properties.avg_deviation)>160){
 			   	 		outlineColor = 'red';
 			   	 		fillColor = '#f03';
-		   	 		} else if (parseInt(feature.properties.avg_deviation)>0) {
-			   	 		outlineColor = 'yellow';
-			   	 		fillColor = '#FFFF33';
+			   	 	} else if (parseInt(feature.properties.avg_deviation)>0){
+			   	 		outlineColor = '#FF6633';
+			   	 		fillColor = 'orange';
+		   	 		} else if (parseInt(feature.properties.avg_deviation)==0) {
+			   	 		outlineColor = 'grey';
+			   	 		fillColor = '#FFFFFF';
 		   	 		} else {
 			   	 		outlineColor = 'green';
 			   	 		fillColor = '#33FF00';
@@ -118,10 +119,8 @@ function plotPoints(map, div_id) {
 						else
 							s = dev + "s delay";
 					
-						popupContent = "<b>Avg. Deviation: </b>" + s + "<br>" +
-						"<b>Data Points: </b>" + feature.properties.data_points;
-					}
-
+						popupContent = "<b>Avg. Deviation: </b>" + s;
+						}
 					layer.bindPopup(popupContent);
 				}
 			});
@@ -136,9 +135,14 @@ function removeDots(map){
 }
 
 function filterByTime(time_start_hr, time_start_min, time_end_hr, time_end_min, div_id){
-	timeStart[div_id] = time_start_hr * 60 + time_start_min;
-	timeEnd[div_id] = time_end_hr * 60 + time_end_min;
-	
+	if (time_start_min < 10)
+		time_start_min = '0'.concat(time_start_min.toString());
+	if (time_end_min < 10)
+		time_end_min = '0'.concat(time_end_min.toString());
+	dataSource = dataSource.substring(0, dataSource.lastIndexOf('&'));
+	dataSource = dataSource.substring(0, dataSource.lastIndexOf('&')) + "&before=" + time_start_hr + ":" + time_start_min 
+	+ "after=" + time_end_hr + ":" + time_end_min;
+	console.log(dataSource);
 	removeDots(maps[div_id]);
 	plotPoints(maps[div_id], div_id);
 }

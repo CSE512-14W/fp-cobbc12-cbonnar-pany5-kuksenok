@@ -19,7 +19,7 @@ import java.util.HashSet;
 public class Beautifier {
 
     public static void main(String[] args) throws SQLException, IOException {
-        String[] routes = new String[]{"8", "31", "32", "10", "40", "44", "16", "26", "28", "2", "43", "48"};
+        String[] routes = new String[]{"31", "32", "16", "26", "28", "40"};
         String route_where = "";
         for(String rt : routes) {
             if(!route_where.equals("")) route_where+="\",\"";
@@ -30,7 +30,7 @@ public class Beautifier {
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/bus2?user=root&password=");
         Schedule.init(conn);
         
-        PreparedStatement ps = conn.prepareStatement("SELECT route_short_name, trip_id, service, trips.gtfs_data FROM trips, route WHERE trips.route_id=route.route_id AND trips.gtfs_data=route.gtfs_data AND route_short_name IN " + route_where);
+        PreparedStatement ps = conn.prepareStatement("SELECT route_short_name, trip_id, service, trips.gtfs_data FROM trips, route WHERE route.gtfs_data IN (\"2012_03_24\", \"2011_12\") AND trips.route_id=route.route_id AND trips.gtfs_data=route.gtfs_data AND route_short_name IN " + route_where);
         
         ResultSet rs = ps.executeQuery();
         
@@ -58,13 +58,21 @@ public class Beautifier {
             Schedule.pushFromGtfsFile("../DATA/" +gtfs_data+" stop_times.txt", tripFilter.get(gtfs_data), tripData);            
         }
         
-        
         String[] oba_dates = new String[]{"2011-12-16", "2011-12-17", "2011-12-18", "2011-12-21", "2012-03-02", "2012-03-03", "2012-03-04", "2012-03-07"};
         for (String oba_date : oba_dates) {
             // 
         }
     }
     
+}
+
+class DeviationDataSource {
+    String obaSource;
+    String gtfs_data;
+    public DeviationDataSource(String oba, String gtfs) {
+        this.obaSource = oba;
+        this.gtfs_data = gtfs;
+    }
 }
 
 class TripInfo {
@@ -127,7 +135,8 @@ class Schedule {
                 t.arrival_hr = Integer.parseInt(time[0]);
                 t.arrival_min = Integer.parseInt(time[1]);
                 t.ri = tripInfo.get(trip_id);
-                result += t.write();
+              //  result += t.write();
+                result++;
             }
            // t.stop_id = Integer.parseInt(parts[2]);
 

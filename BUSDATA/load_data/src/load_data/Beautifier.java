@@ -12,10 +12,6 @@ import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.HashSet;
 
-/**
- *
- * @author kukse_000
- */
 public class Beautifier {
 
     public static void main(String[] args) throws SQLException, IOException {
@@ -58,23 +54,9 @@ public class Beautifier {
             Schedule.pushFromGtfsFile("../DATA/" +gtfs_data+" stop_times.txt", tripFilter.get(gtfs_data), tripData);            
         }
         
-        String[] oba_dates = new String[]{"2011-12-16", "2011-12-17", "2011-12-18", "2011-12-21", "2012-03-02", "2012-03-03", "2012-03-04", "2012-03-07"};
-        for (String oba_date : oba_dates) {
-            // 
-        }
     }
     
 }
-
-class DeviationDataSource {
-    String obaSource;
-    String gtfs_data;
-    public DeviationDataSource(String oba, String gtfs) {
-        this.obaSource = oba;
-        this.gtfs_data = gtfs;
-    }
-}
-
 class TripInfo {
     String short_name;
     String service;
@@ -135,8 +117,7 @@ class Schedule {
                 t.arrival_hr = Integer.parseInt(time[0]);
                 t.arrival_min = Integer.parseInt(time[1]);
                 t.ri = tripInfo.get(trip_id);
-              //  result += t.write();
-                result++;
+              result += t.write();
             }
            // t.stop_id = Integer.parseInt(parts[2]);
 

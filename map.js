@@ -1,38 +1,29 @@
 var DEFAULT_ZOOM = 12;
 var MIN_ZOOM = 10;
 var MAX_ZOOM = 16;
-var DOT_SIZE = 40;
-var markers = new Array();
-markers[1] = new Array();
-markers[2] = new Array();
+var DOT_SIZE = 10;
 
-
+var geoLayer;
 var maps = new Array();
 
-var dayMap1 = 1;
-var dayMap2 = 2;
+
 var timeStart = new Array();
 var timeEnd = new Array();
 timeStart[1] = 9 * 60;
 timeEnd[1] = 17 * 60;
-timeStart[2] = 9 * 60;
-timeEnd[2] = 17 * 60;
 
-var dataSource = "http://anachrobot.us/bus/api/congestion.php"
+
+var dataSource = dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2011-12-21";
 
 
 function initializeMap(div_id, day_id){
-	var geoData = [];
-	$.getJSON(dataSource, function( data ) {
-		geoData = data;
-		console.log(geoData);
-	});
+
 		
 	var southWest = L.latLng(47.212893,-122.821655),
 	 	northEast = L.latLng(47.789027,-121.773834),
 	 	bounds = L.latLngBounds(southWest, northEast);
 
-	maps[div_id] = L.map('map'.concat(div_id), { maxBounds: bounds}).setView([47.606209, -122.332071], DEFAULT_ZOOM),
+	maps[div_id] = L.map('map'.concat(div_id)).setView([47.64513397,-122.1076889], DEFAULT_ZOOM),
 	 	 cloudmadeUrl = 'http://{s}.tile.cloudmade.com/af71292a98e943fe976cf463d4cbd82e/{styleId}@2x/256/{z}/{x}/{y}.png',
 	 	 cloudmadeAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade';
 	 	 
@@ -53,7 +44,8 @@ function initializeMap(div_id, day_id){
 	night.addTo(maps[div_id]);
 	L.control.layers(baseMaps, overlayMaps).addTo(maps[div_id]);
 	
-	//drawDots(maps[div_id], div_id, day_id);
+	plotPoints(maps[div_id], div_id);
+	
 	
 	/*
 	maps[div_id].on('zoomstart', function() {
@@ -68,42 +60,101 @@ function initializeMap(div_id, day_id){
 		}
 		*/
 	
-	
-		//Initialize geoJSON
-		//var jsonData = L.geoJson().addTo(maps[div_id]);
-		//jsonData.addData(geoData);
-		
-		//removeDots(maps[div_id], div_id);
-		//drawDots(maps[div_id], div_id, day_id);
-		
-	var geojsonMarkerOptions = {
-		radius: 100,
-		fillColor: '#f03',
-		color: 'red',
-		weight: 1,
-		opacity: 1,
-		fillOpacity: 0.8
-	};
+}
 
-	L.geoJson(geoData, {pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, geojsonMarkerOptions);
-    }
-    }).addTo(maps[div_id]);
-   
+function changeDay(div_id, day_id) {
+	if (day_id == 0)
+		dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2011-12-18";
+	else if (day_id == 1)	
+		dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2011-12-21";
+	else if (day_id == 2)	
+		dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2012-03-02";
+	else if (day_id == 3)	
+		dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2012-03-03";
+	else if (day_id == 4)	
+		dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2012-03-04";
+	else
+		dataSource = "http://anachrobot.us/bus/api/congestion.php?days=2012-03-07";
+	removeDots(maps[div_id]);
+	plotPoints(maps[div_id], div_id);
+}
+
+function plotPoints(map, div_id) {
+	var outlineColor = 'red';
+	var fillColor = '#f03';
+	var opacity = 1;
+	
+	var geoData = [];
+	$.getJSON(dataSource, function (data) {
+		geoData = data;
+   	 	}).complete(function () {
+	   	 	geoLayer = L.geoJson(geoData, {
+		   	 	pointToLayer: function (feature, latlng) {
+		   	 		if (parseInt(feature.properties.avg_deviation)>120){
+			   	 		outlineColor = 'red';
+			   	 		fillColor = '#f03';
+		   	 		} else if (parseInt(feature.properties.avg_deviation)>0) {
+			   	 		outlineColor = 'yellow';
+			   	 		fillColor = '#FFFF33';
+		   	 		} else {
+			   	 		outlineColor = 'green';
+			   	 		fillColor = '#33FF00';
+		   	 		}
+			   	 	return L.circleMarker(feature.geometry.coordinates,
+			   	 							{radius: DOT_SIZE,
+			   	 							color: outlineColor,
+				   	 						fillColor: fillColor,
+				   	 						fillOpacity: opacity});
+				},
+			   	onEachFeature: function (feature, layer) {
+				   	var popupContent;
+					if (feature.properties) {
+						var dev = parseInt(feature.properties.avg_deviation);
+						var s;
+						if (dev < 0) 
+							s = Math.abs(dev) + "s early";
+						else if( dev == 0) 
+							s = "0s delay";
+						else
+							s = dev + "s delay";
+					
+						popupContent = "<b>Avg. Deviation: </b>" + s + "<br>" +
+						"<b>Data Points: </b>" + feature.properties.data_points;
+					}
+
+					layer.bindPopup(popupContent);
+				}
+			});
+			geoLayer.addTo(maps[div_id]);
+	   	 });
 
 }
+
+function removeDots(map){
+	map.removeLayer(geoLayer);
+	geoLayer = [];
+}
+
+function filterByTime(time_start_hr, time_start_min, time_end_hr, time_end_min, div_id){
+	timeStart[div_id] = time_start_hr * 60 + time_start_min;
+	timeEnd[div_id] = time_end_hr * 60 + time_end_min;
+	
+	removeDots(maps[div_id]);
+	plotPoints(maps[div_id], div_id);
+}
+
 //---------------------------------------
 // NOTE: ALL FUNCTIONS BELOW ARE OLD, DO
 // NOT USE THEM
 //---------------------------------------
-
+/*
 function drawDots(map, div_id, day_id){
 	var outlineColor = 'red';
 	var fillColor = '#f03';
 	var opacity = 1;
 	var count = 0;
 	for (var i = 0; i<data[day_id][0].length; i++){
-		if ((data[day_id][2][i][0] * 60 + data[day_id][2][i][1]) < timeStart[div_id] || (data[day_id][2][i][0] * 60 + data[day_id][2][i][1]) > timeEnd[div_id]) continue;
+		if ((data[day_id][2][i][0] * 60 + data[day_id][2][i][1]) < timeStart[div_id] || (data[day_id][2][i][0] * 60 + 		data[day_id][2][i][1]) > timeEnd[div_id]) continue;
 
 		if (data[day_id][1][i] < -120) {
 			outlineColor = 'red';
@@ -128,14 +179,9 @@ function drawDots(map, div_id, day_id){
 	}
 }
 
-function removeDots(map, div_id){
-	for (var i = 0; i < markers[div_id].length; i++) {
-		map.removeLayer(markers[div_id][i]);
-	}
-	markers[div_id] = [];
-}
 
-function changeDay(div_id, day_id){
+
+function changeDay2(div_id, day_id){
 	removeDots(maps[div_id], div_id);
 	drawDots(maps[div_id], div_id, day_id);
 	if (div_id == 1)
@@ -143,19 +189,6 @@ function changeDay(div_id, day_id){
 	else
 		dayMap2 = day_id;
 }
+*/
 
-function filterByTime(time_start_hr, time_start_min, time_end_hr, time_end_min, div_id){
-	timeStart[div_id] = time_start_hr * 60 + time_start_min;
-	timeEnd[div_id] = time_end_hr * 60 + time_end_min;
-	
-	removeDots(maps[div_id], div_id);
-	var day_id;
-	if (div_id == 1) {
-		day_id = dayMap1;
-	}
-	else {
-		day_id = dayMap2;
-	}
-	drawDots(maps[div_id], div_id, day_id);
 
-}

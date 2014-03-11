@@ -29,16 +29,22 @@ $mysqli = new mysqli("localhost","root","","bus2");
 
 $before = explode(":", $before);
 $after = explode(":", $after);
-if (is_numeric($before[0]))
+
+if (!is_numeric($before[0]) || !is_numeric($before[1])) {
+$before = array(23, 59);
+}
+if (!is_numeric($after[0]) || !is_numeric($after[1])) {
+$after = array(0, 0);
+}
 
 $time_cond = "";
-$time_cond .= "hh>=" . $before_hh . " AND ";
-$time_cond .= "(mm>=" . $before_mm . " OR hh>" . $before_hh . ") AND ";
-$time_cond .= "hh<=" . $after_hh . " AND ";
-$time_cond .= "(mm<=" . $bafter_mm . " OR hh<" . $after_hh . ") AND ";
+$time_cond .= "hh<=" . $before[0] . " AND ";
+$time_cond .= "(mm<=" . $before[1] . " OR hh<" . $before[0] . ") AND ";
+$time_cond .= "hh>=" . $after[0] . " AND ";
+$time_cond .= "(mm>=" . $after[1] . " OR hh>" . $after[0] . ") AND ";
 
-$q = "SELECT lat, lon, AVG(deviation) avg, COUNT(deviation) ct FROM deviation ".
-	 "WHERE " . $time_cond . " oba_day IN (\"". implode("\",\"",$days) ."\") GROUP BY lat, lon ORDER BY RAND()";
+$q = "SELECT lat, lon, AVG(deviation) avg FROM deviation ".
+    "WHERE " . $time_cond. " oba_day IN (\"". implode("\",\"",$days) ."\") GROUP BY lat, lon ORDER BY RAND() LIMIT 2000";
 
 // Extract result set and loop rows
 $result = $mysqli->query($q);

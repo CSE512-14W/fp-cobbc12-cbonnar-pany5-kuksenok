@@ -26,15 +26,15 @@ public class Deviation {
         pre.oba.add("2011-12-16");
         pre.oba.add("2011-12-17");
         pre.oba.add("2011-12-18");
-        pre.oba.add("2011-12-21");
+     //   pre.oba.add("2011-12-21");
         DeviationDataSources post = new DeviationDataSources();
         post.gtfs = "2012_03_24";
         post.oba.add("2012-03-02");
         post.oba.add("2012-03-03");
         post.oba.add("2012-03-04");
-        post.oba.add("2012-03-07");
+       // post.oba.add("2012-03-07");
         pre.pushDeviations();
-        post.pushDeviations();
+        // post.pushDeviations();
     }
 }
 

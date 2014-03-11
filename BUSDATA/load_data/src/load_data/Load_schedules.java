@@ -17,23 +17,25 @@ public class Load_schedules {
     public static void main(String[] args) throws SQLException, IOException {
         String[] routes = new String[]{"31", "32", "16", "26", "28", "40"};
         String route_where = "";
-        for(String rt : routes) {
-            if(!route_where.equals("")) route_where+="\",\"";
-            route_where+=rt;
+        for (String rt : routes) {
+            if (!route_where.equals("")) {
+                route_where += "\",\"";
+            }
+            route_where += rt;
         }
         route_where = "(\"" + route_where + "\")";
-        
+
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/bus2?user=root&password=");
         Schedule.init(conn);
-        
+
         PreparedStatement ps = conn.prepareStatement("SELECT route_short_name, trip_id, service, trips.gtfs_data FROM trips, route WHERE route.gtfs_data IN (\"2012_03_24\", \"2011_12\") AND trips.route_id=route.route_id AND trips.gtfs_data=route.gtfs_data AND route_short_name IN " + route_where);
-        
+
         ResultSet rs = ps.executeQuery();
-        
+
         HashMap<String, HashSet<Integer>> tripFilter = new HashMap<>();
         HashMap<Integer, TripInfo> tripData = new HashMap<>();
-        
-        if(rs.first()) {
+
+        if (rs.first()) {
             do {
                 String route_short_name = rs.getString(1);
                 int trip_id = rs.getInt(2);
@@ -46,22 +48,25 @@ public class Load_schedules {
                 }
                 list.add(trip_id);
                 tripData.put(trip_id, new TripInfo(route_short_name, service, trip_id, gtfs_data));
-            } while(rs.next());
+            } while (rs.next());
         }
-        
+
         for (String gtfs_data : tripFilter.keySet()) {
-            System.out.println (gtfs_data+": "+tripFilter.get(gtfs_data).size());
-            Schedule.pushFromGtfsFile("../DATA/" +gtfs_data+" stop_times.txt", tripFilter.get(gtfs_data), tripData);            
+            System.out.println(gtfs_data + ": " + tripFilter.get(gtfs_data).size());
+            Schedule.pushFromGtfsFile("../DATA/" + gtfs_data + " stop_times.txt", tripFilter.get(gtfs_data), tripData);
         }
-        
+
     }
-    
+
 }
+
 class TripInfo {
+
     String short_name;
     String service;
     int trip_id;
     String gtfs_data;
+
     public TripInfo(String short_name, String service, int trip_id, String gtfs_data) {
         this.short_name = short_name;
         this.service = service;
@@ -71,11 +76,12 @@ class TripInfo {
 }
 
 class Schedule {
+
     int arrival_hr;
     int arrival_min;
     int stop_id;
     TripInfo ri;
-    
+
     static PreparedStatement write = null;
 
     public static void init(Connection conn) throws SQLException {
@@ -117,9 +123,9 @@ class Schedule {
                 t.arrival_hr = Integer.parseInt(time[0]);
                 t.arrival_min = Integer.parseInt(time[1]);
                 t.ri = tripInfo.get(trip_id);
-              result += t.write();
+                result += t.write();
             }
-           // t.stop_id = Integer.parseInt(parts[2]);
+            // t.stop_id = Integer.parseInt(parts[2]);
 
         }
         fr.close();

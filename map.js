@@ -12,12 +12,14 @@ var maps = new Array();
 var dataSource = "http://anachrobot.us/bus/api/congestion.php";
 
 var dayArgs = new Array();
-dayArgs[1] = "?days=2011-12-16";
-dayArgs[2] = "?days=2011-03-02";
+dayArgs[1] = "?days=2011-03-06";
+dayArgs[2] = "?days=2012-03-04";
 
 var timeArgs = new Array();
 timeArgs[1] = "&before=9:00&after:17:00";
 timeArgs[2] = "&before=9:00&after:17:00";
+
+var synced = false;
 
 function initializeMap(div_id, day_id){
 
@@ -26,7 +28,7 @@ function initializeMap(div_id, day_id){
 	 	northEast = L.latLng(47.789027,-121.773834),
 	 	bounds = L.latLngBounds(southWest, northEast);
 
-	maps[div_id] = L.map('map'.concat(div_id), {maxBounds: bounds}).setView([47.390328,-122.279348], DEFAULT_ZOOM),
+	maps[div_id] = L.map('map'.concat(div_id)).setView([47.390328,-122.279348], DEFAULT_ZOOM),
 	 	 cloudmadeUrl = 'http://{s}.tile.cloudmade.com/af71292a98e943fe976cf463d4cbd82e/{styleId}@2x/256/{z}/{x}/{y}.png',
 	 	 cloudmadeAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade';
 	 	 
@@ -51,13 +53,19 @@ function changeDay(div_id, day_id) {
 	else if (day_id == 1)	
 		dayArgs[div_id] = "?days=2011-12-17";
 	else if (day_id == 2)	
-		dayArgs[div_id] = "?days=2012-12-18";
+		dayArgs[div_id] = "?days=2011-12-18";
 	else if (day_id == 3)	
 		dayArgs[div_id] = "?days=2012-03-02";
 	else if (day_id == 4)	
 		dayArgs[div_id] = "?days=2012-03-03";
-	else
+	else if (day_id == 5)
 		dayArgs[div_id] = "?days=2012-03-04";
+	else if (day_id == 6)
+		dayArgs[div_id] = "?days=2011-03-04";
+	else if (day_id == 7)
+		dayArgs[div_id] = "?days=2011-03-05";
+	else 
+		dayArgs[div_id] = "?days=2012-03-06";
 	
 	removeDots(maps[div_id], div_id);
 	plotPoints(maps[div_id], div_id);
@@ -72,9 +80,34 @@ function plotPoints(map, div_id) {
 	var url = dataSource + dayArgs[div_id] + timeArgs[div_id];
 	console.log(url);
 	map.spin(true);
+
+	//Disable buttons and slider until map is loaded to prevent chaos
+	for (var i = 1; i < 10; i++) {
+		var dayString;
+		if (div_id==1){
+			dayString = "#dayA" + i;
+			$("#slider-range").slider("option", "disabled", true);
+		} else{
+			dayString = "#dayB" + i;
+			$("#slider-range2").slider("option", "disabled", true);
+		}
+		$(dayString).prop('disabled', true);
+	}
 	$.getJSON(url, function (data) {
 		geoData = data;
    	 	}).done(function () {
+   	 		for (var i = 1; i < 10; i++) {
+	   	 		var dayString; 
+	   	 		if (div_id==1) {
+	   	 			dayString = "#dayA" + i;
+	   	 			$("#slider-range").slider("option", "disabled", false);
+	   	 		} else {
+	   	 			dayString = "#dayB" + i;
+	   	 			$("#slider-range2").slider("option", "disabled", false);
+	   	 		}
+	   	 		
+	   	 		$(dayString).prop('disabled', false);
+	   	 	}
    	 		map.spin(false);
 	   	 	geoLayer[div_id] = L.geoJson(geoData, {
 		   	 	pointToLayer: function (feature, latlng) {
@@ -82,8 +115,8 @@ function plotPoints(map, div_id) {
 			   	 		outlineColor = '#990000';
 			   	 		fillColor = '#CC0000';
 			   	 	} else if (parseInt(feature.properties.avg_deviation)>60){
-			   	 		outlineColor = '#FF00003';
-			   	 		fillColor = 'red';
+			   	 		outlineColor = 'red';
+			   	 		fillColor = '#FF7575';
 		   	 		} else if (parseInt(feature.properties.avg_deviation)==0) {
 			   	 		outlineColor = 'black';
 			   	 		fillColor = '#B0B0B0';
@@ -105,13 +138,17 @@ function plotPoints(map, div_id) {
 					if (feature.properties) {
 						var dev = parseInt(feature.properties.avg_deviation);
 						var s;
-						if (dev < 0) 
-							s = Math.abs(dev) + "s early";
+						var sec;
+						if (dev < 0) {
+							sec = Math.abs(dev) % 60;
+							s = Math.floor(Math.abs(dev/60)) + "m " + sec + "s early";
+						}
 						else if( dev == 0) 
 							s = "unknown";
-						else
-							s = dev + "s delay";
-					
+						else {
+							sec = Math.abs(dev) % 60;
+							s = Math.floor(dev/60) + "m " + sec + "s delayed";
+						}
 						popupContent = "<b>Avg. Deviation: </b>" + s;
 						}
 					layer.bindPopup(popupContent);
@@ -142,5 +179,20 @@ function filterByTime(time_start_hr, time_start_min, time_end_hr, time_end_min, 
 	plotPoints(maps[div_id], div_id);
 }
 
+function syncMaps() {
+	synced = !synced;
+	if(synced) {
+		maps[1].sync(maps[2]);
+		maps[2].sync(maps[1]);
+		$("#sync_button").text("Unsync Maps");
+		$("#sync_button").removeClass("sync").addClass("unsync");
+	}
+	else {
+		maps[1].unsync(maps[2]);
+		maps[2].unsync(maps[1]);
+		$("#sync_button").text("Sync Maps");
+		$("#sync_button").removeClass("unsync").addClass("sync");
+	}
+}
 
 

@@ -22,9 +22,9 @@ public class Deviation {
 
     public static void main(String[] args) throws SQLException, IOException {
         DeviationDataSources all = new DeviationDataSources();
-        all.oba.add("2011-09-16");
-        all.oba.add("2011-09-17");
-        all.oba.add("2011-09-18");
+        all.oba.add("2011-03-11");
+        all.oba.add("2011-03-12");
+        all.oba.add("2011-03-13");
         
         all.pushDeviations();
     }

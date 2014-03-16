@@ -1,13 +1,15 @@
-Visualization of "One Bus Away" data before and after major transit cuts.
-
 Transit Trails
+Visualization of "One Bus Away" data before and after major transit cuts.
 ===============
-Camille Cobb, Caitlin Bonnar, Yi Pan, Katie Kuksenok {cobbc12, cbonnar, pany5, kuksenok}@cs.washington.edu
+1. Camille Cobb cobbc12@cs.washington.edu
+2. Caitlin Bonnar  cbonnar@cs.washington.edu
+3. Yi Pan  pany5@uw.edu
+4. Katie Kuksenok kuksenok@cs.washington.edu
 
 
 ![Overview](overview.png)
 
-[Poster](https://github.com/CSE512-14W/fp-jheer-kanitw/raw/master/final/poster-jheer-kanitw.pdf),
+[Poster](https://github.com/CSE512-14W/fp-cobbc12-cbonnar-pany5-kuksenok/raw/master/poster/TransitTrails_poster.pptx),
 [Final Paper]
 
 ## Running Instructions

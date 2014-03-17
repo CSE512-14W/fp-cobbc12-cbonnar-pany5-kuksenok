@@ -7,10 +7,11 @@ Visualization of "One Bus Away" data before and after major transit cuts.
 3. Yi Pan  pany5@uw.edu
 4. Katie Kuksenok kuksenok@cs.washington.edu
 
+Abstract: 
 
-![Overview](overview.png)
+![Overview](https://github.com/CSE512-14W/fp-cobbc12-cbonnar-pany5-kuksenok/raw/master/FinalVersion.png)
 
-[Poster](https://github.com/CSE512-14W/fp-cobbc12-cbonnar-pany5-kuksenok/raw/master/poster/TransitTrails_poster.pptx),
+[Poster](https://github.com/CSE512-14W/fp-cobbc12-cbonnar-pany5-kuksenok/raw/master/poster/TransitTrails_poster.pdf),
 [Final Paper]
 
 ## Running Instructions

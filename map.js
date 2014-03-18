@@ -48,25 +48,26 @@ function initializeMap(div_id, day_id){
 }
 
 function changeDay(div_id, day_id) {
-	if (day_id == 0)
-		dayArgs[div_id] = "?days=2011-12-16";
-	else if (day_id == 1)	
-		dayArgs[div_id] = "?days=2011-12-17";
-	else if (day_id == 2)	
-		dayArgs[div_id] = "?days=2011-12-18";
-	else if (day_id == 3)	
-		dayArgs[div_id] = "?days=2012-03-02";
-	else if (day_id == 4)	
-		dayArgs[div_id] = "?days=2012-03-03";
-	else if (day_id == 5)
-		dayArgs[div_id] = "?days=2012-03-04";
-	else if (day_id == 6)
-		dayArgs[div_id] = "?days=2011-03-04";
-	else if (day_id == 7)
-		dayArgs[div_id] = "?days=2011-03-05";
-	else 
-		dayArgs[div_id] = "?days=2012-03-06";
-	
+	switch(day_id) {
+		case 0:
+			dayArgs[div_id] = "?days=2011-12-16";
+		case 1:
+			dayArgs[div_id] = "?days=2011-12-17";
+		case 2:
+			dayArgs[div_id] = "?days=2011-12-18";
+		case 3:
+			dayArgs[div_id] = "?days=2012-03-02";
+		case 4:
+			dayArgs[div_id] = "?days=2012-03-03";
+		case 5:
+			dayArgs[div_id] = "?days=2012-03-04";
+		case 6:
+			dayArgs[div_id] = "?days=2011-03-04";
+		case 7:
+			dayArgs[div_id] = "?days=2011-03-05";
+		case 8:
+			dayArgs[div_id] = "?days=2012-03-06";
+	}
 	removeDots(maps[div_id], div_id);
 	plotPoints(maps[div_id], div_id);
 }
@@ -78,7 +79,7 @@ function plotPoints(map, div_id) {
 	
 	var geoData = [];
 	var url = dataSource + dayArgs[div_id] + timeArgs[div_id];
-	console.log(url);
+
 	map.spin(true);
 
 	//Disable buttons and slider until map is loaded to prevent chaos
@@ -93,12 +94,13 @@ function plotPoints(map, div_id) {
 		}
 		$(dayString).prop('disabled', true);
 	}
+	//Retrieve data from API
 	$.getJSON(url, function (data) {
 		geoData = data;
    	 	}).done(function () {
    	 		for (var i = 1; i < 10; i++) {
 	   	 		var dayString; 
-	   	 		if (div_id==1) {
+	   	 		if (div_id == 1) {
 	   	 			dayString = "#dayA" + i;
 	   	 			$("#slider-range").slider("option", "disabled", false);
 	   	 		} else {
@@ -108,7 +110,9 @@ function plotPoints(map, div_id) {
 	   	 		
 	   	 		$(dayString).prop('disabled', false);
 	   	 	}
+	   	 	
    	 		map.spin(false);
+   	 		
 	   	 	geoLayer[div_id] = L.geoJson(geoData, {
 		   	 	pointToLayer: function (feature, latlng) {
 		   	 		if (parseInt(feature.properties.avg_deviation)>300){
@@ -185,8 +189,7 @@ function syncMaps() {
 		maps[2].sync(maps[1]);
 		$("#sync_button").text("Unsync Maps");
 		$("#sync_button").removeClass("sync").addClass("unsync");
-	}
-	else {
+	} else {
 		maps[1].unsync(maps[2]);
 		maps[2].unsync(maps[1]);
 		$("#sync_button").text("Sync Maps");

@@ -112,20 +112,23 @@ function plotPoints(map, div_id) {
 	   	 	geoLayer[div_id] = L.geoJson(geoData, {
 		   	 	pointToLayer: function (feature, latlng) {
 		   	 		if (parseInt(feature.properties.avg_deviation)>300){
-			   	 		outlineColor = '#990000';
-			   	 		fillColor = '#CC0000';
+			   	 		outlineColor = '#ac0f0f';
+			   	 		fillColor = '#d71819';
 			   	 	} else if (parseInt(feature.properties.avg_deviation)>60){
-			   	 		outlineColor = 'red';
-			   	 		fillColor = '#FF7575';
+			   	 		outlineColor = '#bf5830';
+			   	 		fillColor = '#fcad62';
 		   	 		} else if (parseInt(feature.properties.avg_deviation)==0) {
-			   	 		outlineColor = 'black';
-			   	 		fillColor = '#B0B0B0';
+			   	 		outlineColor = '#333333';
+			   	 		fillColor = '#fff';
 		   	 		} else if (parseInt(feature.properties.avg_deviation)>=-60){
 			   	 		outlineColor = 'green';
-			   	 		fillColor = '#33FF00';
+			   	 		fillColor = '#a6d869';
+		   	 		} else if (parseInt(feature.properties.avg_deviation)>=-300){
+			   	 		outlineColor = '#34a5cb';
+			   	 		fillColor = "#a9d8e8";
 		   	 		} else {
-			   	 		outlineColor = 'blue';
-			   	 		fillColor = "#3399FF";
+			   	 		outlineColor = '#104d7c';
+			   	 		fillColor ='#2b7ab6';
 		   	 		}
 			   	 	return L.circleMarker(feature.geometry.coordinates,
 			   	 							{radius: DOT_SIZE,
@@ -152,10 +155,6 @@ function plotPoints(map, div_id) {
 						popupContent = "<b>Avg. Deviation: </b>" + s;
 						}
 					layer.bindPopup(popupContent);
-
-					layer.on('mouseover', function(e) {
-						layer.openPopup();
-					});
 				}
 			});
 			geoLayer[div_id].addTo(maps[div_id]);

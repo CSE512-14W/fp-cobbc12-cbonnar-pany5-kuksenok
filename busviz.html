@@ -4,7 +4,7 @@
 <title>Transit Trails</title>
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
 <link rel="stylesheet" href="vizstyle.css" />
-<link href='http://fonts.googleapis.com/css?family=Gafata' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Nunito:700,300' rel='stylesheet' type='text/css'>
 <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
 <script src="map.js"></script>
 <script src="spin.js"></script>
@@ -17,50 +17,39 @@
 </head>
 
 <div class= "controls">
-	<div style= "background-color:#d2f2fc;"><img src = "Ttrails.png" align=center style = " height:5em; vertical-align:middle;padding-left:5px; padding-bottom:10px;"></div>
-	<p style="padding:7px;">Have you ever wondered how much busses in the Puget Sound are deviated from their schedule overall? Real-time transit information apps like OneBusAway use data from individual vehicles occasionally checking in - and that's what we're showing. The map below shows points; each point is an <em>average deviation from schedule</em> of all the busses that have checked-in at that point.</p>
+	<div style= "background-color:#266f90;"><img src = "Ttrails-white.png" align=center style = " height:5em; vertical-align:middle;padding-left:5px; padding-bottom:10px;"></div>
+	<div class="header_text">Have you ever wondered how much busses in the Puget Sound are deviated from their schedule overall? Real-time transit information apps like OneBusAway use data from individual vehicles occasionally checking in - and that's what we're showing. The map below shows points; each point is an <em>average deviation from schedule</em> of all the busses that have checked-in at that point.</div>
 	
+	<div class="instructions">
+	<p><strong>How to use:</strong> Select days for which you wish to compare bus data above each corresponding map. The data are for typical bus schedules for a Weekday, Saturday, or Sunday from three different months. <strong><em>Drag the slider handles</em></strong> under each map to set a specific time interval during that day. By selecting different days, and different times, you can explore the data to get a sense for the impact of the changes that bus routes went through over multiple months.</p>
+	<p>You can <strong><em>click on individual points</em></strong> to get the average deviation of busses at that location during the specified time interval. Each dot is colored in accordance with how much a bus deviates from its schedule. (See the color legend below.)</p>
+	
+	<p>When we set out to make a visualization that shows the impact of route cuts and changes to schedule deviation, we didn’t realize how noisy and unreliable data are! Notice all the gaps, all the check-ins that are close but not overlapping - you can <strong><em>zoom in using the scroll wheel of the mouse</em></strong>. We hope to get more complete data for the future- for now, <strong><em>take these data with a grain of salt.</em></strong></p>
+	</div>
 <div class="container">
-	<div style ="padding-left:5px; text-align:center;"><div class="instructions" id="info_button">How do I use this visualization?</div><br>
 	<br>
-	</div>
-	
-	<div class="explain">
-		<p><strong>Select a time and a day, such as: "rush hour on a typical weekday."</strong> Weekday, Saturday, and Sunday schedules - and deviations - are different, so you can use the day selector to switch between available days. Furthermore, deviation differs during rush hour relative to middle of the day. Use the time slider to update the data shown - to filter to a specific time interval during the selected day.</p>
-
-		<p>By selecting different days, and different times, you can explore the data to get a sense for the impact of the changes that bus routes went through over multiple months.</p>
-	</div>
-
-	<div class="explain">
-		<p><strong>Get a sense for overall bus deviation from the schedule.</strong> When busses are too late - or too early - it is a nuisance to drivers and riders alike. Each dot is colored in accordance with how much a bus deviates:</p>
-
-		<div class="ok">Green dot: busses are on average within a minute of its schedule</div>
-		<div class="medium">Light red dot: busses are on average experiencing a typical delay of 2-5 minutes</div>
-		<div class="bad">Dark red dot: busses are on average more than 5 minutes delayed</div>
-		<div class="unknown">Gray dot: average deviation time is unknown (missing data)</div>
-		<div class="early">Blue dot: busses are more than a minute ahead of schedule</div>
-
-		<p>You can <strong>hover over points</strong> to get the average deviation in seconds!</p>
-	</div>
-	
-	<div class="explain">
-		<p><strong>Notice how noisy the data are.</strong> When we set out to make a visualization that shows the impact of route cuts and changes to schedule deviation, we didn’t realize how noisy and unreliable data are! Notice all the gaps, all the check-ins that are close but not overlapping - you can <strong>zoom in using the scroll wheel of the mouse</strong> - and take these data with a grain of salt.</p>
-	</div>
-	<br>
-	
 	<div class="left_div" id="controlsA" style="float:left;">
  		<div align = "center">
- 			<b>March 2011: &nbsp &nbsp &nbsp</b> <input type="radio" id="dayA7" name="dayA" onclick="changeDay(1,6)"><label for="radio3">Weekday</label>
+ 			<div style="width:72%; margin: 0 auto;" align="center">
+ 			<div style="float:left; width:35%; text-align:left;">
+ 				<b>March 2011:</b><br>
+ 				<b>December 2011:</b><br>
+ 				<b>March 2012:</b>
+ 			</div>
+ 			<div style="float: left; width:65%;">
+ 			 <input type="radio" id="dayA7" name="dayA" onclick="changeDay(1,6)"><label for="radio3">Weekday</label>
 	 		<input type="radio" id="dayA8" name="dayA" onclick="changeDay(1,7)"><label for="radio4">Saturday</label>
 	 		<input type="radio" id="dayA9" name="dayA" onclick="changeDay(1,8)" checked><label for="radio5">Sunday</label><br>
 	 		
-	 		<b>December 2011: </b> <input type="radio" id="dayA1" name="dayA" onclick="changeDay(1,0)"><label for="radio1">Weekday</label>
+	 		<input type="radio" id="dayA1" name="dayA" onclick="changeDay(1,0)"><label for="radio1">Weekday</label>
 	 		<input type="radio" id="dayA2" name="dayA" onclick="changeDay(1,1)"><label for="radio2">Saturday</label>
 	 		<input type="radio" id="dayA3" name="dayA" onclick="changeDay(1,2)"><label for="radio2">Sunday</label><br>
    
-	 		<b>March 2012: &nbsp &nbsp &nbsp</b> <input type="radio" id="dayA4" name="dayA" onclick="changeDay(1,3)"><label for="radio3">Weekday</label>
+	 		<input type="radio" id="dayA4" name="dayA" onclick="changeDay(1,3)"><label for="radio3">Weekday</label>
 	 		<input type="radio" id="dayA5" name="dayA" onclick="changeDay(1,4)"><label for="radio4">Saturday</label>
 	 		<input type="radio" id="dayA6" name="dayA" onclick="changeDay(1,5)"><label for="radio5">Sunday</label>
+ 			</div>
+ 			</div>
 	 	</div>
 	
 	 	<div id="map1"><script>initializeMap(1, 1);</script></div></br>
@@ -68,45 +57,57 @@
 		 	<div class = "slider_labels">
 			 	<div id = "left_label">Start time: <div id = "startTime" style="color: red; font-size: 14pt;"></div></div>
 			 	<div id = "right_label">End time: <div id="endTime" style="color: red; font-size: 14pt;"></div></div>
-			 	<br><br>
-			 	<div id="slider-range"></div>
-			 	<br>
-			 	<div class="myButton" id = "slider_info_button" style="float:right;margin-top:-10px;">?</div>
-			 	<div class="slider_info">Select the time interval for which you wish to see bus locations. Drag the left handle to set the beginning of the time interval. Drag the right handle to set the end of the interval. Times are in 24-hour time PST.</div>
+			 	<br><br><br>
+			 	<div id="slider-range" style="padding-left:20px;"></div>
+			 
 			 	</div>
 			 </div>
 		</div>
 		
-	<div class = "center_div"><div class="sync" id = "sync_button" onclick = "syncMaps();">Sync Maps</div></div>
+	<div class = "center_div">
+		<div class="sync" id = "sync_button" onclick = "syncMaps();">Sync Maps</div>
+		<br><br><br>
+		<img src="Legend.png" style="width:80%;">
+	</div>
 	
 	<div class="right_div" id="controlsB" style="float:right;">
 		<div align = "center">
-	<b>March 2011: &nbsp &nbsp &nbsp</b> <input type="radio" id="dayB7" name="dayB" onclick="changeDay(2,6)"><label for="radio3">Weekday</label>
-    <input type="radio" id="dayB8" name="dayB" onclick="changeDay(2,7)"><label for="radio4">Saturday</label>
-    <input type="radio" id="dayB9" name="dayB" onclick="changeDay(2,8)"><label for="radio5">Sunday</label><br>
-    
-   <b>December 2011: </b> <input type="radio" id="dayB1" name="dayB" onclick="changeDay(2,0)"><label for="radio1">Weekday</label>
-    <input type="radio" id="dayB2" name="dayB" onclick="changeDay(2,1)"><label for="radio2">Saturday</label>
-    <input type="radio" id="dayB3" name="dayB" onclick="changeDay(2,2)"><label for="radio2">Sunday</label><br>
+			<div style="width:72%; margin: 0 auto;" align="center">
+ 			<div style="float:left; width:35%; text-align:left;">
+ 				<b>March 2011:</b><br>
+ 				<b>December 2011:</b><br>
+ 				<b>March 2012:</b>
+ 			</div>
+ 			<div style="float: left; width:65%;">
+ 			 <input type="radio" id="dayB7" name="dayB" onclick="changeDay(2,6)"><label for="radio3">Weekday</label>
+	 		<input type="radio" id="dayB8" name="dayB" onclick="changeDay(2,7)"><label for="radio4">Saturday</label>
+	 		<input type="radio" id="dayB9" name="dayB" onclick="changeDay(2,8)"><label for="radio5">Sunday</label><br>
+	 		
+	 		<input type="radio" id="dayB1" name="dayB" onclick="changeDay(2,0)"><label for="radio1">Weekday</label>
+	 		<input type="radio" id="dayB2" name="dayB" onclick="changeDay(2,1)"><label for="radio2">Saturday</label>
+	 		<input type="radio" id="dayB3" name="dayB" onclick="changeDay(2,2)"><label for="radio2">Sunday</label><br>
    
-   <b>March 2012: &nbsp &nbsp &nbsp</b> <input type="radio" id="dayB4" name="dayB" onclick="changeDay(2,3)"><label for="radio3">Weekday</label>
-    <input type="radio" id="dayB5" name="dayB" onclick="changeDay(2,4)"><label for="radio4">Saturday</label>
-    <input type="radio" id="dayB6" name="dayB" onclick="changeDay(2,5)" checked><label for="radio5">Sunday</label>
-	
-	</div>
+	 		<input type="radio" id="dayB4" name="dayB" onclick="changeDay(2,3)"><label for="radio3">Weekday</label>
+	 		<input type="radio" id="dayB5" name="dayB" onclick="changeDay(2,4)"><label for="radio4">Saturday</label>
+	 		<input type="radio" id="dayB6" name="dayB" onclick="changeDay(2,5)" checked><label for="radio5">Sunday</label>
+ 			</div>
+ 			</div>
+	 	</div>
 	<div id="map2"><script>initializeMap(2, 2);</script></div>
 	<br>
 	<div class="slider_container" id = "slider2">
 	<div class = "slider_labels">
-		<div id = "left_label">Start time: <div id = "startTime2" style="color: red; font-size: 14pt;"></div></div>
+		<div id = "left_label">Start time: <div id = "startTime2" style="color: red; font-size: 14pt; padding-bottom: 4px;"></div></div>
 		<div id = "right_label">End time: <div id="endTime2" style="color: red; font-size: 14pt;"></div></div>
-		<br><br>
+		<br><br><br>
 		<div id="slider-range2"></div>
 	</div>
 	</div>
 </div>
-
+<div class="slider_info">Select the time interval for which you wish to see bus locations. Drag the left handle to set the starting time, and the right handle to set the end of the interval. Times are in 24-hour time PST.</div>
 <div class="clear"></div>
+<div class="footer" align="right"><br>Project by <a href="http://homes.cs.washington.edu/~cbonnar" target="_blank">Caitlin Bonnar</a>, <a href= "http://homes.cs.washington.edu/~cobbc12/" target="_blank">Camille Cobb</a>, <a href="http://anachrobot.us" target="_blank">Katie Kuksenok</a>, and <a href="http://depts.washington.edu/digarlab/panyi#overlay-context=members" target="_blank">Yi Pan</a>. University of Washington, 2014.</div>
+
 
 
 <script type="text/javascript">
@@ -125,15 +126,7 @@
   $(function() {
     $( "#dayB" ).buttonset();
   });
-  $(".explain").hide();
-   $(".slider_info").hide();
-  $("#info_button").click(function(){
- 	 $(".explain").toggle();
-  });
-  $("#slider_info_button").click(function(){
- 	 $(".slider_info").toggle();
- 	 $("#credits").css("float:right; bottom: 0;");
-  });
+
 	$("#slider-range").slider({
 		range: true,
 		min: 0,

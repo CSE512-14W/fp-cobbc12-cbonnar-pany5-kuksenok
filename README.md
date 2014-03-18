@@ -1,6 +1,6 @@
 Transit Trails
 ===============
-Visualization of "One Bus Away" data before and after major transit cuts.
+Visualization of bus location data before and after major transit cuts.
 
 1. Camille Cobb cobbc12@cs.washington.edu
 2. Caitlin Bonnar  cbonnar@cs.washington.edu
@@ -17,3 +17,4 @@ Abstract:
 ## Running Instructions
 
 Access our visualization at http://homes.cs.washington.edu/~cbonnar/viz/busviz.html or download this repository and run `python -m SimpleHTTPServer 9000` and access this from http://localhost:9000/.
+

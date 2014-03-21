@@ -32,8 +32,9 @@ In the early stage of our project, all four of us met to discuss ideas and story
   - Created the web prototypes
   - Performed iterative enhancement on design
   - Implemented final visualization & touched up final design
+  - Contributed to final paper
 
-We were all very communacative throughout the process, and in reality, we all were involved in each stage. There were a lot of frustrations with the data, which also took a lot of time to gather and clean, but everyone remained responsive and quickly adapted the project needs to what would fit with the data. 
+We were all very communicative throughout the process, and in reality, we all were involved in each stage. There were a lot of frustrations with the data, which also took a lot of time to gather and clean, but everyone remained responsive and quickly adapted the project needs to support the data. 
 
 ### Abstract: 
 

@@ -15,7 +15,7 @@ To support this task, we designed and implemented an interactive visualization d
 ![Overview](https://github.com/CSE512-14W/fp-cobbc12-cbonnar-pany5-kuksenok/raw/master/FinalVersion.png)
 
 [Poster](https://github.com/CSE512-14W/fp-cobbc12-cbonnar-pany5-kuksenok/raw/master/poster/TransitTrails_poster.pdf),
-[Final Paper](https://github.com/CSE512-14W/fp-cobbc12-cbonnar-pany5-kuksenok/raw/master/poster/TransitTrailsFinal.pdf),
+[Final Paper](https://github.com/CSE512-14W/fp-cobbc12-cbonnar-pany5-kuksenok/raw/master/TransitTrailsFinal.pdf)
 
 ## Running Instructions
 
